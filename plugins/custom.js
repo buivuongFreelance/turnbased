@@ -1,0 +1,1 @@
+var drawerWidth = 360;
