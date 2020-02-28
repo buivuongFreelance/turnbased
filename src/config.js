@@ -1,13 +1,5 @@
 export const GRID_VIEW = {
-  HEADER: 60,
-  HORIZONTAL: {
-    x: 18,
-    y: 10
-  }
-}
-
-export const TILE = {
-  width: 60
+  vertical_cell: 10
 }
 
 export const IS_MOBILE = 'isPhone';

@@ -1,28 +1,65 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-
-import Image from "react-image";
+import Konva from "konva";
 
 class CommonImage extends Component {
-  render() {
-    const { url, replace_loader, replace_unloader, width } = this.props;
+  constructor(props) {
+    super(props);
+    this.mainRef = React.createRef();
+    this.state = {
+      image: null
+    }
+  }
+  componentDidMount() {
+    const { layer } = this.props;
+    if (layer) {
+      this.setImage();
+    }
+  }
+  setImage() {
+    const { x, y, scaleX, scaleY, offsetX, offsetY,
+      width, height, src, layer, group, rotate } = this.props;
 
+    const imageObj = new Image();
+    imageObj.onload = () => {
+      const temp = new Konva.Image({
+        x, y, image: imageObj,
+        width,
+        height,
+        scaleX,
+        scaleY,
+        offsetX,
+        offsetY
+      });
+      if (rotate) {
+        temp.rotation(rotate);
+      }
+      if (group) {
+        group.add(temp);
+      } else {
+        layer.add(temp);
+      }
+      layer.batchDraw();
+      this.setState({ image: temp });
+    }
+    imageObj.src = src;
+  }
+  render() {
     return (
-      <Image key={'image'} src={[
-        url,
-      ]}
-        {...this.props}
-        loader={replace_loader ? replace_loader : <img src="images/noimage.png" {...this.props} width={width ? width : 'auto'} />}
-        unloader={replace_unloader ? replace_unloader : <img src="images/noimage.png" {...this.props} width={width ? width : 'auto'} />}
-      />
+      <div ref={this.mainRef} />
     )
   }
 }
 
 CommonImage.propTypes = {
-  url: PropTypes.string,
-  replace_loader: PropTypes.element,
-  replace_unloader: PropTypes.element
+  src: PropTypes.string.isRequired,
+  x: PropTypes.number.isRequired,
+  y: PropTypes.number.isRequired,
+  width: PropTypes.number,
+  height: PropTypes.number,
+  rotate: PropTypes.number,
+  offsetX: PropTypes.number,
+  offsetY: PropTypes.number
 }
 
 export default CommonImage;

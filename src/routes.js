@@ -14,15 +14,6 @@ const CommonHomePage = (props) => (
     }
   </CommonDynamicComponent>
 )
-const CommonNotFoundPage = (props) => (
-  <CommonDynamicComponent load={() => import('./pages/common/CommonNotFound.page')}>
-    {
-      (Component) => Component === null
-        ? <CommonPageHolder />
-        : <Component {...props} />
-    }
-  </CommonDynamicComponent>
-)
 
 const Routes = [
   {
@@ -31,9 +22,9 @@ const Routes = [
     component: CommonHomePage,
     //loadData: () => loadData('posts')
   },
-  {
+  /*{
     component: CommonNotFoundPage
-  }
+  }*/
 
 ];
 

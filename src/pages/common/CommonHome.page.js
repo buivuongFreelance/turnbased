@@ -7,7 +7,7 @@ class HomePage extends Component {
   }
   render() {
     return (
-      <div>
+      <div className="uk-flex uk-flex-center uk-flex-middle" style={{ height: '100vh' }}>
         <GridWrapper />
       </div>
     )
