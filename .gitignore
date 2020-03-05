@@ -1,9 +1,3 @@
 node_modules
-package-lock.json
-.env
-.DS_STORE
-public/.DS_STORE
 dist
-dist-server
-public/site.css
-public/site.css.map
+.cache
