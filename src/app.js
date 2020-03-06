@@ -1,8 +1,15 @@
-import React from "react";
+import React, { Component } from "react";
+import PanelWrapper from "./components/panelWrapper";
 
-export default () => (
-  <>
-    <h1>Welcome to React Parcesl Micsssro App!</h1>
-    <p>Harssssd to get more minimal than this React appsss.</p>
-  </>
-);
+class App extends Component {
+  render(){
+    return (
+      <div className="uk-flex uk-padding">
+        <PanelWrapper position="left" />
+        <PanelWrapper position="right" />
+      </div>
+    )
+  }
+}
+
+export default App;
