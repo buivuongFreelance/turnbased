@@ -32,7 +32,7 @@ class UnitList extends Component {
             {
               UnitListDBReal.map((unit, index) => {
                 return (
-                  <div key={index}>
+                  <div key={index} className="uk-flex uk-flex-bottom">
                     <UnitDetail {...unit} />
                   </div>
                 )
