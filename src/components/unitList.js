@@ -19,6 +19,7 @@ class UnitList extends Component {
     if(faction) {
       const { world, id } = faction;
       const UnitListDBReal = _.where(UnitListDB[world], { faction: id });
+      const realList = _.sortBy(UnitListDBReal, 'level'); 
       
       return (
         <div style={stylePanel}>
@@ -30,7 +31,7 @@ class UnitList extends Component {
           </div>
           <div className="uk-flex uk-margin-top uk-flex-wrap">
             {
-              UnitListDBReal.map((unit, index) => {
+              realList.map((unit, index) => {
                 return (
                   <div key={index} className="uk-flex uk-flex-bottom">
                     <UnitDetail {...unit} />

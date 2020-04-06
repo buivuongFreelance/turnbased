@@ -14,7 +14,10 @@ class UnitDetail extends Component {
       <div uk-lightbox="true" className="uk-margin-medium-right uk-margin-small-bottom">
         <a href={'units/'+image} data-caption={name}>
           <div className="uk-text-small">
-            <img src={'units/'+image} style={imageStyle} />
+            <div className="uk-flex uk-flex-bottom">
+              <img src={'units/'+image} style={imageStyle} />
+              <div style={{marginLeft: '10px', borderRight: '1px solid red', width: '1px', height: '150px'}} />
+            </div>
             <p className="uk-text-muted uk-text-center">{id}</p>
           </div>
         </a>

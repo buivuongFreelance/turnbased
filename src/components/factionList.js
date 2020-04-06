@@ -49,6 +49,12 @@ class FactionList extends Component {
         });
         const realList = ud.sortBy(list, 'count');
         this.setState({ list: realList });
+      } else if(value === 'com') {
+        const list = _.query(FactionListDB, { 
+          done: true
+        });
+        const realList = ud.sortBy(list, 'count');
+        this.setState({ list: realList });
       }
     });
   }
@@ -103,6 +109,7 @@ class FactionList extends Component {
               <option value="name">Name</option>
               <option value="usu">Unit Size Up</option>
               <option value="usd">Unit Size Down</option>
+              <option value="com">Completed</option>
             </select>
           </div>
           <div>
@@ -121,11 +128,14 @@ class FactionList extends Component {
         <div className="uk-grid uk-grid-small uk-child-width-1-3">
           {
             list.map((faction, index) => {
-              const { name, id, count } = faction;
+              const { name, id, done, count } = faction;
+
+              const classBtn = done ? 'uk-button uk-button-primary uk-button-small uk-width-1-1 uk-text-small'
+                : 'uk-button uk-button-secondary uk-button-small uk-width-1-1 uk-text-small';
 
               return (
                 <div key={index} className="uk-margin-bottom">
-                  <button className="uk-button uk-button-primary uk-button-small uk-width-1-1 uk-text-small"
+                  <button className={classBtn}
                     onClick={() => this.props.onClick(faction)}>
                     {name}<br/>({id}) - {count}
                   </button>
