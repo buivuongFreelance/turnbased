@@ -5,6 +5,7 @@ import ud from "underscore";
 
 import FactionListDB from "../db/factions";
 import WorldListDB from "../db/world";
+import Race from "./race";
 
 class FactionList extends Component {
   constructor(props){
@@ -128,7 +129,7 @@ class FactionList extends Component {
         <div className="uk-grid uk-grid-small uk-child-width-1-3">
           {
             list.map((faction, index) => {
-              const { name, id, done, count } = faction;
+              const { name, id, done, count, race } = faction;
 
               const classBtn = done ? 'uk-button uk-button-primary uk-button-small uk-width-1-1 uk-text-small'
                 : 'uk-button uk-button-secondary uk-button-small uk-width-1-1 uk-text-small';
@@ -138,6 +139,9 @@ class FactionList extends Component {
                   <button className={classBtn}
                     onClick={() => this.props.onClick(faction)}>
                     {name}<br/>({id}) - {count}
+                    {
+                      race ? <div style={{color: 'orange', textTransform: 'none'}}>{Race[race]}</div> : null
+                    }
                   </button>
                 </div>
               )

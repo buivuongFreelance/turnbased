@@ -5,7 +5,7 @@ class UnitDetail extends Component {
     super(props);
   }
   render(){
-    const { image, name, size, id } = this.props;
+    const { image, name, size, id, level } = this.props;
     const imageStyle = {
       height: size*150 + 'px'
     };
@@ -18,7 +18,7 @@ class UnitDetail extends Component {
               <img src={'units/'+image} style={imageStyle} />
               <div style={{marginLeft: '10px', borderRight: '1px solid red', width: '1px', height: '150px'}} />
             </div>
-            <p className="uk-text-muted uk-text-center">{id}</p>
+            <p className="uk-text-muted uk-text-center">{level} - {id}</p>
           </div>
         </a>
       </div>

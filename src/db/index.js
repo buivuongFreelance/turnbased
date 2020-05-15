@@ -13,6 +13,7 @@ import warhammer from "./warhammer";
 import zsmite from "./zsmite";
 import lyn from "./lyn";
 import heroes from "./heroes";
+import _weapon from "./_weapon";
 
 export default {
   asian,
@@ -29,5 +30,6 @@ export default {
   age_magic,
   zsmite,
   lyn,
-  heroes
+  heroes,
+  _weapon
 };

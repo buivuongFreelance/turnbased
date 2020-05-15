@@ -5,6 +5,31 @@ import UnitListDB from "../db";
 
 const Factions = [
   {
+    id: 3000,
+    name: '0_Sword',
+    world: '_weapon'
+  },
+  {
+    id: 3001,
+    name: '0_Axe',
+    world: '_weapon'
+  },
+  {
+    id: 3002,
+    name: '0_Mace',
+    world: '_weapon'
+  },
+  {
+    id: 3003,
+    name: '0_Others',
+    world: '_weapon'
+  },
+  {
+    id: 3004,
+    name: '0_Bow',
+    world: '_weapon'
+  },
+  {
     id: 1,
     name: 'Dura Empire',
     world: 'raid_shadow'
@@ -52,22 +77,30 @@ const Factions = [
   {
     id: 10,
     name: 'Asahi Ninjutsu',
-    world: 'king_bounty'
+    world: 'king_bounty',
+    done: true,
+    race: 'nippon'
   },
   {
     id: 11,
     name: 'Jung Clans',
-    world: 'king_bounty'
+    world: 'king_bounty',
+    done: true,
+    race: 'cathay'
   },
   {
     id: 12,
     name: 'Yamato Clans',
-    world: 'king_bounty'
+    world: 'king_bounty',
+    done: true,
+    race: 'nippon'
   },
   {
     id: 13,
     name: 'Bogard Family',
-    world: 'king_bounty'
+    world: 'king_bounty',
+    done: true,
+    race: 'britain'
   },
   {
     id: 14,
@@ -102,12 +135,16 @@ const Factions = [
   {
     id: 20,
     name: 'Hashemi Caliph',
-    world: 'israel'
+    world: 'israel',
+    done: true,
+    race: 'eurasia'
   },
   {
     id: 21,
     name: 'Abram Land',
-    world: 'israel'
+    world: 'israel',
+    done: true,
+    race: 'israel'
   },
   {
     id: 22,
@@ -121,8 +158,10 @@ const Factions = [
   },
   {
     id: 24,
-    name: 'US Council',
-    world: 'endless'
+    name: 'Aladdin Caliphate',
+    world: 'heroes',
+    done: true,
+    race: 'eurasia'
   },
   {
     id: 25,
@@ -142,16 +181,20 @@ const Factions = [
   {
     id: 28,
     name: 'Queen Empire',
-    world: 'vikings'
+    world: 'vikings',
+    done: true,
+    race: 'britain'
   },
   {
     id: 29,
     name: 'Isabella Army',
-    world: 'vikings'
+    world: 'vikings',
+    done: true,
+    race: 'espana'
   },
   {
     id: 30,
-    name: 'Krypton Galaxy',
+    name: 'Justice League',
     world: 'endless'
   },
   {
@@ -172,7 +215,9 @@ const Factions = [
   {
     id: 34,
     name: 'Massui Kingdom',
-    world: 'israel'
+    world: 'israel',
+    done: true,
+    race: 'africa'
   },
   {
     id: 35,
@@ -217,12 +262,16 @@ const Factions = [
   {
     id: 43,
     name: 'Yordirlun Mine',
-    world: 'endless'
+    world: 'endless',
+    done: true,
+    race: 'dwarf'
   },
   {
     id: 44,
     name: 'Obark Faction',
-    world: 'endless'
+    world: 'endless',
+    done: true,
+    race: 'nightelf'
   },
   {
     id: 45,
@@ -237,7 +286,9 @@ const Factions = [
   {
     id: 47,
     name: 'Protectorate Heaven',
-    world: 'lyn'
+    world: 'lyn',
+    done: true,
+    race: 'nephalim'
   },
   {
     id: 48,
@@ -262,12 +313,16 @@ const Factions = [
   {
     id: 52,
     name: 'Yarema Lands',
-    world: 'israel'
+    world: 'israel',
+    done: true,
+    race: 'israel'
   },
   {
     id: 53,
     name: 'Fu Empire',
-    world: 'israel'
+    world: 'israel',
+    done: true,
+    race: 'cathay'
   },
   {
     id: 54,
@@ -277,22 +332,30 @@ const Factions = [
   {
     id: 55,
     name: 'Jun Guild',
-    world: 'israel'
+    world: 'israel',
+    done: true,
+    race: 'cathay'
   },
   {
     id: 56,
     name: 'Cryx Crypt',
-    world: 'lyn'
+    world: 'lyn',
+    done: true,
+    race: 'lich'
   },
   {
     id: 57,
     name: 'Mercer Guild',
-    world: 'lyn'
+    world: 'lyn',
+    done: true,
+    race: 'german'
   },
   {
     id: 58,
     name: 'Retribution Planet',
-    world: 'lyn'
+    world: 'lyn',
+    done: true,
+    race: 'highelf'
   },
   {
     id: 59,
@@ -313,38 +376,50 @@ const Factions = [
     id: 62,
     name: 'Iako Realm',
     world: 'age_magic',
-    done: true
+    done: true,
+    race: 'forest_elf'
   },
   {
     id: 63,
     name: 'Beastman Empire',
-    world: 'warhammer'
+    world: 'warhammer',
+    done: true,
+    race: 'beastman'
   },
   {
     id: 64,
     name: 'Vampire Coast',
-    world: 'warhammer'
+    world: 'warhammer',
+    //done: true,
+    //race: 'vampire'
   },
   {
     id: 65,
     name: 'Rahaman Guild',
-    world: 'israel'
+    world: 'israel',
+    done: true,
+    race: 'eurasia'
   },
   {
     id: 66,
     name: 'Bozia Kingdom',
     world: 'age_magic',
-    done: true
+    done: true,
+    race: 'celtic'
   },
   {
     id: 67,
     name: 'Native Alliance',
-    world: 'vikings'
+    world: 'vikings',
+    done: true,
+    race: 'native'
   },
   {
     id: 68,
     name: 'Kidd Hell',
-    world: 'vikings'
+    world: 'vikings',
+    done: true,
+    race: 'lich'
   },
   {
     id: 69,
@@ -359,7 +434,9 @@ const Factions = [
   {
     id: 71,
     name: 'Soviet Faction',
-    world: 'israel'
+    world: 'israel',
+    done: true,
+    race: 'slavic'
   },
   {
     id: 72,
@@ -374,7 +451,9 @@ const Factions = [
   {
     id: 74,
     name: 'Eastern Allies',
-    world: 'fantasy'
+    world: 'fantasy',
+    done: true,
+    race: 'cathay'
   },
   {
     id: 75,
@@ -385,42 +464,50 @@ const Factions = [
     id: 76,
     name: 'Greggund Chaos',
     world: 'age_magic',
-    done: true
+    done: true,
+    race: 'chaos'
   },
   {
     id: 77,
     name: 'Shadowling Magic',
     world: 'age_magic',
-    done: true
+    done: true,
+    race: 'nightelf'
   },
   {
     id: 78,
     name: 'Malil Emirate',
     world: 'age_magic',
-    done: true
+    done: true,
+    race: 'dwarf'
   },
   {
     id: 79,
     name: 'Tezcacoaltl Shadow',
     world: 'age_magic',
-    done: true
+    done: true,
+    race: 'lich'
   },
   {
     id: 80,
     name: 'Celius Holy',
     world: 'age_magic',
-    done: true
+    done: true,
+    race: 'nephalim'
   },
   {
     id: 81,
     name: 'Yokai Alliance',
     world: 'age_magic',
-    done: true
+    done: true,
+    race: 'nippon'
   },
   {
     id: 82,
     name: 'Shang Dynasty',
-    world: 'asian'
+    world: 'asian',
+    done: true,
+    race: 'cathay'
   },
   {
     id: 83,
@@ -430,7 +517,9 @@ const Factions = [
   {
     id: 84,
     name: 'Magic Empire',
-    world: 'heroes'
+    world: 'heroes',
+    done: true,
+    race: 'eurasia'
   },
   {
     id: 85,
@@ -455,7 +544,9 @@ const Factions = [
   {
     id: 89,
     name: 'Canton Guild',
-    world: 'asian'
+    world: 'asian',
+    done: true,
+    race: 'cathay'
   },
   {
     id: 90,
@@ -480,12 +571,16 @@ const Factions = [
   {
     id: 94,
     name: 'Ras Guru',
-    world: 'israel'
+    world: 'israel',
+    done: true,
+    race: 'eurasia'
   },
   {
     id: 95,
     name: 'British Raj',
-    world: 'israel'
+    world: 'israel',
+    done: true,
+    race: 'britain'
   },
   {
     id: 96,
@@ -515,7 +610,9 @@ const Factions = [
   {
     id: 101,
     name: 'Tsar Empire',
-    world: 'israel'
+    world: 'israel',
+    done: true,
+    race: 'slavic'
   },
   {
     id: 102,
@@ -530,7 +627,9 @@ const Factions = [
   {
     id: 104,
     name: 'Cygnar Empire',
-    world: 'lyn'
+    world: 'lyn',
+    done: true,
+    race: 'britain'
   },
   {
     id: 105,
@@ -547,11 +646,11 @@ const Factions = [
     name: 'Jerusalem Faction',
     world: 'raid_shadow'
   },
-  {
+  /*{
     id: 108,
     name: 'Krakow Alliance',
     world: 'raid_shadow'
-  },
+  },*/
   {
     id: 109,
     name: 'Skudr Wildlands',
@@ -585,7 +684,9 @@ const Factions = [
   {
     id: 115,
     name: 'Vizesh Chaos',
-    world: 'warhammer'
+    world: 'warhammer',
+    done: true,
+    race: 'viking'
   },
   {
     id: 116,
@@ -604,18 +705,24 @@ const Factions = [
   },
   {
     id: 119,
-    name: 'Islam Empire',
-    world: 'fantasy'
+    name: 'Timurids Empire',
+    world: 'fantasy',
+    done: true,
+    race: 'mongol'
   },
   {
     id: 120,
     name: 'Europe Alliance',
-    world: 'fantasy'
+    world: 'fantasy',
+    done: true,
+    race: 'celtic'
   },
   {
     id: 121,
     name: 'Uxaumien World',
-    world: 'fantasy'
+    world: 'fantasy',
+    done: true,
+    race: 'lich'
   },
   {
     id: 122,
@@ -630,7 +737,9 @@ const Factions = [
   {
     id: 124,
     name: 'Nobunaga Clans',
-    world: 'space'
+    world: 'space',
+    done: true,
+    race: 'nippon'
   },
   {
     id: 125,
@@ -646,18 +755,444 @@ const Factions = [
     id: 127,
     name: 'Muvna Empire',
     world: 'age_magic',
-    done: true
+    done: true,
+    race: 'lizard'
   },
   {
     id: 128,
-    name: 'Vok Kingdom',
+    name: 'Vok Hell',
     world: 'age_magic'
   },
   {
     id: 129,
     name: 'Zhang Dynasty',
     world: 'asian'
-  }
+  },
+  {
+    id: 130,
+    name: 'Tithona Crystal',
+    world: 'age_magic'
+  },
+  {
+    id: 131,
+    name: 'Mecha Units',
+    world: 'age_magic',
+    done: true,
+    race: 'israel'
+  },
+  {
+    id: 132,
+    name: 'Ancient Northumbria',
+    world: 'fantasy',
+    done: true,
+    race: 'viking'
+  },
+  {
+    id: 133,
+    name: 'Mycenae Kingdom',
+    world: 'israel'
+  },
+  {
+    id: 134,
+    name: 'Athena State',
+    world: 'israel',
+    done: true,
+    race: 'greek'
+  },
+  {
+    id: 135,
+    name: 'Colchis State',
+    world: 'israel',
+    done: true,
+    race: 'persia'
+  },
+  {
+    id: 136,
+    name: 'Lazites Hordes',
+    world: 'israel',
+    done: true,
+    race: 'beastman'
+  },
+  {
+    id: 137,
+    name: 'Kaastellck Hordes',
+    world: 'tera'
+  },
+  {
+    id: 138,
+    name: 'Ignit Nature',
+    world: 'tera'
+  },
+  {
+    id: 139,
+    name: 'Guaiwu Realm',
+    world: 'asian'
+  },
+  {
+    id: 140,
+    name: 'Jack Islands',
+    world: 'vikings',
+    done: true,
+    race: 'britain'
+  },
+  {
+    id: 141,
+    name: 'Pirate Alliance',
+    world: 'vikings'
+  },
+  {
+    id: 142,
+    name: 'Wood Realm',
+    world: 'warhammer'
+  },
+  {
+    id: 143,
+    name: 'Lady Faction',
+    world: 'warhammer'
+  },
+  {
+    id: 144,
+    name: 'Djinn Realm',
+    world: 'bless'
+  },
+  {
+    id: 145,
+    name: 'Zanthus Kingdom',
+    world: 'space'
+  },
+  {
+    id: 146,
+    name: 'Culzoks Kingdom',
+    world: 'space'
+  },
+  {
+    id: 147,
+    name: 'Elizabeth Kingdom',
+    world: 'age_magic'
+  },
+  {
+    id: 148,
+    name: 'Vredan Crypt',
+    world: 'lyn',
+    done: true,
+    race: 'lich'
+  },
+  {
+    id: 149,
+    name: 'Khador Empire',
+    world: 'lyn',
+    done: true,
+    race: 'slavic'
+  },
+  {
+    id: 150,
+    name: 'Bourbon Planet',
+    world: 'lyn',
+    done: true,
+    race: 'celtic'
+  },
+  {
+    id: 151,
+    name: 'Gimrak Clan',
+    world: 'raid_shadow'
+  },
+  {
+    id: 152,
+    name: 'Amva Sea',
+    world: 'bless'
+  },
+  {
+    id: 153,
+    name: 'Shabaan Kingdom',
+    world: 'israel'
+  },
+  {
+    id: 154,
+    name: 'Buchman Kingdom',
+    world: 'fantasy'
+  },
+  {
+    id: 155,
+    name: 'Klempner Kingdom',
+    world: 'fantasy'
+  },
+  {
+    id: 156,
+    name: 'Hulk Empire',
+    world: 'king_bounty'
+  },
+  {
+    id: 157,
+    name: 'Agios League',
+    world: 'king_bounty'
+  },
+  {
+    id: 158,
+    name: 'Inmarvel League',
+    world: 'king_bounty'
+  },
+  {
+    id: 159,
+    name: 'Thanos League',
+    world: 'king_bounty'
+  },
+  {
+    id: 160,
+    name: 'X League',
+    world: 'king_bounty'
+  },
+  {
+    id: 161,
+    name: 'Pan Planet',
+    world: 'lyn'
+  },
+  {
+    id: 162,
+    name: 'Stacular World',
+    world: 'endless'
+  },
+  {
+    id: 163,
+    name: 'Xokuhr Guild',
+    world: 'lyn',
+    done: true,
+    race: 'lich'
+  },
+  {
+    id: 164,
+    name: 'Vampire Empire',
+    world: 'warhammer'
+  },
+  {
+    id: 165,
+    name: 'Marvel League',
+    world: 'king_bounty'
+  },
+  {
+    id: 166,
+    name: 'Saberleaf League',
+    world: 'age_magic'
+  },
+  {
+    id: 167,
+    name: 'Littim League',
+    world: 'age_magic'
+  },
+  {
+    id: 168,
+    name: 'Drogzaduun League',
+    world: 'age_magic'
+  },
+  {
+    id: 169,
+    name: 'Vahalla Haven',
+    world: 'zsmite'
+  },
+  {
+    id: 170,
+    name: 'Lumen World',
+    world: 'heroes'
+  },
+  {
+    id: 171,
+    name: 'Vribrix Dark',
+    world: 'heroes'
+  },
+  {
+    id: 172,
+    name: 'Griffin Empire',
+    world: 'heroes'
+  },
+  {
+    id: 173,
+    name: 'Jaffah Caliphate',
+    world: 'heroes',
+    done: true,
+    race: 'eurasia'
+  },
+  {
+    id: 174,
+    name: 'Wakanda League',
+    world: 'king_bounty'
+  },
+  {
+    id: 175,
+    name: 'Root Planet',
+    world: 'lyn'
+  },
+  {
+    id: 176,
+    name: 'Taunkor Tribes',
+    world: 'lyn',
+    done: true,
+    race: 'beastman'
+  },
+  {
+    id: 177,
+    name: 'Dulcuz Tribes',
+    world: 'tera'
+  },
+  {
+    id: 178,
+    name: 'Rishana Kingdom',
+    world: 'vikings'
+  },
+  {
+    id: 179,
+    name: 'Amelie Kingdom',
+    world: 'vikings'
+  },
+  {
+    id: 180,
+    name: 'Dracula Castle',
+    world: 'vikings'
+  },
+  {
+    id: 181,
+    name: 'Zaraugug Tribes',
+    world: 'vikings'
+  },
+  {
+    id: 182,
+    name: 'Ilmog Tribes',
+    world: 'vikings'
+  },
+  {
+    id: 183,
+    name: 'Bob Pirates',
+    world: 'vikings'
+  },
+  {
+    id: 184,
+    name: 'Blusnorn Wildlands',
+    world: 'vikings'
+  },
+  {
+    id: 185,
+    name: 'Sinbad Islands',
+    world: 'vikings',
+    done: true,
+    race: 'persia'
+  },
+  {
+    id: 186,
+    name: 'Aman Empire',
+    world: 'israel'
+  },
+  {
+    id: 187,
+    name: 'Leon Kingdom',
+    world: 'tera'
+  },
+  {
+    id: 188,
+    name: 'Balin Kingdom',
+    world: 'tera'
+  },
+  {
+    id: 189,
+    name: 'Helena Kingdom',
+    world: 'tera'
+  },
+  {
+    id: 190,
+    name: 'Redahe Kingdom',
+    world: 'tera'
+  },
+  {
+    id: 191,
+    name: 'Darius Empire',
+    world: 'israel',
+    done: true,
+    race: 'persia'
+  },
+  {
+    id: 192,
+    name: 'Nightlake Forest',
+    world: 'vikings'
+  },
+  {
+    id: 193,
+    name: 'Khordaldrum Mountain',
+    world: 'vikings'
+  },
+  {
+    id: 194,
+    name: 'Sura Tribes',
+    world: 'fantasy'
+  },
+  {
+    id: 195,
+    name: 'Mustafa Caliphate',
+    world: 'fantasy'
+  },
+  {
+    id: 196,
+    name: 'Taymuria Kingdom',
+    world: 'fantasy'
+  },
+  {
+    id: 197,
+    name: 'Jirguth Hell',
+    world: 'fantasy'
+  },
+  {
+    id: 198,
+    name: 'Miyamoto Clan',
+    world: 'fantasy'
+  },
+  {
+    id: 199,
+    name: 'Pestilens Clan',
+    world: 'bless'
+  },
+  {
+    id: 200,
+    name: 'Kiladak Kingdom',
+    world: 'tera'
+  },
+  {
+    id: 201,
+    name: 'Lyria Forest',
+    world: 'fantasy'
+  },
+  {
+    id: 202,
+    name: 'Numidia Kingdom',
+    world: 'fantasy'
+  },
+  {
+    id: 203,
+    name: 'Ivailo Forest',
+    world: 'age_magic',
+    done: true,
+    race: 'beastman'
+  },
+  {
+    id: 204,
+    name: 'Obama Faction',
+    world: 'endless'
+  },
+  {
+    id: 205,
+    name: 'Qonta Kingdom',
+    world: 'fantasy'
+  },
+  {
+    id: 206,
+    name: 'Yendac Darkness',
+    world: 'heroes'
+  },
+  {
+    id: 207,
+    name: 'Nakajima Water',
+    world: 'heroes'
+  },
+  {
+    id: 208,
+    name: 'Nargi Tribes',
+    world: 'heroes'
+  },
 ];
 
 const realFactions = _.map(Factions, (faction) => {

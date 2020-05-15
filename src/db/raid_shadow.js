@@ -170,7 +170,7 @@ const Units = [
   {
     id: 25,
     name: 'Soldier',
-    faction: 108,
+    faction: 107,
     image: 'raid_shadow/u25.png',
     size: 1.31
   },
@@ -228,7 +228,7 @@ const Units = [
     name: 'Soldier',
     faction: 37,
     image: 'raid_shadow/u33.png',
-    size: 1.12
+    size: 1.15
   },
   {
     id: 34,
@@ -243,6 +243,391 @@ const Units = [
     faction: 41,
     image: 'raid_shadow/u35.png',
     size: 1.01
+  },
+  {
+    id: 36,
+    name: 'Soldier',
+    faction: 111,
+    image: 'raid_shadow/u36.png',
+    size: 1.13
+  },
+  {
+    id: 37,
+    name: 'Soldier',
+    faction: 1,
+    image: 'raid_shadow/u37.png',
+    size: 1
+  },
+  {
+    id: 38,
+    name: 'Soldier',
+    faction: 113,
+    image: 'raid_shadow/u38.png',
+    size: 1.1
+  },
+  {
+    id: 39,
+    name: 'Soldier',
+    faction: 2,
+    image: 'raid_shadow/u39.png',
+    size: 1.18
+  },
+  {
+    id: 40,
+    name: 'Soldier',
+    faction: 111,
+    image: 'raid_shadow/u40.png',
+    size: 1.5
+  },
+  {
+    id: 41,
+    name: 'Soldier',
+    faction: 41,
+    image: 'raid_shadow/u41.png',
+    size: 1
+  },
+  {
+    id: 42,
+    name: 'Soldier',
+    faction: 40,
+    image: 'raid_shadow/u42.png',
+    size: 1
+  },
+  {
+    id: 43,
+    name: 'Soldier',
+    faction: 3,
+    image: 'raid_shadow/u43.png',
+    size: 1.01
+  },
+  {
+    id: 44,
+    name: 'Soldier',
+    faction: 3,
+    image: 'raid_shadow/u44.png',
+    size: 1.02
+  },
+  {
+    id: 45,
+    name: 'Soldier',
+    faction: 37,
+    image: 'raid_shadow/u45.png',
+    size: 1.03
+  },
+  {
+    id: 46,
+    name: 'Soldier',
+    faction: 37,
+    image: 'raid_shadow/u46.png',
+    size: 1
+  },
+  {
+    id: 47,
+    name: 'Soldier',
+    faction: 151,
+    image: 'raid_shadow/u47.png',
+    size: 0.95
+  },
+  {
+    id: 48,
+    name: 'Soldier',
+    faction: 1,
+    image: 'raid_shadow/u48.png',
+    size: 1.12
+  },
+  {
+    id: 49,
+    name: 'Soldier',
+    faction: 3,
+    image: 'raid_shadow/u49.png',
+    size: 1.1
+  },
+  {
+    id: 50,
+    name: 'Soldier',
+    faction: 113,
+    image: 'raid_shadow/u50.png',
+    size: 1.16
+  },
+  {
+    id: 51,
+    name: 'Soldier',
+    faction: 37,
+    image: 'raid_shadow/u51.png',
+    size: 1.04
+  },
+  {
+    id: 52,
+    name: 'Soldier',
+    faction: 36,
+    image: 'raid_shadow/u52.png',
+    size: 1.01
+  },
+  {
+    id: 53,
+    name: 'Soldier',
+    faction: 107,
+    image: 'raid_shadow/u53.png',
+    size: 1.01
+  },
+  {
+    id: 54,
+    name: 'Soldier',
+    faction: 107,
+    image: 'raid_shadow/u54.png',
+    size: 1.19
+  },
+  {
+    id: 55,
+    name: 'Soldier',
+    faction: 99,
+    image: 'raid_shadow/u55.png',
+    size: 1.02
+  },
+  {
+    id: 56,
+    name: 'Soldier',
+    faction: 3,
+    image: 'raid_shadow/u56.png',
+    size: 1
+  },
+  {
+    id: 57,
+    name: 'Soldier',
+    faction: 151,
+    image: 'raid_shadow/u57.png',
+    size: 0.91
+  },
+  {
+    id: 58,
+    name: 'Soldier',
+    faction: 40,
+    image: 'raid_shadow/u58.png',
+    size: 1.03
+  },
+  {
+    id: 59,
+    name: 'Soldier',
+    faction: 113,
+    image: 'raid_shadow/u59.png',
+    size: 1.1
+  },
+  {
+    id: 60,
+    name: 'Soldier',
+    faction: 111,
+    image: 'raid_shadow/u60.png',
+    size: 1.06
+  },
+  {
+    id: 61,
+    name: 'Soldier',
+    faction: 41,
+    image: 'raid_shadow/u61.png',
+    size: 1.02
+  },
+  {
+    id: 62,
+    name: 'Soldier',
+    faction: 36,
+    image: 'raid_shadow/u62.png',
+    size: 1.02
+  },
+  {
+    id: 63,
+    name: 'Soldier',
+    faction: 36,
+    image: 'raid_shadow/u63.png',
+    size: 1.02
+  },
+  {
+    id: 64,
+    name: 'Soldier',
+    faction: 37,
+    image: 'raid_shadow/u64.png',
+    size: 0.98
+  },
+  {
+    id: 65,
+    name: 'Soldier',
+    faction: 40,
+    image: 'raid_shadow/u65.png',
+    size: 1
+  },
+  {
+    id: 66,
+    name: 'Soldier',
+    faction: 3,
+    image: 'raid_shadow/u66.png',
+    size: 1.03
+  },
+  {
+    id: 67,
+    name: 'Soldier',
+    faction: 151,
+    image: 'raid_shadow/u67.png',
+    size: 0.9
+  },
+  {
+    id: 68,
+    name: 'Soldier',
+    faction: 151,
+    image: 'raid_shadow/u68.png',
+    size: 0.92
+  },
+  {
+    id: 69,
+    name: 'Soldier',
+    faction: 39,
+    image: 'raid_shadow/u69.png',
+    size: 1.35
+  },
+  {
+    id: 70,
+    name: 'Soldier',
+    faction: 37,
+    image: 'raid_shadow/u70.png',
+    size: 1.13
+  },
+  {
+    id: 71,
+    name: 'Soldier',
+    faction: 40,
+    image: 'raid_shadow/u71.png',
+    size: 1
+  },
+  {
+    id: 72,
+    name: 'Soldier',
+    faction: 3,
+    image: 'raid_shadow/u72.png',
+    size: 1.01
+  },
+  {
+    id: 73,
+    name: 'Soldier',
+    faction: 3,
+    image: 'raid_shadow/u73.png',
+    size: 1.01
+  },
+  {
+    id: 74,
+    name: 'Soldier',
+    faction: 3,
+    image: 'raid_shadow/u74.png',
+    size: 1.07
+  },
+  {
+    id: 75,
+    name: 'Soldier',
+    faction: 3,
+    image: 'raid_shadow/u75.png',
+    size: 1.07
+  },
+  {
+    id: 76,
+    name: 'Soldier',
+    faction: 151,
+    image: 'raid_shadow/u76.png',
+    size: 0.95
+  },
+  {
+    id: 77,
+    name: 'Soldier',
+    faction: 3,
+    image: 'raid_shadow/u77.png',
+    size: 0.98
+  },
+  {
+    id: 78,
+    name: 'Soldier',
+    faction: 151,
+    image: 'raid_shadow/u78.png',
+    size: 0.91
+  },
+  {
+    id: 79,
+    name: 'Soldier',
+    faction: 151,
+    image: 'raid_shadow/u79.png',
+    size: 0.9
+  },
+  {
+    id: 80,
+    name: 'Soldier',
+    faction: 151,
+    image: 'raid_shadow/u80.png',
+    size: 1
+  },
+  {
+    id: 81,
+    name: 'Soldier',
+    faction: 3,
+    image: 'raid_shadow/u81.png',
+    size: 1.05
+  },
+  {
+    id: 82,
+    name: 'Soldier',
+    faction: 99,
+    image: 'raid_shadow/u82.png',
+    size: 1.04
+  },
+  {
+    id: 83,
+    name: 'Soldier',
+    faction: 40,
+    image: 'raid_shadow/u83.png',
+    size: 1
+  },
+  {
+    id: 84,
+    name: 'Soldier',
+    faction: 99,
+    image: 'raid_shadow/u84.png',
+    size: 1.01
+  },
+  {
+    id: 85,
+    name: 'Soldier',
+    faction: 38,
+    image: 'raid_shadow/u85.png',
+    size: 1.1
+  },
+  {
+    id: 86,
+    name: 'Soldier',
+    faction: 151,
+    image: 'raid_shadow/u86.png',
+    size: 1
+  },
+  {
+    id: 87,
+    name: 'Soldier',
+    faction: 151,
+    image: 'raid_shadow/u87.png',
+    size: 1.12
+  },
+  {
+    id: 88,
+    name: 'Soldier',
+    faction: 151,
+    image: 'raid_shadow/u88.png',
+    size: 0.98
+  },
+  {
+    id: 89,
+    name: 'Soldier',
+    faction: 151,
+    image: 'raid_shadow/u89.png',
+    size: 1.11
+  },
+  {
+    id: 90,
+    name: 'Soldier',
+    faction: 151,
+    image: 'raid_shadow/u90.png',
+    size: 0.96
   },
   {
     id: 91,
@@ -488,6 +873,391 @@ const Units = [
     faction: 41,
     image: 'raid_shadow/u125.png',
     size: 1.03
+  },
+  {
+    id: 126,
+    name: 'Soldier',
+    faction: 2,
+    image: 'raid_shadow/u126.png',
+    size: 1.27
+  },
+  {
+    id: 127,
+    name: 'Soldier',
+    faction: 41,
+    image: 'raid_shadow/u127.png',
+    size: 1.01
+  },
+  {
+    id: 128,
+    name: 'Soldier',
+    faction: 1,
+    image: 'raid_shadow/u128.png',
+    size: 1.02
+  },
+  {
+    id: 129,
+    name: 'Soldier',
+    faction: 2,
+    image: 'raid_shadow/u129.png',
+    size: 1.17
+  },
+  {
+    id: 130,
+    name: 'Soldier',
+    faction: 2,
+    image: 'raid_shadow/u130.png',
+    size: 1.1
+  },
+  {
+    id: 131,
+    name: 'Soldier',
+    faction: 2,
+    image: 'raid_shadow/u131.png',
+    size: 1.1
+  },
+  {
+    id: 132,
+    name: 'Soldier',
+    faction: 2,
+    image: 'raid_shadow/u132.png',
+    size: 1.24
+  },
+  {
+    id: 133,
+    name: 'Soldier',
+    faction: 2,
+    image: 'raid_shadow/u133.png',
+    size: 1.24
+  },
+  {
+    id: 134,
+    name: 'Soldier',
+    faction: 2,
+    image: 'raid_shadow/u134.png',
+    size: 1.11
+  },
+  {
+    id: 135,
+    name: 'Soldier',
+    faction: 2,
+    image: 'raid_shadow/u135.png',
+    size: 1.11
+  },
+  {
+    id: 136,
+    name: 'Soldier',
+    faction: 2,
+    image: 'raid_shadow/u136.png',
+    size: 1.11
+  },
+  {
+    id: 137,
+    name: 'Soldier',
+    faction: 2,
+    image: 'raid_shadow/u137.png',
+    size: 1.08
+  },
+  {
+    id: 138,
+    name: 'Soldier',
+    faction: 38,
+    image: 'raid_shadow/u138.png',
+    size: 1.08
+  },
+  {
+    id: 139,
+    name: 'Soldier',
+    faction: 2,
+    image: 'raid_shadow/u139.png',
+    size: 1.08
+  },
+  {
+    id: 140,
+    name: 'Soldier',
+    faction: 2,
+    image: 'raid_shadow/u140.png',
+    size: 1.13
+  },
+  {
+    id: 141,
+    name: 'Soldier',
+    faction: 2,
+    image: 'raid_shadow/u141.png',
+    size: 1.09
+  },
+  {
+    id: 142,
+    name: 'Soldier',
+    faction: 2,
+    image: 'raid_shadow/u142.png',
+    size: 1.08
+  },
+  {
+    id: 143,
+    name: 'Soldier',
+    faction: 2,
+    image: 'raid_shadow/u143.png',
+    size: 1.07
+  },
+  {
+    id: 144,
+    name: 'Soldier',
+    faction: 2,
+    image: 'raid_shadow/u144.png',
+    size: 1.14
+  },
+  {
+    id: 145,
+    name: 'Soldier',
+    faction: 113,
+    image: 'raid_shadow/u145.png',
+    size: 1.06
+  },
+  {
+    id: 146,
+    name: 'Soldier',
+    faction: 113,
+    image: 'raid_shadow/u146.png',
+    size: 1.06
+  },
+  {
+    id: 147,
+    name: 'Soldier',
+    faction: 2,
+    image: 'raid_shadow/u147.png',
+    size: 1.07
+  },
+  {
+    id: 148,
+    name: 'Soldier',
+    faction: 113,
+    image: 'raid_shadow/u148.png',
+    size: 1.12
+  },
+  {
+    id: 149,
+    name: 'Soldier',
+    faction: 2,
+    image: 'raid_shadow/u149.png',
+    size: 1.09
+  },
+  {
+    id: 150,
+    name: 'Soldier',
+    faction: 2,
+    image: 'raid_shadow/u150.png',
+    size: 1.14
+  },
+  {
+    id: 151,
+    name: 'Soldier',
+    faction: 2,
+    image: 'raid_shadow/u151.png',
+    size: 1.1
+  },
+  {
+    id: 152,
+    name: 'Soldier',
+    faction: 2,
+    image: 'raid_shadow/u152.png',
+    size: 1.07
+  },
+  {
+    id: 153,
+    name: 'Soldier',
+    faction: 38,
+    image: 'raid_shadow/u153.png',
+    size: 1.1
+  },
+  {
+    id: 154,
+    name: 'Soldier',
+    faction: 38,
+    image: 'raid_shadow/u154.png',
+    size: 1.1
+  },
+  {
+    id: 155,
+    name: 'Soldier',
+    faction: 38,
+    image: 'raid_shadow/u155.png',
+    size: 1.18
+  },
+  {
+    id: 156,
+    name: 'Soldier',
+    faction: 38,
+    image: 'raid_shadow/u156.png',
+    size: 1.18
+  },
+  {
+    id: 157,
+    name: 'Soldier',
+    faction: 35,
+    image: 'raid_shadow/u157.png',
+    size: 1.12
+  },
+  {
+    id: 158,
+    name: 'Soldier',
+    faction: 41,
+    image: 'raid_shadow/u158.png',
+    size: 1
+  },
+  {
+    id: 159,
+    name: 'Soldier',
+    faction: 38,
+    image: 'raid_shadow/u159.png',
+    size: 1.1
+  },
+  {
+    id: 160,
+    name: 'Soldier',
+    faction: 38,
+    image: 'raid_shadow/u160.png',
+    size: 1.11
+  },
+  {
+    id: 161,
+    name: 'Soldier',
+    faction: 38,
+    image: 'raid_shadow/u161.png',
+    size: 1.08
+  },
+  {
+    id: 162,
+    name: 'Soldier',
+    faction: 38,
+    image: 'raid_shadow/u162.png',
+    size: 1.1
+  },
+  {
+    id: 163,
+    name: 'Soldier',
+    faction: 38,
+    image: 'raid_shadow/u163.png',
+    size: 1.12
+  },
+  {
+    id: 164,
+    name: 'Soldier',
+    faction: 38,
+    image: 'raid_shadow/u164.png',
+    size: 1.12
+  },
+  {
+    id: 165,
+    name: 'Soldier',
+    faction: 38,
+    image: 'raid_shadow/u165.png',
+    size: 1.12
+  },
+  {
+    id: 166,
+    name: 'Soldier',
+    faction: 38,
+    image: 'raid_shadow/u166.png',
+    size: 1.14
+  },
+  {
+    id: 167,
+    name: 'Soldier',
+    faction: 38,
+    image: 'raid_shadow/u167.png',
+    size: 1.19
+  },
+  {
+    id: 168,
+    name: 'Soldier',
+    faction: 38,
+    image: 'raid_shadow/u168.png',
+    size: 1.19
+  },
+  {
+    id: 169,
+    name: 'Soldier',
+    faction: 38,
+    image: 'raid_shadow/u169.png',
+    size: 1.21
+  },
+  {
+    id: 170,
+    name: 'Soldier',
+    faction: 38,
+    image: 'raid_shadow/u170.png',
+    size: 1.21
+  },
+  {
+    id: 171,
+    name: 'Soldier',
+    faction: 38,
+    image: 'raid_shadow/u171.png',
+    size: 1.13
+  },
+  {
+    id: 172,
+    name: 'Soldier',
+    faction: 38,
+    image: 'raid_shadow/u172.png',
+    size: 1.19
+  },
+  {
+    id: 173,
+    name: 'Soldier',
+    faction: 36,
+    image: 'raid_shadow/u173.png',
+    size: 1.05
+  },
+  {
+    id: 174,
+    name: 'Soldier',
+    faction: 99,
+    image: 'raid_shadow/u174.png',
+    size: 1.04
+  },
+  {
+    id: 175,
+    name: 'Soldier',
+    faction: 99,
+    image: 'raid_shadow/u175.png',
+    size: 1.04
+  },
+  {
+    id: 176,
+    name: 'Soldier',
+    faction: 40,
+    image: 'raid_shadow/u176.png',
+    size: 1.04
+  },
+  {
+    id: 177,
+    name: 'Soldier',
+    faction: 37,
+    image: 'raid_shadow/u177.png',
+    size: 0.99
+  },
+  {
+    id: 178,
+    name: 'Soldier',
+    faction: 35,
+    image: 'raid_shadow/u178.png',
+    size: 1.13
+  },
+  {
+    id: 179,
+    name: 'Soldier',
+    faction: 37,
+    image: 'raid_shadow/u179.png',
+    size: 0.99
+  },
+  {
+    id: 180,
+    name: 'Soldier',
+    faction: 3,
+    image: 'raid_shadow/u180.png',
+    size: 0.99
   }
 ];
 

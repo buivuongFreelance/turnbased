@@ -4,105 +4,120 @@ const Units = [
     name: 'Lord',
     faction: 63,
     image: 'warhammer/u1.png',
-    size: 1.11
+    size: 1.11,
+    level: 7
   },
   {
     id: 2,
     name: 'Lord',
     faction: 63,
     image: 'warhammer/u2.png',
-    size: 1.15
+    size: 1.15,
+    level: 6
   },
   {
     id: 3,
     name: 'Lord',
     faction: 63,
     image: 'warhammer/u3.png',
-    size: 1.25
+    size: 1.25,
+    level: 8
   },
   {
     id: 4,
     name: 'Soldier',
     faction: 63,
     image: 'warhammer/u4.png',
-    size: 1.25
+    size: 1.25,
+    level: 9
   },
   {
     id: 5,
     name: 'Soldier',
     faction: 63,
     image: 'warhammer/u5.png',
-    size: 1.03
+    size: 1.03,
+    level: 1
   },
   {
     id: 6,
     name: 'Cygor',
     faction: 63,
     image: 'warhammer/u6.png',
-    size: 1.7
+    size: 1.7,
+    level: 15
   },
   {
     id: 7,
     name: 'Giant',
     faction: 63,
     image: 'warhammer/u7.png',
-    size: 1.7
+    size: 1.7,
+    level: 14
   },
   {
     id: 8,
     name: 'Beast',
     faction: 63,
     image: 'warhammer/u8.png',
-    size: 1.17
+    size: 1.17,
+    level: 5
   },
   {
     id: 9,
     name: 'Beast',
     faction: 63,
     image: 'warhammer/u9.png',
-    size: 1.05
+    size: 1.05,
+    level: 2
   },
   {
     id: 10,
     name: 'Beast',
     faction: 63,
     image: 'warhammer/u10.png',
-    size: 1.05
+    size: 1.05,
+    level: 3
   },
   {
     id: 11,
     name: 'Minotaur',
     faction: 63,
     image: 'warhammer/u11.png',
-    size: 1.32
+    size: 1.32,
+    level: 12
   },
   {
     id: 12,
     name: 'Minotaur',
     faction: 63,
     image: 'warhammer/u12.png',
-    size: 1.35
+    size: 1.35,
+    level: 13
   },
   {
     id: 13,
     name: 'Minotaur',
     faction: 63,
     image: 'warhammer/u13.png',
-    size: 1.31
+    size: 1.31,
+    level: 11
   },
   {
     id: 14,
     name: 'Minotaur',
     faction: 63,
     image: 'warhammer/u14.png',
-    size: 1.1
+    size: 1.1,
+    level: 10
   },
   {
     id: 15,
     name: 'Beastman',
     faction: 63,
     image: 'warhammer/u15.png',
-    size: 1.22
+    size: 1.22,
+    level: 4
   },
   {
     id: 16,
@@ -121,21 +136,21 @@ const Units = [
   {
     id: 18,
     name: 'Soldier',
-    faction: 51,
+    faction: 143,
     image: 'warhammer/u18.png',
     size: 0.96
   },
   {
     id: 19,
     name: 'Soldier',
-    faction: 51,
+    faction: 143,
     image: 'warhammer/u19.png',
     size: 0.97
   },
   {
     id: 20,
     name: 'Soldier',
-    faction: 51,
+    faction: 143,
     image: 'warhammer/u20.png',
     size: 1.1
   },
@@ -163,14 +178,14 @@ const Units = [
   {
     id: 24,
     name: 'Soldier',
-    faction: 51,
+    faction: 143,
     image: 'warhammer/u24.png',
     size: 1.16
   },
   {
     id: 25,
     name: 'Soldier',
-    faction: 51,
+    faction: 143,
     image: 'warhammer/u25.png',
     size: 1.19
   },
@@ -184,7 +199,7 @@ const Units = [
   {
     id: 27,
     name: 'Soldier',
-    faction: 51,
+    faction: 143,
     image: 'warhammer/u27.png',
     size: 1.06
   },
@@ -240,86 +255,307 @@ const Units = [
   {
     id: 35,
     name: 'Soldier',
-    faction: 51,
+    faction: 143,
     image: 'warhammer/u35.png',
     size: 1.06
+  },
+  {
+    id: 36,
+    name: 'Soldier',
+    faction: 143,
+    image: 'warhammer/u36.png',
+    size: 1.1
+  },
+  {
+    id: 37,
+    name: 'Soldier',
+    faction: 143,
+    image: 'warhammer/u37.png',
+    size: 1
+  },
+  {
+    id: 38,
+    name: 'Soldier',
+    faction: 51,
+    image: 'warhammer/u38.png',
+    size: 1
+  },
+  {
+    id: 39,
+    name: 'Soldier',
+    faction: 143,
+    image: 'warhammer/u39.png',
+    size: 1
+  },
+  {
+    id: 40,
+    name: 'Soldier',
+    faction: 143,
+    image: 'warhammer/u40.png',
+    size: 0.91
+  },
+  {
+    id: 41,
+    name: 'Soldier',
+    faction: 142,
+    image: 'warhammer/u41.png',
+    size: 1.37
+  },
+  {
+    id: 42,
+    name: 'Soldier',
+    faction: 142,
+    image: 'warhammer/u42.png',
+    size: 1.36
+  },
+  {
+    id: 43,
+    name: 'Soldier',
+    faction: 142,
+    image: 'warhammer/u43.png',
+    size: 1.65
+  },
+  {
+    id: 44,
+    name: 'Soldier',
+    faction: 142,
+    image: 'warhammer/u44.png',
+    size: 1.19
+  },
+  {
+    id: 45,
+    name: 'Soldier',
+    faction: 142,
+    image: 'warhammer/u45.png',
+    size: 1.1
+  },
+  {
+    id: 46,
+    name: 'Soldier',
+    faction: 142,
+    image: 'warhammer/u46.png',
+    size: 1.11
+  },
+  {
+    id: 47,
+    name: 'Soldier',
+    faction: 142,
+    image: 'warhammer/u47.png',
+    size: 1.29
+  },
+  {
+    id: 48,
+    name: 'Soldier',
+    faction: 142,
+    image: 'warhammer/u48.png',
+    size: 1.1
+  },
+  {
+    id: 49,
+    name: 'Soldier',
+    faction: 142,
+    image: 'warhammer/u49.png',
+    size: 1.13
+  },
+  {
+    id: 50,
+    name: 'Soldier',
+    faction: 142,
+    image: 'warhammer/u50.png',
+    size: 1.1
+  },
+  {
+    id: 51,
+    name: 'Soldier',
+    faction: 142,
+    image: 'warhammer/u51.png',
+    size: 1.36
+  },
+  {
+    id: 52,
+    name: 'Soldier',
+    faction: 142,
+    image: 'warhammer/u52.png',
+    size: 1.29
+  },
+  {
+    id: 53,
+    name: 'Soldier',
+    faction: 142,
+    image: 'warhammer/u53.png',
+    size: 1.33
+  },
+  {
+    id: 54,
+    name: 'Soldier',
+    faction: 142,
+    image: 'warhammer/u54.png',
+    size: 1.1
+  },
+  {
+    id: 55,
+    name: 'Soldier',
+    faction: 142,
+    image: 'warhammer/u55.png',
+    size: 1.22
+  },
+  {
+    id: 56,
+    name: 'Soldier',
+    faction: 142,
+    image: 'warhammer/u56.png',
+    size: 1.01
+  },
+  {
+    id: 57,
+    name: 'Soldier',
+    faction: 142,
+    image: 'warhammer/u57.png',
+    size: 1.6
+  },
+  {
+    id: 58,
+    name: 'Soldier',
+    faction: 142,
+    image: 'warhammer/u58.png',
+    size: 1.67
+  },
+  {
+    id: 59,
+    name: 'Soldier',
+    faction: 142,
+    image: 'warhammer/u59.png',
+    size: 1.05
+  },
+  {
+    id: 60,
+    name: 'Soldier',
+    faction: 142,
+    image: 'warhammer/u60.png',
+    size: 1.25
+  },
+  {
+    id: 61,
+    name: 'Soldier',
+    faction: 142,
+    image: 'warhammer/u61.png',
+    size: 1.16
+  },
+  {
+    id: 62,
+    name: 'Soldier',
+    faction: 142,
+    image: 'warhammer/u62.png',
+    size: 1.21
+  },
+  {
+    id: 63,
+    name: 'Soldier',
+    faction: 64,
+    image: 'warhammer/u63.png',
+    size: 1.15
+  },
+  {
+    id: 64,
+    name: 'Soldier',
+    faction: 64,
+    image: 'warhammer/u64.png',
+    size: 1.1
+  },
+  {
+    id: 65,
+    name: 'Soldier',
+    faction: 64,
+    image: 'warhammer/u65.png',
+    size: 1.2
   },
   {
     id: 71,
     name: 'Banshee',
     faction: 64,
     image: 'warhammer/u71.png',
-    size: 1.28
+    size: 1.28,
+    level: 6
   },
   {
     id: 72,
     name: 'Soldier',
     faction: 64,
     image: 'warhammer/u72.png',
-    size: 1.2
+    size: 1.2,
+    level: 9
   },
   {
     id: 73,
     name: 'Soldier',
     faction: 64,
     image: 'warhammer/u73.png',
-    size: 1.2
+    size: 1.2,
+    level: 5
   },
   {
     id: 74,
     name: 'Soldier',
     faction: 64,
     image: 'warhammer/u74.png',
-    size: 1.03
+    size: 1.03,
+    level: 3
   },
   {
     id: 75,
     name: 'Soldier',
     faction: 64,
     image: 'warhammer/u75.png',
-    size: 1.05
+    size: 1.05,
+    level: 4
   },
   {
     id: 76,
     name: 'Soldier',
     faction: 64,
     image: 'warhammer/u76.png',
-    size: 1.01
+    size: 1.01,
+    level: 2
   },
   {
     id: 77,
     name: 'Soldier',
     faction: 64,
     image: 'warhammer/u77.png',
-    size: 1.1
+    size: 1.1,
+    level: 1
   },
   {
     id: 78,
     name: 'Soldier',
     faction: 64,
     image: 'warhammer/u78.png',
-    size: 1.26
+    size: 1.26,
+    level: 8
   },
   {
     id: 79,
     name: 'Soldier',
     faction: 64,
     image: 'warhammer/u79.png',
-    size: 1.7
+    size: 1.7,
+    level: 11
   },
   {
     id: 80,
     name: 'Soldier',
     faction: 64,
     image: 'warhammer/u80.png',
-    size: 1.2
+    size: 1.2,
+    level: 7
   },
   {
     id: 81,
     name: 'Soldier',
     faction: 64,
     image: 'warhammer/u81.png',
-    size: 1.2
+    size: 1.2,
+    level: 10
   },
   {
     id: 82,
@@ -354,35 +590,40 @@ const Units = [
     name: 'Soldier',
     faction: 115,
     image: 'warhammer/u86.png',
-    size: 0.9
+    size: 0.9,
+    level: 5
   },
   {
     id: 87,
     name: 'Soldier',
     faction: 115,
     image: 'warhammer/u87.png',
-    size: 0.9
+    size: 0.9,
+    level: 6
   },
   {
     id: 88,
     name: 'Soldier',
     faction: 115,
     image: 'warhammer/u88.png',
-    size: 1.02
+    size: 1.02,
+    level: 1
   },
   {
     id: 89,
     name: 'Soldier',
     faction: 115,
     image: 'warhammer/u89.png',
-    size: 1.15
+    size: 1.15,
+    level: 4
   },
   {
     id: 90,
     name: 'Soldier',
     faction: 115,
     image: 'warhammer/u90.png',
-    size: 1.12
+    size: 1.12,
+    level: 3
   },
   {
     id: 91,
@@ -460,6 +701,327 @@ const Units = [
     faction: 126,
     image: 'warhammer/u101.png',
     size: 1.16
+  },
+  {
+    id: 102,
+    name: 'Soldier',
+    faction: 125,
+    image: 'warhammer/u102.png',
+    size: 1.22
+  },
+  {
+    id: 103,
+    name: 'Soldier',
+    faction: 125,
+    image: 'warhammer/u103.png',
+    size: 1.14
+  },
+  {
+    id: 104,
+    name: 'Soldier',
+    faction: 125,
+    image: 'warhammer/u104.png',
+    size: 1.1
+  },
+  {
+    id: 105,
+    name: 'Soldier',
+    faction: 54,
+    image: 'warhammer/u105.png',
+    size: 1.23
+  },
+  {
+    id: 106,
+    name: 'Soldier',
+    faction: 54,
+    image: 'warhammer/u106.png',
+    size: 1.2
+  },
+  {
+    id: 107,
+    name: 'Soldier',
+    faction: 54,
+    image: 'warhammer/u107.png',
+    size: 1.12
+  },
+  {
+    id: 108,
+    name: 'Soldier',
+    faction: 115,
+    image: 'warhammer/u108.png',
+    size: 1.03,
+    level: 2
+  },
+  {
+    id: 109,
+    name: 'Soldier',
+    faction: 115,
+    image: 'warhammer/u109.png',
+    size: 1.17,
+    level: 11
+  },
+  {
+    id: 110,
+    name: 'Soldier',
+    faction: 115,
+    image: 'warhammer/u110.png',
+    size: 1.16,
+    level: 9
+  },
+  {
+    id: 111,
+    name: 'Soldier',
+    faction: 115,
+    image: 'warhammer/u111.png',
+    size: 1.03,
+    level: 10
+  },
+  {
+    id: 112,
+    name: 'Soldier',
+    faction: 115,
+    image: 'warhammer/u112.png',
+    size: 1.17,
+    level: 8
+  },
+  {
+    id: 113,
+    name: 'Soldier',
+    faction: 115,
+    image: 'warhammer/u113.png',
+    size: 1.09,
+    level: 7
+  },
+  {
+    id: 114,
+    name: 'Soldier',
+    faction: 54,
+    image: 'warhammer/u114.png',
+    size: 1.26
+  },
+  {
+    id: 115,
+    name: 'Soldier',
+    faction: 54,
+    image: 'warhammer/u115.png',
+    size: 1.05
+  },
+  {
+    id: 116,
+    name: 'Soldier',
+    faction: 126,
+    image: 'warhammer/u116.png',
+    size: 1.15
+  },
+  {
+    id: 117,
+    name: 'Soldier',
+    faction: 126,
+    image: 'warhammer/u117.png',
+    size: 1.12
+  },
+  {
+    id: 118,
+    name: 'Soldier',
+    faction: 54,
+    image: 'warhammer/u118.png',
+    size: 1.08
+  },
+  {
+    id: 119,
+    name: 'Soldier',
+    faction: 54,
+    image: 'warhammer/u119.png',
+    size: 0.9
+  },
+  {
+    id: 120,
+    name: 'Soldier',
+    faction: 54,
+    image: 'warhammer/u120.png',
+    size: 1.17
+  },
+  {
+    id: 121,
+    name: 'Soldier',
+    faction: 54,
+    image: 'warhammer/u121.png',
+    size: 0.85
+  },
+  {
+    id: 122,
+    name: 'Soldier',
+    faction: 126,
+    image: 'warhammer/u122.png',
+    size: 1.19
+  },
+  {
+    id: 123,
+    name: 'Soldier',
+    faction: 126,
+    image: 'warhammer/u123.png',
+    size: 1.13
+  },
+  {
+    id: 124,
+    name: 'Soldier',
+    faction: 126,
+    image: 'warhammer/u124.png',
+    size: 1.1
+  },
+  {
+    id: 125,
+    name: 'Soldier',
+    faction: 126,
+    image: 'warhammer/u125.png',
+    size: 1.16
+  },
+  {
+    id: 126,
+    name: 'Soldier',
+    faction: 164,
+    image: 'warhammer/u126.png',
+    size: 1
+  },
+  {
+    id: 127,
+    name: 'Soldier',
+    faction: 164,
+    image: 'warhammer/u127.png',
+    size: 1
+  },
+  {
+    id: 128,
+    name: 'Soldier',
+    faction: 164,
+    image: 'warhammer/u128.png',
+    size: 1.1
+  },
+  {
+    id: 129,
+    name: 'Soldier',
+    faction: 164,
+    image: 'warhammer/u129.png',
+    size: 1.12
+  },
+  {
+    id: 130,
+    name: 'Soldier',
+    faction: 164,
+    image: 'warhammer/u130.png',
+    size: 1.25
+  },
+  {
+    id: 131,
+    name: 'Soldier',
+    faction: 164,
+    image: 'warhammer/u131.png',
+    size: 1.22
+  },
+  {
+    id: 132,
+    name: 'Soldier',
+    faction: 164,
+    image: 'warhammer/u132.png',
+    size: 0.9
+  },
+  {
+    id: 133,
+    name: 'Soldier',
+    faction: 164,
+    image: 'warhammer/u133.png',
+    size: 1.05
+  },
+  {
+    id: 134,
+    name: 'Soldier',
+    faction: 164,
+    image: 'warhammer/u134.png',
+    size: 1.02
+  },
+  {
+    id: 135,
+    name: 'Soldier',
+    faction: 164,
+    image: 'warhammer/u135.png',
+    size: 0.77
+  },
+  {
+    id: 136,
+    name: 'Soldier',
+    faction: 164,
+    image: 'warhammer/u136.png',
+    size: 0.77
+  },
+  {
+    id: 137,
+    name: 'Soldier',
+    faction: 164,
+    image: 'warhammer/u137.png',
+    size: 1.08
+  },
+  {
+    id: 138,
+    name: 'Soldier',
+    faction: 164,
+    image: 'warhammer/u138.png',
+    size: 1.04
+  },
+  {
+    id: 139,
+    name: 'Soldier',
+    faction: 164,
+    image: 'warhammer/u139.png',
+    size: 1.1
+  },
+  {
+    id: 140,
+    name: 'Soldier',
+    faction: 164,
+    image: 'warhammer/u140.png',
+    size: 1.2
+  },
+  {
+    id: 141,
+    name: 'Soldier',
+    faction: 126,
+    image: 'warhammer/u141.png',
+    size: 1.08
+  },
+  {
+    id: 142,
+    name: 'Soldier',
+    faction: 126,
+    image: 'warhammer/u142.png',
+    size: 1.14
+  },
+  {
+    id: 143,
+    name: 'Soldier',
+    faction: 125,
+    image: 'warhammer/u143.png',
+    size: 1.27
+  },
+  {
+    id: 144,
+    name: 'Soldier',
+    faction: 125,
+    image: 'warhammer/u144.png',
+    size: 1.27
+  },
+  {
+    id: 145,
+    name: 'Soldier',
+    faction: 126,
+    image: 'warhammer/u145.png',
+    size: 1.06
+  },
+  {
+    id: 146,
+    name: 'Soldier',
+    faction: 126,
+    image: 'warhammer/u146.png',
+    size: 1.11
   }
 ];
 

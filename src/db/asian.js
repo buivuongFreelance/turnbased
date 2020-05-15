@@ -214,14 +214,16 @@ const Units = [
     name: 'Sol',
     faction: 89,
     image: 'asian/u31.png',
-    size: 0.98
+    size: 0.98,
+    level: 4
   },
   {
     id: 32,
     name: 'Sol',
     faction: 82,
     image: 'asian/u32.png',
-    size: 1.06
+    size: 1.06,
+    level: 12
   },
   {
     id: 33,
@@ -263,7 +265,7 @@ const Units = [
     name: 'Sol',
     faction: 5,
     image: 'asian/u38.png',
-    size: 1.17
+    size: 1.19
   },
   {
     id: 39,
@@ -278,6 +280,216 @@ const Units = [
     faction: 7,
     image: 'asian/u40.png',
     size: 1.06
+  },
+  {
+    id: 41,
+    name: 'Sol',
+    faction: 25,
+    image: 'asian/u41.png',
+    size: 1.18
+  },
+  {
+    id: 42,
+    name: 'Sol',
+    faction: 7,
+    image: 'asian/u42.png',
+    size: 1.04
+  },
+  {
+    id: 43,
+    name: 'Sol',
+    faction: 4,
+    image: 'asian/u43.png',
+    size: 1.24
+  },
+  {
+    id: 44,
+    name: 'Sol',
+    faction: 4,
+    image: 'asian/u44.png',
+    size: 1.22
+  },
+  {
+    id: 45,
+    name: 'Sol',
+    faction: 4,
+    image: 'asian/u45.png',
+    size: 1.09
+  },
+  {
+    id: 46,
+    name: 'Sol',
+    faction: 8,
+    image: 'asian/u46.png',
+    size: 1.22
+  },
+  {
+    id: 47,
+    name: 'Sol',
+    faction: 8,
+    image: 'asian/u47.png',
+    size: 1.24
+  },
+  {
+    id: 48,
+    name: 'Sol',
+    faction: 8,
+    image: 'asian/u48.png',
+    size: 1.24
+  },
+  {
+    id: 49,
+    name: 'Sol',
+    faction: 5,
+    image: 'asian/u49.png',
+    size: 1.06
+  },
+  {
+    id: 50,
+    name: 'Sol',
+    faction: 7,
+    image: 'asian/u50.png',
+    size: 1.03
+  },
+  {
+    id: 51,
+    name: 'Sol',
+    faction: 4,
+    image: 'asian/u51.png',
+    size: 1.1
+  },
+  {
+    id: 52,
+    name: 'Sol',
+    faction: 7,
+    image: 'asian/u52.png',
+    size: 1.05
+  },
+  {
+    id: 53,
+    name: 'Sol',
+    faction: 7,
+    image: 'asian/u53.png',
+    size: 1.16
+  },
+  {
+    id: 54,
+    name: 'Sol',
+    faction: 5,
+    image: 'asian/u54.png',
+    size: 1.18
+  },
+  {
+    id: 55,
+    name: 'Sol',
+    faction: 8,
+    image: 'asian/u55.png',
+    size: 1.18
+  },
+  {
+    id: 56,
+    name: 'Sol',
+    faction: 5,
+    image: 'asian/u56.png',
+    size: 1.17
+  },
+  {
+    id: 57,
+    name: 'Sol',
+    faction: 5,
+    image: 'asian/u57.png',
+    size: 1.17
+  },
+  {
+    id: 58,
+    name: 'Sol',
+    faction: 7,
+    image: 'asian/u58.png',
+    size: 1.14
+  },
+  {
+    id: 59,
+    name: 'Sol',
+    faction: 7,
+    image: 'asian/u59.png',
+    size: 1.03
+  },
+  {
+    id: 60,
+    name: 'Sol',
+    faction: 7,
+    image: 'asian/u60.png',
+    size: 1.04
+  },
+  {
+    id: 61,
+    name: 'Sol',
+    faction: 7,
+    image: 'asian/u61.png',
+    size: 1.04
+  },
+  {
+    id: 62,
+    name: 'Sol',
+    faction: 8,
+    image: 'asian/u62.png',
+    size: 1.03
+  },
+  {
+    id: 63,
+    name: 'Sol',
+    faction: 8,
+    image: 'asian/u63.png',
+    size: 1.13
+  },
+  {
+    id: 64,
+    name: 'Sol',
+    faction: 4,
+    image: 'asian/u64.png',
+    size: 1.13
+  },
+  {
+    id: 65,
+    name: 'Sol',
+    faction: 5,
+    image: 'asian/u65.png',
+    size: 1.09
+  },
+  {
+    id: 66,
+    name: 'Sol',
+    faction: 7,
+    image: 'asian/u66.png',
+    size: 0.99
+  },
+  {
+    id: 67,
+    name: 'Sol',
+    faction: 8,
+    image: 'asian/u67.png',
+    size: 1.02
+  },
+  {
+    id: 68,
+    name: 'Sol',
+    faction: 8,
+    image: 'asian/u68.png',
+    size: 1.14
+  },
+  {
+    id: 69,
+    name: 'Sol',
+    faction: 7,
+    image: 'asian/u69.png',
+    size: 1
+  },
+  {
+    id: 70,
+    name: 'Sol',
+    faction: 6,
+    image: 'asian/u70.png',
+    size: 1.08
   },
   {
     id: 111,
@@ -396,167 +608,400 @@ const Units = [
     name: 'Sol',
     faction: 82,
     image: 'asian/u127.png',
-    size: 1.08
+    size: 1.08,
+    level: 6
   },
   {
     id: 128,
     name: 'Sol',
     faction: 82,
     image: 'asian/u128.png',
-    size: 1.2
+    size: 1.2,
+    level: 13
   },
   {
     id: 129,
     name: 'Sol',
     faction: 89,
     image: 'asian/u129.png',
-    size: 1.01
+    size: 1.01,
+    level: 5
   },
   {
     id: 130,
     name: 'Sol',
     faction: 82,
     image: 'asian/u130.png',
-    size: 1.06
+    size: 1.06,
+    level: 5
   },
   {
     id: 131,
     name: 'Sol',
     faction: 82,
     image: 'asian/u131.png',
-    size: 1.05
+    size: 1.05,
+    level: 7
   },
   {
     id: 132,
     name: 'Sol',
     faction: 82,
     image: 'asian/u132.png',
-    size: 1.05
+    size: 1.05,
+    level: 3
   },
   {
     id: 133,
     name: 'Sol',
     faction: 82,
     image: 'asian/u133.png',
-    size: 1.17
+    size: 1.17,
+    level: 10
   },
   {
     id: 134,
     name: 'Sol',
     faction: 89,
     image: 'asian/u134.png',
-    size: 1.01
+    size: 1.01,
+    level: 2
   },
   {
     id: 135,
     name: 'Sol',
     faction: 89,
     image: 'asian/u135.png',
-    size: 1.01
+    size: 1.01,
+    level: 8
   },
   {
     id: 136,
     name: 'Sol',
     faction: 89,
     image: 'asian/u136.png',
-    size: 1.08
+    size: 1.08,
+    level: 11
   },
   {
     id: 137,
     name: 'Sol',
     faction: 89,
     image: 'asian/u137.png',
-    size: 1.05
+    size: 1.05,
+    level: 10
   },
   {
     id: 138,
     name: 'Sol',
     faction: 89,
     image: 'asian/u138.png',
-    size: 1
+    size: 1,
+    level: 6
   },
   {
     id: 139,
     name: 'Sol',
     faction: 82,
     image: 'asian/u139.png',
-    size: 1.02
+    size: 1.02,
+    level: 1
   },
   {
     id: 140,
     name: 'Sol',
     faction: 82,
     image: 'asian/u140.png',
-    size: 1.03
+    size: 1.03,
+    level: 8
   },
   {
     id: 141,
     name: 'Sol',
     faction: 89,
     image: 'asian/u141.png',
-    size: 1.01
+    size: 1.01,
+    level: 3
   },
   {
     id: 142,
     name: 'Sol',
     faction: 89,
     image: 'asian/u142.png',
-    size: 1
+    size: 1,
+    level: 1
   },
   {
     id: 143,
     name: 'Sol',
     faction: 82,
     image: 'asian/u143.png',
-    size: 1
+    size: 1,
+    level: 2
   },
   {
     id: 144,
     name: 'Sol',
     faction: 89,
     image: 'asian/u144.png',
-    size: 1.03
+    size: 1.03,
+    level: 12
   },
   {
     id: 145,
     name: 'Sol',
     faction: 89,
     image: 'asian/u145.png',
-    size: 1
+    size: 1,
+    level: 7
   },
   {
     id: 146,
     name: 'Sol',
     faction: 89,
     image: 'asian/u146.png',
-    size: 1.02
+    size: 1.02,
+    level: 9
   },
   {
     id: 147,
     name: 'Sol',
     faction: 82,
     image: 'asian/u147.png',
-    size: 1.06
+    size: 1.06,
+    level: 4
   },
   {
     id: 148,
     name: 'Sol',
     faction: 82,
     image: 'asian/u148.png',
-    size: 1.08
+    size: 1.08,
+    level: 11
   },
   {
     id: 149,
     name: 'Sol',
     faction: 82,
     image: 'asian/u149.png',
-    size: 1.04
+    size: 1.04,
+    level: 9
   },
   {
     id: 150,
     name: 'Sol',
     faction: 129,
     image: 'asian/u150.png',
+    size: 1.03
+  },
+  {
+    id: 151,
+    name: 'Sol',
+    faction: 129,
+    image: 'asian/u151.png',
+    size: 1.03
+  },
+  {
+    id: 152,
+    name: 'Sol',
+    faction: 129,
+    image: 'asian/u152.png',
+    size: 1.03
+  },
+  {
+    id: 153,
+    name: 'Sol',
+    faction: 129,
+    image: 'asian/u153.png',
+    size: 1
+  },
+  {
+    id: 154,
+    name: 'Sol',
+    faction: 139,
+    image: 'asian/u154.png',
+    size: 1.01
+  },
+  {
+    id: 155,
+    name: 'Sol',
+    faction: 139,
+    image: 'asian/u155.png',
+    size: 1.01
+  },
+  {
+    id: 156,
+    name: 'Sol',
+    faction: 139,
+    image: 'asian/u156.png',
+    size: 1.4
+  },
+  {
+    id: 157,
+    name: 'Sol',
+    faction: 139,
+    image: 'asian/u157.png',
+    size: 1.7
+  },
+  {
+    id: 158,
+    name: 'Sol',
+    faction: 139,
+    image: 'asian/u158.png',
+    size: 1.05
+  },
+  {
+    id: 159,
+    name: 'Sol',
+    faction: 139,
+    image: 'asian/u159.png',
+    size: 1.05
+  },
+  {
+    id: 160,
+    name: 'Sol',
+    faction: 139,
+    image: 'asian/u160.png',
+    size: 1.1
+  },
+  {
+    id: 161,
+    name: 'Sol',
+    faction: 139,
+    image: 'asian/u161.png',
+    size: 0.75
+  },
+  {
+    id: 162,
+    name: 'Sol',
+    faction: 139,
+    image: 'asian/u162.png',
+    size: 0.75
+  },
+  {
+    id: 163,
+    name: 'Sol',
+    faction: 139,
+    image: 'asian/u163.png',
+    size: 0.75
+  },
+  {
+    id: 164,
+    name: 'Sol',
+    faction: 129,
+    image: 'asian/u164.png',
+    size: 1.04
+  },
+  {
+    id: 165,
+    name: 'Sol',
+    faction: 129,
+    image: 'asian/u165.png',
+    size: 1.03
+  },
+  {
+    id: 166,
+    name: 'Sol',
+    faction: 139,
+    image: 'asian/u166.png',
+    size: 1.03
+  },
+  {
+    id: 167,
+    name: 'Sol',
+    faction: 129,
+    image: 'asian/u167.png',
+    size: 1.04
+  },
+  {
+    id: 168,
+    name: 'Sol',
+    faction: 129,
+    image: 'asian/u168.png',
+    size: 1.04
+  },
+  {
+    id: 169,
+    name: 'Sol',
+    faction: 129,
+    image: 'asian/u169.png',
+    size: 1.08
+  },
+  {
+    id: 170,
+    name: 'Sol',
+    faction: 139,
+    image: 'asian/u170.png',
+    size: 1.15
+  },
+  {
+    id: 171,
+    name: 'Sol',
+    faction: 129,
+    image: 'asian/u171.png',
+    size: 1.01
+  },
+  {
+    id: 172,
+    name: 'Sol',
+    faction: 129,
+    image: 'asian/u172.png',
+    size: 0.99
+  },
+  {
+    id: 173,
+    name: 'Sol',
+    faction: 139,
+    image: 'asian/u173.png',
+    size: 1.1
+  },
+  {
+    id: 174,
+    name: 'Sol',
+    faction: 129,
+    image: 'asian/u174.png',
+    size: 1.01
+  },
+  {
+    id: 175,
+    name: 'Sol',
+    faction: 129,
+    image: 'asian/u175.png',
+    size: 1
+  },
+  {
+    id: 176,
+    name: 'Sol',
+    faction: 129,
+    image: 'asian/u176.png',
+    size: 1
+  },
+  {
+    id: 177,
+    name: 'Sol',
+    faction: 129,
+    image: 'asian/u177.png',
+    size: 1.06
+  },
+  {
+    id: 178,
+    name: 'Sol',
+    faction: 129,
+    image: 'asian/u178.png',
+    size: 1
+  },
+  {
+    id: 179,
+    name: 'Sol',
+    faction: 129,
+    image: 'asian/u179.png',
+    size: 1.03
+  },
+  {
+    id: 180,
+    name: 'Sol',
+    faction: 129,
+    image: 'asian/u180.png',
     size: 1.03
   }
 ];

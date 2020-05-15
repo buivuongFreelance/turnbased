@@ -116,7 +116,7 @@ const Units = [
     name: 'Soldier',
     faction: 61,
     image: 'zsmite/u17.png',
-    size: 1.03
+    size: 1.02
   },
   {
     id: 18,
@@ -179,7 +179,7 @@ const Units = [
     name: 'Soldier',
     faction: 93,
     image: 'zsmite/u26.png',
-    size: 1.2
+    size: 1.15
   },
   {
     id: 27,
@@ -488,6 +488,636 @@ const Units = [
     faction: 93,
     image: 'zsmite/u70.png',
     size: 1.02
+  },
+  {
+    id: 71,
+    name: 'Soldier',
+    faction: 60,
+    image: 'zsmite/u71.png',
+    size: 1.06
+  },
+  {
+    id: 72,
+    name: 'Soldier',
+    faction: 60,
+    image: 'zsmite/u72.png',
+    size: 1.18
+  },
+  {
+    id: 73,
+    name: 'Soldier',
+    faction: 60,
+    image: 'zsmite/u73.png',
+    size: 1.18
+  },
+  {
+    id: 74,
+    name: 'Soldier',
+    faction: 46,
+    image: 'zsmite/u74.png',
+    size: 1.09
+  },
+  {
+    id: 75,
+    name: 'Soldier',
+    faction: 60,
+    image: 'zsmite/u75.png',
+    size: 1.18
+  },
+  {
+    id: 76,
+    name: 'Soldier',
+    faction: 45,
+    image: 'zsmite/u76.png',
+    size: 1.04
+  },
+  {
+    id: 77,
+    name: 'Soldier',
+    faction: 93,
+    image: 'zsmite/u77.png',
+    size: 1.11
+  },
+  {
+    id: 78,
+    name: 'Soldier',
+    faction: 90,
+    image: 'zsmite/u78.png',
+    size: 1.13
+  },
+  {
+    id: 79,
+    name: 'Soldier',
+    faction: 46,
+    image: 'zsmite/u79.png',
+    size: 1.19
+  },
+  {
+    id: 80,
+    name: 'Soldier',
+    faction: 75,
+    image: 'zsmite/u80.png',
+    size: 1
+  },
+  {
+    id: 81,
+    name: 'Soldier',
+    faction: 75,
+    image: 'zsmite/u81.png',
+    size: 1
+  },
+  {
+    id: 82,
+    name: 'Soldier',
+    faction: 45,
+    image: 'zsmite/u82.png',
+    size: 1
+  },
+  {
+    id: 83,
+    name: 'Soldier',
+    faction: 90,
+    image: 'zsmite/u83.png',
+    size: 1.02
+  },
+  {
+    id: 84,
+    name: 'Soldier',
+    faction: 31,
+    image: 'zsmite/u84.png',
+    size: 1.16
+  },
+  {
+    id: 85,
+    name: 'Soldier',
+    faction: 75,
+    image: 'zsmite/u85.png',
+    size: 1.07
+  },
+  {
+    id: 86,
+    name: 'Soldier',
+    faction: 31,
+    image: 'zsmite/u86.png',
+    size: 1.08
+  },
+  {
+    id: 87,
+    name: 'Soldier',
+    faction: 45,
+    image: 'zsmite/u87.png',
+    size: 0.99
+  },
+  {
+    id: 88,
+    name: 'Soldier',
+    faction: 45,
+    image: 'zsmite/u88.png',
+    size: 0.99
+  },
+  {
+    id: 89,
+    name: 'Soldier',
+    faction: 75,
+    image: 'zsmite/u89.png',
+    size: 1.02
+  },
+  {
+    id: 90,
+    name: 'Soldier',
+    faction: 31,
+    image: 'zsmite/u90.png',
+    size: 1.14
+  },
+  {
+    id: 91,
+    name: 'Soldier',
+    faction: 75,
+    image: 'zsmite/u91.png',
+    size: 1.14
+  },
+  {
+    id: 92,
+    name: 'Soldier',
+    faction: 75,
+    image: 'zsmite/u92.png',
+    size: 1.14
+  },
+  {
+    id: 93,
+    name: 'Soldier',
+    faction: 75,
+    image: 'zsmite/u93.png',
+    size: 1.02
+  },
+  {
+    id: 94,
+    name: 'Soldier',
+    faction: 31,
+    image: 'zsmite/u94.png',
+    size: 1.14
+  },
+  {
+    id: 95,
+    name: 'Soldier',
+    faction: 31,
+    image: 'zsmite/u95.png',
+    size: 1
+  },
+  {
+    id: 96,
+    name: 'Soldier',
+    faction: 60,
+    image: 'zsmite/u96.png',
+    size: 1.1
+  },
+  {
+    id: 97,
+    name: 'Soldier',
+    faction: 45,
+    image: 'zsmite/u97.png',
+    size: 1
+  },
+  {
+    id: 98,
+    name: 'Soldier',
+    faction: 46,
+    image: 'zsmite/u98.png',
+    size: 1.08
+  },
+  {
+    id: 99,
+    name: 'Soldier',
+    faction: 45,
+    image: 'zsmite/u99.png',
+    size: 1
+  },
+  {
+    id: 100,
+    name: 'Soldier',
+    faction: 103,
+    image: 'zsmite/u100.png',
+    size: 1.02
+  },
+  {
+    id: 101,
+    name: 'Soldier',
+    faction: 46,
+    image: 'zsmite/u101.png',
+    size: 1.01
+  },
+  {
+    id: 102,
+    name: 'Soldier',
+    faction: 60,
+    image: 'zsmite/u102.png',
+    size: 1.1
+  },
+  {
+    id: 103,
+    name: 'Soldier',
+    faction: 45,
+    image: 'zsmite/u103.png',
+    size: 0.99
+  },
+  {
+    id: 104,
+    name: 'Soldier',
+    faction: 103,
+    image: 'zsmite/u104.png',
+    size: 1.06
+  },
+  {
+    id: 105,
+    name: 'Soldier',
+    faction: 103,
+    image: 'zsmite/u105.png',
+    size: 1.06
+  },
+  {
+    id: 106,
+    name: 'Soldier',
+    faction: 103,
+    image: 'zsmite/u106.png',
+    size: 0.75
+  },
+  {
+    id: 107,
+    name: 'Soldier',
+    faction: 45,
+    image: 'zsmite/u107.png',
+    size: 0.98
+  },
+  {
+    id: 108,
+    name: 'Soldier',
+    faction: 46,
+    image: 'zsmite/u108.png',
+    size: 1.14
+  },
+  {
+    id: 109,
+    name: 'Soldier',
+    faction: 46,
+    image: 'zsmite/u109.png',
+    size: 0.77
+  },
+  {
+    id: 110,
+    name: 'Soldier',
+    faction: 60,
+    image: 'zsmite/u110.png',
+    size: 1.01
+  },
+  {
+    id: 111,
+    name: 'Soldier',
+    faction: 60,
+    image: 'zsmite/u111.png',
+    size: 1.05
+  },
+  {
+    id: 112,
+    name: 'Soldier',
+    faction: 102,
+    image: 'zsmite/u112.png',
+    size: 1.03
+  },
+  {
+    id: 113,
+    name: 'Soldier',
+    faction: 102,
+    image: 'zsmite/u113.png',
+    size: 1.03
+  },
+  {
+    id: 114,
+    name: 'Soldier',
+    faction: 102,
+    image: 'zsmite/u114.png',
+    size: 1.03
+  },
+  {
+    id: 115,
+    name: 'Soldier',
+    faction: 102,
+    image: 'zsmite/u115.png',
+    size: 1.03
+  },
+  {
+    id: 116,
+    name: 'Soldier',
+    faction: 102,
+    image: 'zsmite/u116.png',
+    size: 1.07
+  },
+  {
+    id: 117,
+    name: 'Soldier',
+    faction: 91,
+    image: 'zsmite/u117.png',
+    size: 0.99
+  },
+  {
+    id: 118,
+    name: 'Soldier',
+    faction: 91,
+    image: 'zsmite/u118.png',
+    size: 1.03
+  },
+  {
+    id: 119,
+    name: 'Soldier',
+    faction: 90,
+    image: 'zsmite/u119.png',
+    size: 1.01
+  },
+  {
+    id: 120,
+    name: 'Soldier',
+    faction: 103,
+    image: 'zsmite/u120.png',
+    size: 1.15
+  },
+  {
+    id: 121,
+    name: 'Soldier',
+    faction: 60,
+    image: 'zsmite/u121.png',
+    size: 1
+  },
+  {
+    id: 122,
+    name: 'Soldier',
+    faction: 32,
+    image: 'zsmite/u122.png',
+    size: 1.08
+  },
+  {
+    id: 123,
+    name: 'Soldier',
+    faction: 90,
+    image: 'zsmite/u123.png',
+    size: 1.01
+  },
+  {
+    id: 124,
+    name: 'Soldier',
+    faction: 60,
+    image: 'zsmite/u124.png',
+    size: 1
+  },
+  {
+    id: 125,
+    name: 'Soldier',
+    faction: 45,
+    image: 'zsmite/u125.png',
+    size: 1
+  },
+  {
+    id: 126,
+    name: 'Soldier',
+    faction: 60,
+    image: 'zsmite/u126.png',
+    size: 1
+  },
+  {
+    id: 127,
+    name: 'Soldier',
+    faction: 103,
+    image: 'zsmite/u127.png',
+    size: 1.05
+  },
+  {
+    id: 128,
+    name: 'Soldier',
+    faction: 90,
+    image: 'zsmite/u128.png',
+    size: 1.05
+  },
+  {
+    id: 129,
+    name: 'Soldier',
+    faction: 90,
+    image: 'zsmite/u129.png',
+    size: 1.05
+  },
+  {
+    id: 130,
+    name: 'Soldier',
+    faction: 103,
+    image: 'zsmite/u130.png',
+    size: 1.05
+  },
+  {
+    id: 131,
+    name: 'Soldier',
+    faction: 103,
+    image: 'zsmite/u131.png',
+    size: 1.07
+  },
+  {
+    id: 132,
+    name: 'Soldier',
+    faction: 32,
+    image: 'zsmite/u132.png',
+    size: 1.05
+  },
+  {
+    id: 133,
+    name: 'Soldier',
+    faction: 93,
+    image: 'zsmite/u133.png',
+    size: 1.2
+  },
+  {
+    id: 134,
+    name: 'Soldier',
+    faction: 75,
+    image: 'zsmite/u134.png',
+    size: 1.2
+  },
+  {
+    id: 135,
+    name: 'Soldier',
+    faction: 75,
+    image: 'zsmite/u135.png',
+    size: 1.2
+  },
+  {
+    id: 136,
+    name: 'Soldier',
+    faction: 103,
+    image: 'zsmite/u136.png',
+    size: 1.21
+  },
+  {
+    id: 137,
+    name: 'Soldier',
+    faction: 45,
+    image: 'zsmite/u137.png',
+    size: 1.03
+  },
+  {
+    id: 138,
+    name: 'Soldier',
+    faction: 103,
+    image: 'zsmite/u138.png',
+    size: 1.23
+  },
+  {
+    id: 139,
+    name: 'Soldier',
+    faction: 169,
+    image: 'zsmite/u139.png',
+    size: 1.01
+  },
+  {
+    id: 140,
+    name: 'Soldier',
+    faction: 169,
+    image: 'zsmite/u140.png',
+    size: 1.08
+  },
+  {
+    id: 141,
+    name: 'Soldier',
+    faction: 46,
+    image: 'zsmite/u141.png',
+    size: 1.11
+  },
+  {
+    id: 142,
+    name: 'Soldier',
+    faction: 90,
+    image: 'zsmite/u142.png',
+    size: 1.07
+  },
+  {
+    id: 143,
+    name: 'Soldier',
+    faction: 61,
+    image: 'zsmite/u143.png',
+    size: 1.03
+  },
+  {
+    id: 144,
+    name: 'Soldier',
+    faction: 61,
+    image: 'zsmite/u144.png',
+    size: 1.03
+  },
+  {
+    id: 145,
+    name: 'Soldier',
+    faction: 61,
+    image: 'zsmite/u145.png',
+    size: 1.03
+  },
+  {
+    id: 146,
+    name: 'Soldier',
+    faction: 93,
+    image: 'zsmite/u146.png',
+    size: 0.99
+  },
+  {
+    id: 147,
+    name: 'Soldier',
+    faction: 61,
+    image: 'zsmite/u147.png',
+    size: 1
+  },
+  {
+    id: 148,
+    name: 'Soldier',
+    faction: 61,
+    image: 'zsmite/u148.png',
+    size: 1.06
+  },
+  {
+    id: 149,
+    name: 'Soldier',
+    faction: 61,
+    image: 'zsmite/u149.png',
+    size: 0.99
+  },
+  {
+    id: 150,
+    name: 'Soldier',
+    faction: 45,
+    image: 'zsmite/u150.png',
+    size: 0.99
+  },
+  {
+    id: 151,
+    name: 'Soldier',
+    faction: 60,
+    image: 'zsmite/u151.png',
+    size: 1.05
+  },
+  {
+    id: 152,
+    name: 'Soldier',
+    faction: 60,
+    image: 'zsmite/u152.png',
+    size: 1.18
+  },
+  {
+    id: 153,
+    name: 'Soldier',
+    faction: 32,
+    image: 'zsmite/u153.png',
+    size: 1.13
+  },
+  {
+    id: 154,
+    name: 'Soldier',
+    faction: 75,
+    image: 'zsmite/u154.png',
+    size: 1.23
+  },
+  {
+    id: 155,
+    name: 'Soldier',
+    faction: 46,
+    image: 'zsmite/u155.png',
+    size: 1.38
+  },
+  {
+    id: 156,
+    name: 'Soldier',
+    faction: 46,
+    image: 'zsmite/u156.png',
+    size: 1.38
+  },
+  {
+    id: 157,
+    name: 'Soldier',
+    faction: 32,
+    image: 'zsmite/u157.png',
+    size: 1.37
+  },
+  {
+    id: 158,
+    name: 'Soldier',
+    faction: 75,
+    image: 'zsmite/u158.png',
+    size: 1.02
+  },
+  {
+    id: 159,
+    name: 'Soldier',
+    faction: 75,
+    image: 'zsmite/u159.png',
+    size: 1.15
+  },
+  {
+    id: 160,
+    name: 'Soldier',
+    faction: 75,
+    image: 'zsmite/u160.png',
+    size: 1.03
   }
 ];
 
