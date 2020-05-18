@@ -1118,7 +1118,77 @@ const Units = [
     faction: 75,
     image: 'zsmite/u160.png',
     size: 1.03
-  }
+  },
+  {
+    id: 161,
+    name: 'Soldier',
+    faction: 90,
+    image: 'zsmite/u161.png',
+    size: 1.01
+  },
+  {
+    id: 162,
+    name: 'Soldier',
+    faction: 32,
+    image: 'zsmite/u162.png',
+    size: 1.05
+  },
+  {
+    id: 163,
+    name: 'Soldier',
+    faction: 61,
+    image: 'zsmite/u163.png',
+    size: 1.06
+  },
+  {
+    id: 164,
+    name: 'Soldier',
+    faction: 45,
+    image: 'zsmite/u164.png',
+    size: 0.98
+  },
+  {
+    id: 165,
+    name: 'Soldier',
+    faction: 45,
+    image: 'zsmite/u165.png',
+    size: 1
+  },
+  {
+    id: 166,
+    name: 'Soldier',
+    faction: 45,
+    image: 'zsmite/u166.png',
+    size: 1.07
+  },
+  {
+    id: 167,
+    name: 'Soldier',
+    faction: 33,
+    image: 'zsmite/u167.png',
+    size: 0.98
+  },
+  {
+    id: 168,
+    name: 'Soldier',
+    faction: 46,
+    image: 'zsmite/u168.png',
+    size: 1.52
+  },
+  {
+    id: 169,
+    name: 'Soldier',
+    faction: 46,
+    image: 'zsmite/u169.png',
+    size: 1
+  },
+  {
+    id: 170,
+    name: 'Soldier',
+    faction: 32,
+    image: 'zsmite/u170.png',
+    size: 1.48
+  },
 ];
 
 export default Units;

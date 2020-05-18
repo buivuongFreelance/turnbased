@@ -492,6 +492,41 @@ const Units = [
     size: 1.08
   },
   {
+    id: 71,
+    name: 'Sol',
+    faction: 25,
+    image: 'asian/u71.png',
+    size: 0.99
+  },
+  {
+    id: 72,
+    name: 'Sol',
+    faction: 7,
+    image: 'asian/u72.png',
+    size: 1.04
+  },
+  {
+    id: 73,
+    name: 'Sol',
+    faction: 8,
+    image: 'asian/u73.png',
+    size: 1.11
+  },
+  {
+    id: 74,
+    name: 'Sol',
+    faction: 8,
+    image: 'asian/u74.png',
+    size: 1.19
+  },
+  {
+    id: 75,
+    name: 'Sol',
+    faction: 6,
+    image: 'asian/u75.png',
+    size: 1
+  },
+  {
     id: 111,
     name: 'Big Soldier',
     faction: 5,
@@ -1003,6 +1038,41 @@ const Units = [
     faction: 129,
     image: 'asian/u180.png',
     size: 1.03
+  },
+  {
+    id: 181,
+    name: 'Sol',
+    faction: 129,
+    image: 'asian/u181.png',
+    size: 1.02
+  },
+  {
+    id: 182,
+    name: 'Sol',
+    faction: 129,
+    image: 'asian/u182.png',
+    size: 1.02
+  },
+  {
+    id: 183,
+    name: 'Sol',
+    faction: 129,
+    image: 'asian/u183.png',
+    size: 1.02
+  },
+  {
+    id: 184,
+    name: 'Sol',
+    faction: 129,
+    image: 'asian/u184.png',
+    size: 1.03
+  },
+  {
+    id: 185,
+    name: 'Sol',
+    faction: 129,
+    image: 'asian/u185.png',
+    size: 1.02
   }
 ];
 

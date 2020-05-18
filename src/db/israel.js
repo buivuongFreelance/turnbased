@@ -952,9 +952,10 @@ const Units = [
   {
     id: 120,
     name: 'Soldier',
-    faction: 133,
+    faction: 211,
     image: 'israel/u120.png',
-    size: 1
+    size: 1,
+    level: 1
   },
   {
     id: 121,
@@ -982,9 +983,10 @@ const Units = [
   {
     id: 124,
     name: 'Soldier',
-    faction: 133,
+    faction: 211,
     image: 'israel/u124.png',
-    size: 1.15
+    size: 1.15,
+    level: 5
   },
   {
     id: 125,
@@ -1239,9 +1241,10 @@ const Units = [
   {
     id: 157,
     name: 'Soldier',
-    faction: 133,
+    faction: 211,
     image: 'israel/u157.png',
-    size: 1.01
+    size: 1.01,
+    level: 2
   },
   {
     id: 158,
@@ -1302,9 +1305,10 @@ const Units = [
   {
     id: 165,
     name: 'Soldier',
-    faction: 133,
+    faction: 211,
     image: 'israel/u165.png',
-    size: 1.01
+    size: 1.01,
+    level: 3
   },
   {
     id: 166,
@@ -1433,9 +1437,10 @@ const Units = [
   {
     id: 182,
     name: 'Soldier',
-    faction: 133,
+    faction: 211,
     image: 'israel/u182.png',
-    size: 1.01
+    size: 1.01,
+    level: 6
   },
   {
     id: 183,
@@ -1471,16 +1476,18 @@ const Units = [
   {
     id: 187,
     name: 'Soldier',
-    faction: 133,
+    faction: 211,
     image: 'israel/u187.png',
-    size: 0.99
+    size: 0.99,
+    level: 4
   },
   {
     id: 188,
     name: 'Soldier',
-    faction: 133,
+    faction: 211,
     image: 'israel/u188.png',
-    size: 1.01
+    size: 1.01,
+    level: 7
   },
   {
     id: 189,
@@ -1493,9 +1500,10 @@ const Units = [
   {
     id: 190,
     name: 'Soldier',
-    faction: 133,
+    faction: 211,
     image: 'israel/u190.png',
-    size: 1.05
+    size: 1.05,
+    level: 8
   },
   {
     id: 191,
@@ -1986,6 +1994,76 @@ const Units = [
     faction: 186,
     image: 'israel/u260.png',
     size: 1.11
+  },
+  {
+    id: 261,
+    name: 'Soldier',
+    faction: 210,
+    image: 'israel/u261.png',
+    size: 1.1
+  },
+  {
+    id: 262,
+    name: 'Soldier',
+    faction: 210,
+    image: 'israel/u262.png',
+    size: 1.13
+  },
+  {
+    id: 263,
+    name: 'Soldier',
+    faction: 210,
+    image: 'israel/u263.png',
+    size: 1.1
+  },
+  {
+    id: 264,
+    name: 'Soldier',
+    faction: 210,
+    image: 'israel/u264.png',
+    size: 1.16
+  },
+  {
+    id: 265,
+    name: 'Soldier',
+    faction: 210,
+    image: 'israel/u265.png',
+    size: 1.06
+  },
+  {
+    id: 266,
+    name: 'Soldier',
+    faction: 210,
+    image: 'israel/u266.png',
+    size: 1.16
+  },
+  {
+    id: 267,
+    name: 'Soldier',
+    faction: 210,
+    image: 'israel/u267.png',
+    size: 1.12
+  },
+  {
+    id: 268,
+    name: 'Soldier',
+    faction: 210,
+    image: 'israel/u268.png',
+    size: 1.18
+  },
+  {
+    id: 269,
+    name: 'Soldier',
+    faction: 210,
+    image: 'israel/u269.png',
+    size: 1.15
+  },
+  {
+    id: 270,
+    name: 'Soldier',
+    faction: 210,
+    image: 'israel/u270.png',
+    size: 1.15
   },
 ];
 

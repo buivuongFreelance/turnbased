@@ -768,6 +768,146 @@ const Units = [
     faction: 187,
     image: 'tera/u110.png',
     size: 1
+  },
+  {
+    id: 111,
+    name: 'Soldier',
+    faction: 189,
+    image: 'tera/u111.png',
+    size: 1.08
+  },
+  {
+    id: 112,
+    name: 'Soldier',
+    faction: 189,
+    image: 'tera/u112.png',
+    size: 1.11
+  },
+  {
+    id: 113,
+    name: 'Soldier',
+    faction: 189,
+    image: 'tera/u113.png',
+    size: 1.38
+  },
+  {
+    id: 114,
+    name: 'Soldier',
+    faction: 189,
+    image: 'tera/u114.png',
+    size: 1.09
+  },
+  {
+    id: 115,
+    name: 'Soldier',
+    faction: 200,
+    image: 'tera/u115.png',
+    size: 1
+  },
+  {
+    id: 116,
+    name: 'Soldier',
+    faction: 190,
+    image: 'tera/u116.png',
+    size: 1.1
+  },
+  {
+    id: 117,
+    name: 'Soldier',
+    faction: 200,
+    image: 'tera/u117.png',
+    size: 1
+  },
+  {
+    id: 118,
+    name: 'Soldier',
+    faction: 187,
+    image: 'tera/u118.png',
+    size: 1.01
+  },
+  {
+    id: 119,
+    name: 'Soldier',
+    faction: 189,
+    image: 'tera/u119.png',
+    size: 1.08
+  },
+  {
+    id: 120,
+    name: 'Soldier',
+    faction: 189,
+    image: 'tera/u120.png',
+    size: 1.19
+  },
+  {
+    id: 121,
+    name: 'Soldier',
+    faction: 190,
+    image: 'tera/u121.png',
+    size: 1.1
+  },
+  {
+    id: 122,
+    name: 'Soldier',
+    faction: 187,
+    image: 'tera/u122.png',
+    size: 1
+  },
+  {
+    id: 123,
+    name: 'Soldier',
+    faction: 190,
+    image: 'tera/u123.png',
+    size: 1.14
+  },
+  {
+    id: 124,
+    name: 'Soldier',
+    faction: 190,
+    image: 'tera/u124.png',
+    size: 1.1
+  },
+  {
+    id: 125,
+    name: 'Soldier',
+    faction: 188,
+    image: 'tera/u125.png',
+    size: 0.9
+  },
+  {
+    id: 126,
+    name: 'Soldier',
+    faction: 189,
+    image: 'tera/u126.png',
+    size: 1.08
+  },
+  {
+    id: 127,
+    name: 'Soldier',
+    faction: 189,
+    image: 'tera/u127.png',
+    size: 1.1
+  },
+  {
+    id: 128,
+    name: 'Soldier',
+    faction: 187,
+    image: 'tera/u128.png',
+    size: 1.1
+  },
+  {
+    id: 129,
+    name: 'Soldier',
+    faction: 190,
+    image: 'tera/u129.png',
+    size: 1.1
+  },
+  {
+    id: 130,
+    name: 'Soldier',
+    faction: 188,
+    image: 'tera/u130.png',
+    size: 0.92
   }
 ];
 

@@ -30,6 +30,21 @@ const Factions = [
     world: '_weapon'
   },
   {
+    id: 3005,
+    name: '0_Crossbow',
+    world: '_weapon'
+  },
+  {
+    id: 3006,
+    name: '0_Dagger',
+    world: '_weapon'
+  },
+  {
+    id: 3007,
+    name: '0_Hammer',
+    world: '_weapon'
+  },
+  {
     id: 1,
     name: 'Dura Empire',
     world: 'raid_shadow'
@@ -585,7 +600,9 @@ const Factions = [
   {
     id: 96,
     name: 'Yakuza Clans',
-    world: 'king_bounty'
+    world: 'king_bounty',
+    done: true,
+    race: 'nippon'
   },
   {
     id: 97,
@@ -646,11 +663,13 @@ const Factions = [
     name: 'Jerusalem Faction',
     world: 'raid_shadow'
   },
-  /*{
+  {
     id: 108,
-    name: 'Krakow Alliance',
-    world: 'raid_shadow'
-  },*/
+    name: 'Orpheus Chaos',
+    world: 'heroes',
+    done: true,
+    race: 'vampire'
+  },
   {
     id: 109,
     name: 'Skudr Wildlands',
@@ -838,7 +857,9 @@ const Factions = [
   {
     id: 141,
     name: 'Pirate Alliance',
-    world: 'vikings'
+    world: 'vikings',
+    done: true,
+    race: 'britain'
   },
   {
     id: 142,
@@ -848,7 +869,9 @@ const Factions = [
   {
     id: 143,
     name: 'Lady Faction',
-    world: 'warhammer'
+    world: 'warhammer',
+    done: true,
+    race: 'britain'
   },
   {
     id: 144,
@@ -944,7 +967,9 @@ const Factions = [
   {
     id: 161,
     name: 'Pan Planet',
-    world: 'lyn'
+    world: 'lyn',
+    done: true,
+    race: 'beastman'
   },
   {
     id: 162,
@@ -1158,8 +1183,10 @@ const Factions = [
   },
   {
     id: 202,
-    name: 'Numidia Kingdom',
-    world: 'fantasy'
+    name: 'Bugthak Empire',
+    world: 'lyn',
+    done: true,
+    race: 'beastman'
   },
   {
     id: 203,
@@ -1192,6 +1219,42 @@ const Factions = [
     id: 208,
     name: 'Nargi Tribes',
     world: 'heroes'
+  },
+  {
+    id: 209,
+    name: 'Felix Heaven',
+    world: 'age_magic',
+    done: true,
+    race: 'nephalim'
+  },
+  {
+    id: 210,
+    name: 'Plainfang Kingdom',
+    world: 'israel'
+  },
+  {
+    id: 211,
+    name: 'Argos Sea',
+    world: 'israel',
+    done: true,
+    race: 'greek'
+  },
+  {
+    id: 212,
+    name: 'Olaf Kingdom',
+    world: 'vikings'
+  },
+  {
+    id: 213,
+    name: 'Gondor Empire',
+    world: 'space'
+  },
+  {
+    id: 214,
+    name: 'Delruruth Cave',
+    world: 'space',
+    done: true,
+    race: 'demon'
   },
 ];
 

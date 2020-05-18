@@ -884,7 +884,8 @@ const Units = [
     name: 'Soldier',
     faction: 161,
     image: 'lyn/u111.png',
-    size: 1.15
+    size: 1.15,
+    level: 11
   },
   {
     id: 112,
@@ -899,7 +900,8 @@ const Units = [
     name: 'Soldier',
     faction: 161,
     image: 'lyn/u113.png',
-    size: 0.88
+    size: 0.88,
+    level: 1
   },
   {
     id: 114,
@@ -914,21 +916,24 @@ const Units = [
     name: 'Soldier',
     faction: 161,
     image: 'lyn/u115.png',
-    size: 1.07
+    size: 1.07,
+    level: 12
   },
   {
     id: 116,
     name: 'Soldier',
     faction: 161,
     image: 'lyn/u116.png',
-    size: 1.12
+    size: 1.12,
+    level: 2
   },
   {
     id: 117,
     name: 'Soldier',
-    faction: 161,
+    faction: 202,
     image: 'lyn/u117.png',
-    size: 1.05
+    size: 1.05,
+    level: 8
   },
   {
     id: 118,
@@ -943,77 +948,88 @@ const Units = [
     name: 'Soldier',
     faction: 161,
     image: 'lyn/u119.png',
-    size: 0.92
+    size: 0.92,
+    level: 8
   },
   {
     id: 120,
     name: 'Soldier',
     faction: 161,
     image: 'lyn/u120.png',
-    size: 0.92
+    size: 0.92,
+    level: 9
   },
   {
     id: 121,
     name: 'Soldier',
-    faction: 161,
+    faction: 202,
     image: 'lyn/u121.png',
-    size: 1.04
+    size: 1.04,
+    level: 12
   },
   {
     id: 122,
     name: 'Soldier',
-    faction: 161,
+    faction: 202,
     image: 'lyn/u122.png',
-    size: 1.04
+    size: 1.04,
+    level: 11
   },
   {
     id: 123,
     name: 'Soldier',
-    faction: 161,
+    faction: 202,
     image: 'lyn/u123.png',
-    size: 1.04
+    size: 1.04,
+    level: 9
   },
   {
     id: 124,
     name: 'Soldier',
-    faction: 161,
+    faction: 202,
     image: 'lyn/u124.png',
-    size: 1.1
+    size: 1.1,
+    level: 4
   },
   {
     id: 125,
     name: 'Soldier',
-    faction: 161,
+    faction: 202,
     image: 'lyn/u125.png',
-    size: 1.07
+    size: 1.07,
+    level: 5
   },
   {
     id: 126,
     name: 'Soldier',
     faction: 161,
     image: 'lyn/u126.png',
-    size: 1.15
+    size: 1.15,
+    level: 6
   },
   {
     id: 127,
     name: 'Soldier',
     faction: 161,
     image: 'lyn/u127.png',
-    size: 1.17
+    size: 1.17,
+    level: 10
   },
   {
     id: 128,
     name: 'Soldier',
     faction: 161,
     image: 'lyn/u128.png',
-    size: 1.15
+    size: 1.15,
+    level: 7
   },
   {
     id: 129,
     name: 'Soldier',
     faction: 161,
     image: 'lyn/u129.png',
-    size: 1.07
+    size: 1.07,
+    level: 13
   },
   {
     id: 130,
@@ -1044,42 +1060,48 @@ const Units = [
     name: 'Soldier',
     faction: 161,
     image: 'lyn/u133.png',
-    size: 1.1
+    size: 1.1,
+    level: 3
   },
   {
     id: 134,
     name: 'Soldier',
     faction: 161,
     image: 'lyn/u134.png',
-    size: 1.05
+    size: 1.05,
+    level: 5
   },
   {
     id: 135,
     name: 'Soldier',
     faction: 161,
     image: 'lyn/u135.png',
-    size: 0.95
+    size: 0.95,
+    level: 4
   },
   {
     id: 136,
     name: 'Soldier',
-    faction: 161,
+    faction: 202,
     image: 'lyn/u136.png',
-    size: 0.97
+    size: 0.97,
+    level: 6
   },
   {
     id: 137,
     name: 'Soldier',
-    faction: 161,
+    faction: 202,
     image: 'lyn/u137.png',
-    size: 0.99
+    size: 0.99,
+    level: 7
   },
   {
     id: 138,
     name: 'Soldier',
-    faction: 161,
+    faction: 202,
     image: 'lyn/u138.png',
-    size: 1.03
+    size: 1.03,
+    level: 1
   },
   {
     id: 139,
@@ -1100,23 +1122,26 @@ const Units = [
   {
     id: 141,
     name: 'Soldier',
-    faction: 161,
+    faction: 202,
     image: 'lyn/u141.png',
-    size: 1.04
+    size: 1.04,
+    level: 3
   },
   {
     id: 142,
     name: 'Soldier',
-    faction: 161,
+    faction: 202,
     image: 'lyn/u142.png',
-    size: 1.04
+    size: 1.04,
+    level: 2
   },
   {
     id: 143,
     name: 'Soldier',
-    faction: 161,
+    faction: 202,
     image: 'lyn/u143.png',
-    size: 1.02
+    size: 1.02,
+    level: 13
   },
   {
     id: 144,
@@ -1129,9 +1154,10 @@ const Units = [
   {
     id: 145,
     name: 'Soldier',
-    faction: 161,
+    faction: 202,
     image: 'lyn/u145.png',
-    size: 1.02
+    size: 1.02,
+    level: 10
   },
   {
     id: 146,
@@ -1167,6 +1193,146 @@ const Units = [
     faction: 175,
     image: 'lyn/u150.png',
     size: 1.12
+  },
+  {
+    id: 151,
+    name: 'Soldier',
+    faction: 175,
+    image: 'lyn/u151.png',
+    size: 1.1
+  },
+  {
+    id: 152,
+    name: 'Soldier',
+    faction: 175,
+    image: 'lyn/u152.png',
+    size: 1.24
+  },
+  {
+    id: 153,
+    name: 'Soldier',
+    faction: 175,
+    image: 'lyn/u153.png',
+    size: 1
+  },
+  {
+    id: 154,
+    name: 'Soldier',
+    faction: 175,
+    image: 'lyn/u154.png',
+    size: 1.52
+  },
+  {
+    id: 155,
+    name: 'Soldier',
+    faction: 175,
+    image: 'lyn/u155.png',
+    size: 1
+  },
+  {
+    id: 156,
+    name: 'Soldier',
+    faction: 175,
+    image: 'lyn/u156.png',
+    size: 1.45
+  },
+  {
+    id: 157,
+    name: 'Soldier',
+    faction: 175,
+    image: 'lyn/u157.png',
+    size: 1
+  },
+  {
+    id: 158,
+    name: 'Soldier',
+    faction: 175,
+    image: 'lyn/u158.png',
+    size: 0.92
+  },
+  {
+    id: 159,
+    name: 'Soldier',
+    faction: 175,
+    image: 'lyn/u159.png',
+    size: 0.87
+  },
+  {
+    id: 160,
+    name: 'Soldier',
+    faction: 175,
+    image: 'lyn/u160.png',
+    size: 0.95
+  },
+  {
+    id: 161,
+    name: 'Soldier',
+    faction: 175,
+    image: 'lyn/u161.png',
+    size: 1.15
+  },
+  {
+    id: 162,
+    name: 'Soldier',
+    faction: 175,
+    image: 'lyn/u162.png',
+    size: 0.9
+  },
+  {
+    id: 163,
+    name: 'Soldier',
+    faction: 175,
+    image: 'lyn/u163.png',
+    size: 1.28
+  },
+  {
+    id: 164,
+    name: 'Soldier',
+    faction: 175,
+    image: 'lyn/u164.png',
+    size: 1.27
+  },
+  {
+    id: 165,
+    name: 'Soldier',
+    faction: 175,
+    image: 'lyn/u165.png',
+    size: 1.18
+  },
+  {
+    id: 166,
+    name: 'Soldier',
+    faction: 175,
+    image: 'lyn/u166.png',
+    size: 1.16
+  },
+  {
+    id: 167,
+    name: 'Soldier',
+    faction: 175,
+    image: 'lyn/u167.png',
+    size: 1.18
+  },
+  {
+    id: 168,
+    name: 'Soldier',
+    faction: 175,
+    image: 'lyn/u168.png',
+    size: 1.24
+  },
+  {
+    id: 169,
+    name: 'Soldier',
+    faction: 175,
+    image: 'lyn/u169.png',
+    size: 1.5
+  },
+  {
+    id: 170,
+    name: 'Soldier',
+    faction: 175,
+    image: 'lyn/u170.png',
+    size: 1.15
   },
 ];
 

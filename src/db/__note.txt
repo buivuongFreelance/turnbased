@@ -1,13 +1,11 @@
-heroes 7
+Endless Legend
 
 20 - 40
 
 Red Blue
 yellow black
 
-race 108
-
-Bless female 20 male 26
+Bless tera female 20 male 26
 
 Immortal Realms: Vampire Wars
 Holdfast Nations Of War

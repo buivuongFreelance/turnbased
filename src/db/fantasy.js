@@ -800,23 +800,23 @@ const Units = [
   {
     id: 108,
     name: 'Soldier',
-    faction: 202,
+    faction: 197,
     image: 'fantasy/u108.png',
-    size: 1.01
+    size: 0.87
   },
   {
     id: 109,
     name: 'Soldier',
-    faction: 202,
+    faction: 197,
     image: 'fantasy/u109.png',
-    size: 1.06
+    size: 0.87
   },
   {
     id: 110,
     name: 'Soldier',
-    faction: 202,
+    faction: 195,
     image: 'fantasy/u110.png',
-    size: 1
+    size: 1.1
   },
   {
     id: 111,

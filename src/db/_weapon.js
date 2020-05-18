@@ -68,6 +68,76 @@ const Weapons = [
     faction: 3004,
     image: '_weapons/u10.png',
     size: 1,
+  },
+  {
+    id: 11,
+    name: 'Soldier',
+    faction: 3002,
+    image: '_weapons/u11.png',
+    size: 1,
+  },
+  {
+    id: 12,
+    name: 'Soldier',
+    faction: 3002,
+    image: '_weapons/u12.png',
+    size: 1,
+  },
+  {
+    id: 13,
+    name: 'Soldier',
+    faction: 3005,
+    image: '_weapons/u13.png',
+    size: 0.8,
+  },
+  {
+    id: 14,
+    name: 'Soldier',
+    faction: 3006,
+    image: '_weapons/u14.png',
+    size: 0.7,
+  },
+  {
+    id: 15,
+    name: 'Soldier',
+    faction: 3006,
+    image: '_weapons/u15.png',
+    size: 0.7,
+  },
+  {
+    id: 16,
+    name: 'Soldier',
+    faction: 3003,
+    image: '_weapons/u16.png',
+    size: 1
+  },
+  {
+    id: 17,
+    name: 'Soldier',
+    faction: 3003,
+    image: '_weapons/u17.png',
+    size: 0.7
+  },
+  {
+    id: 18,
+    name: 'Soldier',
+    faction: 3007,
+    image: '_weapons/u18.png',
+    size: 1
+  },
+  {
+    id: 19,
+    name: 'Soldier',
+    faction: 3007,
+    image: '_weapons/u19.png',
+    size: 1
+  },
+  {
+    id: 20,
+    name: 'Soldier',
+    faction: 3007,
+    image: '_weapons/u20.png',
+    size: 1
   }
 ];
 

@@ -1258,7 +1258,147 @@ const Units = [
     faction: 3,
     image: 'raid_shadow/u180.png',
     size: 0.99
-  }
+  },
+  {
+    id: 181,
+    name: 'Soldier',
+    faction: 3,
+    image: 'raid_shadow/u181.png',
+    size: 0.99
+  },
+  {
+    id: 182,
+    name: 'Soldier',
+    faction: 2,
+    image: 'raid_shadow/u182.png',
+    size: 1.1
+  },
+  {
+    id: 183,
+    name: 'Soldier',
+    faction: 2,
+    image: 'raid_shadow/u183.png',
+    size: 1.1
+  },
+  {
+    id: 184,
+    name: 'Soldier',
+    faction: 3,
+    image: 'raid_shadow/u184.png',
+    size: 0.99
+  },
+  {
+    id: 185,
+    name: 'Soldier',
+    faction: 3,
+    image: 'raid_shadow/u185.png',
+    size: 1.12
+  },
+  {
+    id: 186,
+    name: 'Soldier',
+    faction: 40,
+    image: 'raid_shadow/u186.png',
+    size: 0.98
+  },
+  {
+    id: 187,
+    name: 'Soldier',
+    faction: 3,
+    image: 'raid_shadow/u187.png',
+    size: 0.99
+  },
+  {
+    id: 188,
+    name: 'Soldier',
+    faction: 38,
+    image: 'raid_shadow/u188.png',
+    size: 1.08
+  },
+  {
+    id: 189,
+    name: 'Soldier',
+    faction: 38,
+    image: 'raid_shadow/u189.png',
+    size: 1.1
+  },
+  {
+    id: 190,
+    name: 'Soldier',
+    faction: 99,
+    image: 'raid_shadow/u190.png',
+    size: 0.99
+  },
+  {
+    id: 191,
+    name: 'Soldier',
+    faction: 3,
+    image: 'raid_shadow/u191.png',
+    size: 0.99
+  },
+  {
+    id: 192,
+    name: 'Soldier',
+    faction: 3,
+    image: 'raid_shadow/u192.png',
+    size: 0.99
+  },
+  {
+    id: 193,
+    name: 'Soldier',
+    faction: 3,
+    image: 'raid_shadow/u193.png',
+    size: 1.12
+  },
+  {
+    id: 194,
+    name: 'Soldier',
+    faction: 3,
+    image: 'raid_shadow/u194.png',
+    size: 1.12
+  },
+  {
+    id: 195,
+    name: 'Soldier',
+    faction: 111,
+    image: 'raid_shadow/u195.png',
+    size: 1.09
+  },
+  {
+    id: 196,
+    name: 'Soldier',
+    faction: 37,
+    image: 'raid_shadow/u196.png',
+    size: 1
+  },
+  {
+    id: 197,
+    name: 'Soldier',
+    faction: 151,
+    image: 'raid_shadow/u197.png',
+    size: 1
+  },
+  {
+    id: 198,
+    name: 'Soldier',
+    faction: 151,
+    image: 'raid_shadow/u198.png',
+    size: 0.98
+  },
+  {
+    id: 199,
+    name: 'Soldier',
+    faction: 151,
+    image: 'raid_shadow/u199.png',
+    size: 0.91
+  },
+  {
+    id: 200,
+    name: 'Soldier',
+    faction: 151,
+    image: 'raid_shadow/u200.png',
+    size: 0.91
+  },
 ];
 
 export default Units;

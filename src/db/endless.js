@@ -560,6 +560,34 @@ const Units = [
     size: 0.99
   },
   {
+    id: 81,
+    name: 'Soldier',
+    faction: 17,
+    image: 'endless/u81.png',
+    size: 1.18
+  },
+  {
+    id: 82,
+    name: 'Soldier',
+    faction: 118,
+    image: 'endless/u82.png',
+    size: 1.6
+  },
+  {
+    id: 83,
+    name: 'Soldier',
+    faction: 14,
+    image: 'endless/u83.png',
+    size: 1.05
+  },
+  {
+    id: 84,
+    name: 'Soldier',
+    faction: 14,
+    image: 'endless/u84.png',
+    size: 1.05
+  },
+  {
     id: 121,
     name: 'Titan Of Mezari',
     faction: 16,
@@ -1137,6 +1165,48 @@ const Units = [
     faction: 23,
     image: 'endless/u200.png',
     size: 0.98
+  },
+  {
+    id: 201,
+    name: 'Soldier',
+    faction: 100,
+    image: 'endless/u201.png',
+    size: 1.08
+  },
+  {
+    id: 202,
+    name: 'Soldier',
+    faction: 23,
+    image: 'endless/u202.png',
+    size: 1
+  },
+  {
+    id: 203,
+    name: 'Soldier',
+    faction: 30,
+    image: 'endless/u203.png',
+    size: 1.1
+  },
+  {
+    id: 204,
+    name: 'Soldier',
+    faction: 17,
+    image: 'endless/u204.png',
+    size: 1
+  },
+  {
+    id: 205,
+    name: 'Soldier',
+    faction: 17,
+    image: 'endless/u205.png',
+    size: 1.04
+  },
+  {
+    id: 206,
+    name: 'Soldier',
+    faction: 17,
+    image: 'endless/u206.png',
+    size: 1.01
   }
 ];
 

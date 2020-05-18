@@ -476,7 +476,8 @@ const Units = [
     name: 'Soldier',
     faction: 141,
     image: 'vikings/u60.png',
-    size: 1.1
+    size: 1.1,
+    level: 4
   },
   {
     id: 61,
@@ -531,28 +532,32 @@ const Units = [
     name: 'Soldier',
     faction: 141,
     image: 'vikings/u67.png',
-    size: 1.1
+    size: 1.1,
+    level: 7
   },
   {
     id: 68,
     name: 'Soldier',
     faction: 141,
     image: 'vikings/u68.png',
-    size: 1
+    size: 1,
+    level: 5
   },
   {
     id: 69,
     name: 'Soldier',
     faction: 141,
     image: 'vikings/u69.png',
-    size: 1.13
+    size: 1.13,
+    level: 8
   },
   {
     id: 70,
     name: 'Soldier',
     faction: 141,
     image: 'vikings/u70.png',
-    size: 1.19
+    size: 1.19,
+    level: 9
   },
   {
     id: 71,
@@ -591,7 +596,8 @@ const Units = [
     name: 'Soldier',
     faction: 141,
     image: 'vikings/u75.png',
-    size: 1.09
+    size: 1.09,
+    level: 10
   },
   {
     id: 76,
@@ -606,14 +612,16 @@ const Units = [
     name: 'Soldier',
     faction: 141,
     image: 'vikings/u77.png',
-    size: 1.07
+    size: 1.07,
+    level: 1
   },
   {
     id: 78,
     name: 'Soldier',
     faction: 141,
     image: 'vikings/u78.png',
-    size: 1
+    size: 1,
+    level: 6
   },
   {
     id: 79,
@@ -628,14 +636,16 @@ const Units = [
     name: 'Soldier',
     faction: 141,
     image: 'vikings/u80.png',
-    size: 1.01
+    size: 1.01,
+    level: 3
   },
   {
     id: 81,
     name: 'Soldier',
     faction: 141,
     image: 'vikings/u81.png',
-    size: 1.01
+    size: 1.01,
+    level: 2
   },
   {
     id: 82,
@@ -840,6 +850,146 @@ const Units = [
     faction: 180,
     image: 'vikings/u110.png',
     size: 0.96
+  },
+  {
+    id: 111,
+    name: 'Soldier',
+    faction: 192,
+    image: 'vikings/u111.png',
+    size: 0.98
+  },
+  {
+    id: 112,
+    name: 'Soldier',
+    faction: 192,
+    image: 'vikings/u112.png',
+    size: 1.1
+  },
+  {
+    id: 113,
+    name: 'Soldier',
+    faction: 193,
+    image: 'vikings/u113.png',
+    size: 0.85
+  },
+  {
+    id: 114,
+    name: 'Soldier',
+    faction: 193,
+    image: 'vikings/u114.png',
+    size: 1.25
+  },
+  {
+    id: 115,
+    name: 'Soldier',
+    faction: 192,
+    image: 'vikings/u115.png',
+    size: 1.1
+  },
+  {
+    id: 116,
+    name: 'Soldier',
+    faction: 180,
+    image: 'vikings/u116.png',
+    size: 0.97
+  },
+  {
+    id: 117,
+    name: 'Soldier',
+    faction: 178,
+    image: 'vikings/u117.png',
+    size: 1.41
+  },
+  {
+    id: 118,
+    name: 'Soldier',
+    faction: 179,
+    image: 'vikings/u118.png',
+    size: 1.14
+  },
+  {
+    id: 119,
+    name: 'Soldier',
+    faction: 179,
+    image: 'vikings/u119.png',
+    size: 1.14
+  },
+  {
+    id: 120,
+    name: 'Soldier',
+    faction: 179,
+    image: 'vikings/u120.png',
+    size: 1.14
+  },
+  {
+    id: 121,
+    name: 'Soldier',
+    faction: 212,
+    image: 'vikings/u121.png',
+    size: 1.09
+  },
+  {
+    id: 122,
+    name: 'Soldier',
+    faction: 212,
+    image: 'vikings/u122.png',
+    size: 1.09
+  },
+  {
+    id: 123,
+    name: 'Soldier',
+    faction: 180,
+    image: 'vikings/u123.png',
+    size: 1.41
+  },
+  {
+    id: 124,
+    name: 'Soldier',
+    faction: 193,
+    image: 'vikings/u124.png',
+    size: 0.85
+  },
+  {
+    id: 125,
+    name: 'Soldier',
+    faction: 184,
+    image: 'vikings/u125.png',
+    size: 0.9
+  },
+  {
+    id: 126,
+    name: 'Soldier',
+    faction: 193,
+    image: 'vikings/u126.png',
+    size: 0.85
+  },
+  {
+    id: 127,
+    name: 'Soldier',
+    faction: 180,
+    image: 'vikings/u127.png',
+    size: 1.14
+  },
+  {
+    id: 128,
+    name: 'Soldier',
+    faction: 184,
+    image: 'vikings/u128.png',
+    size: 1.01
+  },
+  {
+    id: 129,
+    name: 'Soldier',
+    faction: 184,
+    image: 'vikings/u129.png',
+    size: 1.01
+  },
+  {
+    id: 130,
+    name: 'Soldier',
+    faction: 179,
+    image: 'vikings/u130.png',
+    size: 0.98
   }
 ];
 
