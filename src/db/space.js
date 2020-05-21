@@ -67,7 +67,8 @@ const Units = [
     name: 'Soldier',
     faction: 146,
     image: 'space/u10.png',
-    size: 1.3
+    size: 1.3,
+    level: 13
   },
   {
     id: 11,
@@ -205,7 +206,8 @@ const Units = [
     name: 'Soldier',
     faction: 146,
     image: 'space/u28.png',
-    size: 1.26
+    size: 1.26,
+    level: 14
   },
   {
     id: 29,
@@ -254,7 +256,8 @@ const Units = [
     name: 'Soldier',
     faction: 146,
     image: 'space/u35.png',
-    size: 1.3
+    size: 1.3,
+    level: 12
   },
   {
     id: 36,
@@ -282,21 +285,24 @@ const Units = [
     name: 'Soldier',
     faction: 146,
     image: 'space/u39.png',
-    size: 0.7
+    size: 0.7,
+    level: 2
   },
   {
     id: 40,
     name: 'Soldier',
     faction: 146,
     image: 'space/u40.png',
-    size: 0.7
+    size: 0.7,
+    level: 4
   },
   {
     id: 41,
     name: 'Soldier',
     faction: 146,
     image: 'space/u41.png',
-    size: 1.3
+    size: 1.3,
+    level: 15
   },
   {
     id: 42,
@@ -584,21 +590,24 @@ const Units = [
     name: 'Soldier',
     faction: 146,
     image: 'space/u81.png',
-    size: 0.92
+    size: 0.92,
+    level: 5
   },
   {
     id: 82,
     name: 'Soldier',
     faction: 146,
     image: 'space/u82.png',
-    size: 0.9
+    size: 0.9,
+    level: 8
   },
   {
     id: 83,
     name: 'Soldier',
     faction: 146,
     image: 'space/u83.png',
-    size: 1.01
+    size: 1.01,
+    level: 6
   },
   {
     id: 84,
@@ -768,21 +777,24 @@ const Units = [
     name: 'Soldier',
     faction: 146,
     image: 'space/u107.png',
-    size: 0.9
+    size: 0.9,
+    level: 3
   },
   {
     id: 108,
     name: 'Soldier',
     faction: 146,
     image: 'space/u108.png',
-    size: 0.9
+    size: 0.9,
+    level: 1
   },
   {
     id: 109,
     name: 'Soldier',
     faction: 146,
     image: 'space/u109.png',
-    size: 1
+    size: 1,
+    level: 7
   },
   {
     id: 110,
@@ -999,14 +1011,16 @@ const Units = [
     name: 'Soldier',
     faction: 146,
     image: 'space/u140.png',
-    size: 1.48
+    size: 1.48,
+    level: 9
   },
   {
     id: 141,
     name: 'Soldier',
     faction: 146,
     image: 'space/u141.png',
-    size: 1.48
+    size: 1.48,
+    level: 10
   },
   {
     id: 142,
@@ -1020,7 +1034,8 @@ const Units = [
     name: 'Soldier',
     faction: 146,
     image: 'space/u143.png',
-    size: 1.2
+    size: 1.2,
+    level: 11
   },
   {
     id: 144,
@@ -1077,6 +1092,76 @@ const Units = [
     faction: 213,
     image: 'space/u151.png',
     size: 1.02
+  },
+  {
+    id: 152,
+    name: 'Soldier',
+    faction: 213,
+    image: 'space/u152.png',
+    size: 1.01
+  },
+  {
+    id: 153,
+    name: 'Soldier',
+    faction: 213,
+    image: 'space/u153.png',
+    size: 1.02
+  },
+  {
+    id: 154,
+    name: 'Soldier',
+    faction: 213,
+    image: 'space/u154.png',
+    size: 1.04
+  },
+  {
+    id: 155,
+    name: 'Soldier',
+    faction: 213,
+    image: 'space/u155.png',
+    size: 1.08
+  },
+  {
+    id: 156,
+    name: 'Soldier',
+    faction: 213,
+    image: 'space/u156.png',
+    size: 1.05
+  },
+  {
+    id: 157,
+    name: 'Soldier',
+    faction: 213,
+    image: 'space/u157.png',
+    size: 1.2
+  },
+  {
+    id: 158,
+    name: 'Soldier',
+    faction: 213,
+    image: 'space/u158.png',
+    size: 1.06
+  },
+  {
+    id: 159,
+    name: 'Soldier',
+    faction: 217,
+    image: 'space/u159.png',
+    size: 2
+  },
+  {
+    id: 160,
+    name: 'Soldier',
+    faction: 217,
+    image: 'space/u160.png',
+    size: 1.04
+  },
+  {
+    id: 161,
+    name: 'Soldier',
+    faction: 217,
+    image: 'space/u161.png',
+    size: 1.04
   },
 ];
 

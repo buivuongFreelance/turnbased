@@ -323,7 +323,9 @@ const Factions = [
   {
     id: 51,
     name: 'Bretonnia Kingdom',
-    world: 'warhammer'
+    world: 'warhammer',
+    done: true,
+    race: 'celtic'
   },
   {
     id: 52,
@@ -549,7 +551,9 @@ const Factions = [
   {
     id: 87,
     name: 'Necropolis Crypt',
-    world: 'heroes'
+    world: 'heroes',
+    done: true,
+    race: 'lich'
   },
   {
     id: 88,
@@ -751,7 +755,9 @@ const Factions = [
   {
     id: 123,
     name: 'Eshraz Chaos',
-    world: 'fantasy'
+    world: 'fantasy',
+    done: true,
+    race: 'chaos'
   },
   {
     id: 124,
@@ -809,7 +815,9 @@ const Factions = [
   {
     id: 133,
     name: 'Mycenae Kingdom',
-    world: 'israel'
+    world: 'israel',
+    done: true,
+    race: 'greek'
   },
   {
     id: 134,
@@ -886,7 +894,9 @@ const Factions = [
   {
     id: 146,
     name: 'Culzoks Kingdom',
-    world: 'space'
+    world: 'space',
+    done: true,
+    race: 'demon'
   },
   {
     id: 147,
@@ -1255,6 +1265,28 @@ const Factions = [
     world: 'space',
     done: true,
     race: 'demon'
+  },
+  {
+    id: 215,
+    name: 'Rot Cave',
+    world: 'fantasy',
+    done: true,
+    race: 'chaos'
+  },
+  {
+    id: 216,
+    name: 'Abbasid Caliphate',
+    world: 'history'
+  },
+  {
+    id: 217,
+    name: 'Rhun Caliphate',
+    world: 'space'
+  },
+  {
+    id: 218,
+    name: 'Khamul Empire',
+    world: 'history'
   },
 ];
 

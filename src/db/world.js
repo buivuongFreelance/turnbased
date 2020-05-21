@@ -16,7 +16,8 @@ const World = [
   { id: 'tera', name: 'Tera Online', count: DB.tera.length },
   { id: 'vikings', name: 'Vikings', count: DB.vikings.length },
   { id: 'warhammer', name: 'Warhammer', count: DB.warhammer.length },
-  { id: 'zsmite', name: 'Zsmite', count: DB.zsmite.length }
+  { id: 'zsmite', name: 'Zsmite', count: DB.zsmite.length },
+  { id: 'history', name: 'History', count: DB.history.length }
 ];
 
 export default World;
