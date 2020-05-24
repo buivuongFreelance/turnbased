@@ -1049,6 +1049,76 @@ const Units = [
     image: 'bless/u150.png',
     size: 1.45
   },
+  {
+    id: 151,
+    name: 'Soldier',
+    faction: 105,
+    image: 'bless/u151.png',
+    size: 1.18
+  },
+  {
+    id: 152,
+    name: 'Soldier',
+    faction: 105,
+    image: 'bless/u152.png',
+    size: 1.2
+  },
+  {
+    id: 153,
+    name: 'Soldier',
+    faction: 105,
+    image: 'bless/u153.png',
+    size: 1.64
+  },
+  {
+    id: 154,
+    name: 'Soldier',
+    faction: 110,
+    image: 'bless/u154.png',
+    size: 1
+  },
+  {
+    id: 155,
+    name: 'Soldier',
+    faction: 110,
+    image: 'bless/u155.png',
+    size: 1
+  },
+  {
+    id: 156,
+    name: 'Soldier',
+    faction: 70,
+    image: 'bless/u156.png',
+    size: 1.4
+  },
+  {
+    id: 157,
+    name: 'Soldier',
+    faction: 69,
+    image: 'bless/u157.png',
+    size: 1.45
+  },
+  {
+    id: 158,
+    name: 'Soldier',
+    faction: 69,
+    image: 'bless/u158.png',
+    size: 1.45
+  },
+  {
+    id: 159,
+    name: 'Soldier',
+    faction: 69,
+    image: 'bless/u159.png',
+    size: 1.45
+  },
+  {
+    id: 160,
+    name: 'Soldier',
+    faction: 106,
+    image: 'bless/u160.png',
+    size: 1
+  },
 ];
 
 export default Units;

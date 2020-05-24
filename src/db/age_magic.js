@@ -882,14 +882,16 @@ const Units = [
     name: 'Soldier',
     faction: 147,
     image: 'age_magic/u113.png',
-    size: 1.11
+    size: 1.11,
+    level: 7
   },
   {
     id: 114,
     name: 'Soldier',
     faction: 147,
     image: 'age_magic/u114.png',
-    size: 1.04
+    size: 1.04,
+    level: 10
   },
   {
     id: 115,
@@ -1082,7 +1084,8 @@ const Units = [
     name: 'Soldier',
     faction: 147,
     image: 'age_magic/u140.png',
-    size: 1
+    size: 1,
+    level: 8
   },
   {
     id: 141,
@@ -1097,7 +1100,8 @@ const Units = [
     name: 'Soldier',
     faction: 147,
     image: 'age_magic/u142.png',
-    size: 1.02
+    size: 1.02,
+    level: 12
   },
   {
     id: 143,
@@ -1126,7 +1130,8 @@ const Units = [
     name: 'Soldier',
     faction: 147,
     image: 'age_magic/u146.png',
-    size: 1.02
+    size: 1.02,
+    level: 2
   },
   {
     id: 147,
@@ -1162,7 +1167,8 @@ const Units = [
     name: 'Soldier',
     faction: 147,
     image: 'age_magic/u151.png',
-    size: 1
+    size: 1,
+    level: 3
   },
   {
     id: 152,
@@ -1177,21 +1183,24 @@ const Units = [
     name: 'Soldier',
     faction: 147,
     image: 'age_magic/u153.png',
-    size: 1
+    size: 1,
+    level: 5
   },
   {
     id: 154,
     name: 'Soldier',
     faction: 147,
     image: 'age_magic/u154.png',
-    size: 1.02
+    size: 1.02,
+    level: 4
   },
   {
     id: 155,
     name: 'Soldier',
     faction: 147,
     image: 'age_magic/u155.png',
-    size: 1.01
+    size: 1.01,
+    level: 1
   },
   {
     id: 156,
@@ -1222,21 +1231,24 @@ const Units = [
     name: 'Soldier',
     faction: 147,
     image: 'age_magic/u159.png',
-    size: 1.02
+    size: 1.02,
+    level: 9
   },
   {
     id: 160,
     name: 'Soldier',
     faction: 147,
     image: 'age_magic/u160.png',
-    size: 1.02
+    size: 1.02,
+    level: 6
   },
   {
     id: 161,
     name: 'Soldier',
     faction: 147,
     image: 'age_magic/u161.png',
-    size: 1.04
+    size: 1.04,
+    level: 11
   },
   {
     id: 162,
@@ -1583,7 +1595,77 @@ const Units = [
     faction: 167,
     image: 'age_magic/u210.png',
     size: 1.36
-  }
+  },
+  {
+    id: 211,
+    name: 'Soldier',
+    faction: 168,
+    image: 'age_magic/u211.png',
+    size: 1.02
+  },
+  {
+    id: 212,
+    name: 'Soldier',
+    faction: 167,
+    image: 'age_magic/u212.png',
+    size: 1
+  },
+  {
+    id: 213,
+    name: 'Soldier',
+    faction: 167,
+    image: 'age_magic/u213.png',
+    size: 1.36
+  },
+  {
+    id: 214,
+    name: 'Soldier',
+    faction: 167,
+    image: 'age_magic/u214.png',
+    size: 1.05
+  },
+  {
+    id: 215,
+    name: 'Soldier',
+    faction: 167,
+    image: 'age_magic/u215.png',
+    size: 1.05
+  },
+  {
+    id: 216,
+    name: 'Soldier',
+    faction: 219,
+    image: 'age_magic/u216.png',
+    size: 1
+  },
+  {
+    id: 217,
+    name: 'Soldier',
+    faction: 219,
+    image: 'age_magic/u217.png',
+    size: 1
+  },
+  {
+    id: 218,
+    name: 'Soldier',
+    faction: 219,
+    image: 'age_magic/u218.png',
+    size: 1.01
+  },
+  {
+    id: 219,
+    name: 'Soldier',
+    faction: 219,
+    image: 'age_magic/u219.png',
+    size: 1
+  },
+  {
+    id: 220,
+    name: 'Soldier',
+    faction: 220,
+    image: 'age_magic/u220.png',
+    size: 1.36
+  },
 ];
 
 export default Units;

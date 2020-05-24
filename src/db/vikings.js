@@ -1061,6 +1061,76 @@ const Units = [
     image: 'vikings/u140.png',
     size: 0.96
   },
+  {
+    id: 141,
+    name: 'Soldier',
+    faction: 212,
+    image: 'vikings/u141.png',
+    size: 1
+  },
+  {
+    id: 142,
+    name: 'Soldier',
+    faction: 193,
+    image: 'vikings/u142.png',
+    size: 0.92
+  },
+  {
+    id: 143,
+    name: 'Soldier',
+    faction: 180,
+    image: 'vikings/u143.png',
+    size: 1.06
+  },
+  {
+    id: 144,
+    name: 'Soldier',
+    faction: 181,
+    image: 'vikings/u144.png',
+    size: 1.3
+  },
+  {
+    id: 145,
+    name: 'Soldier',
+    faction: 178,
+    image: 'vikings/u145.png',
+    size: 0.85
+  },
+  {
+    id: 146,
+    name: 'Soldier',
+    faction: 183,
+    image: 'vikings/u146.png',
+    size: 1.03
+  },
+  {
+    id: 147,
+    name: 'Soldier',
+    faction: 184,
+    image: 'vikings/u147.png',
+    size: 0.9
+  },
+  {
+    id: 148,
+    name: 'Soldier',
+    faction: 180,
+    image: 'vikings/u148.png',
+    size: 1.02
+  },
+  {
+    id: 149,
+    name: 'Soldier',
+    faction: 180,
+    image: 'vikings/u149.png',
+    size: 1.02
+  },
+  {
+    id: 150,
+    name: 'Soldier',
+    faction: 193,
+    image: 'vikings/u150.png',
+    size: 0.85
+  },
 ];
 
 export default Units;

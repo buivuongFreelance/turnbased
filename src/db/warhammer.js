@@ -1185,6 +1185,27 @@ const Units = [
     faction: 164,
     image: 'warhammer/u161.png',
     size: 1.34
+  },
+  {
+    id: 162,
+    name: 'Soldier',
+    faction: 126,
+    image: 'warhammer/u162.png',
+    size: 1.02
+  },
+  {
+    id: 163,
+    name: 'Soldier',
+    faction: 126,
+    image: 'warhammer/u163.png',
+    size: 1.2
+  },
+  {
+    id: 164,
+    name: 'Soldier',
+    faction: 125,
+    image: 'warhammer/u164.png',
+    size: 1.05
   }
 ];
 

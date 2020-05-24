@@ -45,6 +45,21 @@ const Factions = [
     world: '_weapon'
   },
   {
+    id: 3008,
+    name: '0_Shield',
+    world: '_weapon'
+  },
+  {
+    id: 3009,
+    name: '0_Spear',
+    world: '_weapon'
+  },
+  {
+    id: 3010,
+    name: '0_Staff',
+    world: '_weapon'
+  },
+  {
     id: 1,
     name: 'Dura Empire',
     world: 'raid_shadow'
@@ -901,7 +916,9 @@ const Factions = [
   {
     id: 147,
     name: 'Elizabeth Kingdom',
-    world: 'age_magic'
+    world: 'age_magic',
+    done: true,
+    race: 'britain'
   },
   {
     id: 148,
@@ -1287,6 +1304,28 @@ const Factions = [
     id: 218,
     name: 'Khamul Empire',
     world: 'history'
+  },
+  {
+    id: 219,
+    name: 'Alucard Guild',
+    world: 'age_magic'
+  },
+  {
+    id: 220,
+    name: 'Meghan Realm',
+    world: 'age_magic'
+  },
+  {
+    id: 221,
+    name: 'Fafnir Realm',
+    world: 'zsmite'
+  },
+  {
+    id: 222,
+    name: 'Miguel Country',
+    world: 'king_bounty',
+    done: true,
+    race: 'espana'
   },
 ];
 

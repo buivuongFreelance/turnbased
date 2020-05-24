@@ -138,6 +138,146 @@ const Weapons = [
     faction: 3007,
     image: '_weapons/u20.png',
     size: 1
+  },
+  {
+    id: 21,
+    name: 'Soldier',
+    faction: 3007,
+    image: '_weapons/u21.png',
+    size: 1
+  },
+  {
+    id: 22,
+    name: 'Soldier',
+    faction: 3007,
+    image: '_weapons/u22.png',
+    size: 1
+  },
+  {
+    id: 23,
+    name: 'Soldier',
+    faction: 3006,
+    image: '_weapons/u23.png',
+    size: 0.7
+  },
+  {
+    id: 24,
+    name: 'Soldier',
+    faction: 3006,
+    image: '_weapons/u24.png',
+    size: 0.7
+  },
+  {
+    id: 25,
+    name: 'Soldier',
+    faction: 3006,
+    image: '_weapons/u25.png',
+    size: 0.7
+  },
+  {
+    id: 26,
+    name: 'Soldier',
+    faction: 3006,
+    image: '_weapons/u26.png',
+    size: 0.7
+  },
+  {
+    id: 27,
+    name: 'Soldier',
+    faction: 3006,
+    image: '_weapons/u27.png',
+    size: 0.7
+  },
+  {
+    id: 28,
+    name: 'Soldier',
+    faction: 3006,
+    image: '_weapons/u28.png',
+    size: 0.7
+  },
+  {
+    id: 29,
+    name: 'Soldier',
+    faction: 3006,
+    image: '_weapons/u29.png',
+    size: 0.7
+  },
+  {
+    id: 30,
+    name: 'Soldier',
+    faction: 3002,
+    image: '_weapons/u30.png',
+    size: 1
+  },
+  {
+    id: 31,
+    name: 'Soldier',
+    faction: 3008,
+    image: '_weapons/u31.png',
+    size: 1.4
+  },
+  {
+    id: 32,
+    name: 'Soldier',
+    faction: 3008,
+    image: '_weapons/u32.png',
+    size: 1
+  },
+  {
+    id: 33,
+    name: 'Soldier',
+    faction: 3008,
+    image: '_weapons/u33.png',
+    size: 1
+  },
+  {
+    id: 34,
+    name: 'Soldier',
+    faction: 3008,
+    image: '_weapons/u34.png',
+    size: 1
+  },
+  {
+    id: 35,
+    name: 'Soldier',
+    faction: 3003,
+    image: '_weapons/u35.png',
+    size: 0.7
+  },
+  {
+    id: 36,
+    name: 'Soldier',
+    faction: 3009,
+    image: '_weapons/u36.png',
+    size: 1.3
+  },
+  {
+    id: 37,
+    name: 'Soldier',
+    faction: 3009,
+    image: '_weapons/u37.png',
+    size: 1.3
+  },
+  {
+    id: 38,
+    name: 'Soldier',
+    faction: 3010,
+    image: '_weapons/u38.png',
+    size: 1.15
+  },
+  {
+    id: 39,
+    name: 'Soldier',
+    faction: 3010,
+    image: '_weapons/u39.png',
+    size: 1.15
+  },
+  {
+    id: 40,
+    name: 'Soldier',
+    faction: 3010,
+    image: '_weapons/u40.png',
+    size: 1.15
   }
 ];
 

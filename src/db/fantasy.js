@@ -838,7 +838,7 @@ const Units = [
   {
     id: 110,
     name: 'Soldier',
-    faction: 195,
+    faction: 122,
     image: 'fantasy/u110.png',
     size: 1.1
   },
@@ -1162,6 +1162,174 @@ const Units = [
     name: 'Soldier',
     faction: 198,
     image: 'fantasy/u156.png',
+    size: 1
+  },
+  {
+    id: 157,
+    name: 'Soldier',
+    faction: 154,
+    image: 'fantasy/u157.png',
+    size: 1.18
+  },
+  {
+    id: 158,
+    name: 'Soldier',
+    faction: 155,
+    image: 'fantasy/u158.png',
+    size: 1.18
+  },
+  {
+    id: 159,
+    name: 'Soldier',
+    faction: 154,
+    image: 'fantasy/u159.png',
+    size: 1.1
+  },
+  {
+    id: 160,
+    name: 'Soldier',
+    faction: 155,
+    image: 'fantasy/u160.png',
+    size: 1.1
+  },
+  {
+    id: 161,
+    name: 'Soldier',
+    faction: 198,
+    image: 'fantasy/u161.png',
+    size: 1.06
+  },
+  {
+    id: 162,
+    name: 'Soldier',
+    faction: 198,
+    image: 'fantasy/u162.png',
+    size: 1.04
+  },
+  {
+    id: 163,
+    name: 'Soldier',
+    faction: 198,
+    image: 'fantasy/u163.png',
+    size: 1.02
+  },
+  {
+    id: 164,
+    name: 'Soldier',
+    faction: 198,
+    image: 'fantasy/u164.png',
+    size: 1.05
+  },
+  {
+    id: 165,
+    name: 'Soldier',
+    faction: 198,
+    image: 'fantasy/u165.png',
+    size: 1.06
+  },
+  {
+    id: 166,
+    name: 'Soldier',
+    faction: 198,
+    image: 'fantasy/u166.png',
+    size: 1.07
+  },
+  {
+    id: 167,
+    name: 'Soldier',
+    faction: 198,
+    image: 'fantasy/u167.png',
+    size: 1.02
+  },
+  {
+    id: 168,
+    name: 'Soldier',
+    faction: 196,
+    image: 'fantasy/u168.png',
+    size: 1.54
+  },
+  {
+    id: 169,
+    name: 'Soldier',
+    faction: 195,
+    image: 'fantasy/u169.png',
+    size: 1.05
+  },
+  {
+    id: 170,
+    name: 'Soldier',
+    faction: 201,
+    image: 'fantasy/u170.png',
+    size: 1.07
+  },
+  {
+    id: 171,
+    name: 'Soldier',
+    faction: 197,
+    image: 'fantasy/u171.png',
+    size: 1.4
+  },
+  {
+    id: 172,
+    name: 'Soldier',
+    faction: 197,
+    image: 'fantasy/u172.png',
+    size: 1.04
+  },
+  {
+    id: 173,
+    name: 'Soldier',
+    faction: 197,
+    image: 'fantasy/u173.png',
+    size: 1.01
+  },
+  {
+    id: 174,
+    name: 'Soldier',
+    faction: 195,
+    image: 'fantasy/u174.png',
+    size: 1
+  },
+  {
+    id: 175,
+    name: 'Soldier',
+    faction: 195,
+    image: 'fantasy/u175.png',
+    size: 1
+  },
+  {
+    id: 176,
+    name: 'Soldier',
+    faction: 195,
+    image: 'fantasy/u176.png',
+    size: 0.98
+  },
+  {
+    id: 177,
+    name: 'Soldier',
+    faction: 197,
+    image: 'fantasy/u177.png',
+    size: 1.17
+  },
+  {
+    id: 178,
+    name: 'Soldier',
+    faction: 197,
+    image: 'fantasy/u178.png',
+    size: 1
+  },
+  {
+    id: 179,
+    name: 'Soldier',
+    faction: 197,
+    image: 'fantasy/u179.png',
+    size: 1.04
+  },
+  {
+    id: 180,
+    name: 'Soldier',
+    faction: 195,
+    image: 'fantasy/u180.png',
     size: 1
   },
 ];
