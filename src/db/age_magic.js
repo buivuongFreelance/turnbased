@@ -1636,35 +1636,35 @@ const Units = [
     name: 'Soldier',
     faction: 219,
     image: 'age_magic/u216.png',
-    size: 1
+    size: 1.06
   },
   {
     id: 217,
     name: 'Soldier',
     faction: 219,
     image: 'age_magic/u217.png',
-    size: 1
+    size: 1.06
   },
   {
     id: 218,
     name: 'Soldier',
     faction: 219,
     image: 'age_magic/u218.png',
-    size: 1.01
+    size: 1
   },
   {
     id: 219,
     name: 'Soldier',
     faction: 219,
     image: 'age_magic/u219.png',
-    size: 1
+    size: 1.02
   },
   {
     id: 220,
     name: 'Soldier',
-    faction: 220,
+    faction: 219,
     image: 'age_magic/u220.png',
-    size: 1.36
+    size: 1.02
   },
 ];
 

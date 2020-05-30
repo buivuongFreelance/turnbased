@@ -562,6 +562,76 @@ const Units = [
     size: 1.11
   },
   {
+    id: 81,
+    name: 'Sol',
+    faction: 6,
+    image: 'asian/u81.png',
+    size: 1.06
+  },
+  {
+    id: 82,
+    name: 'Sol',
+    faction: 4,
+    image: 'asian/u82.png',
+    size: 1.07
+  },
+  {
+    id: 83,
+    name: 'Sol',
+    faction: 4,
+    image: 'asian/u83.png',
+    size: 1.05
+  },
+  {
+    id: 84,
+    name: 'Sol',
+    faction: 7,
+    image: 'asian/u84.png',
+    size: 1
+  },
+  {
+    id: 85,
+    name: 'Sol',
+    faction: 4,
+    image: 'asian/u85.png',
+    size: 1.05
+  },
+  {
+    id: 86,
+    name: 'Sol',
+    faction: 25,
+    image: 'asian/u86.png',
+    size: 1.08
+  },
+  {
+    id: 87,
+    name: 'Sol',
+    faction: 7,
+    image: 'asian/u87.png',
+    size: 1.11
+  },
+  {
+    id: 88,
+    name: 'Sol',
+    faction: 4,
+    image: 'asian/u88.png',
+    size: 1.16
+  },
+  {
+    id: 89,
+    name: 'Sol',
+    faction: 4,
+    image: 'asian/u89.png',
+    size: 1.08
+  },
+  {
+    id: 90,
+    name: 'Sol',
+    faction: 8,
+    image: 'asian/u90.png',
+    size: 1.07
+  },
+  {
     id: 111,
     name: 'Big Soldier',
     faction: 5,
@@ -1142,6 +1212,76 @@ const Units = [
     name: 'Sol',
     faction: 129,
     image: 'asian/u190.png',
+    size: 1.02
+  },
+  {
+    id: 191,
+    name: 'Sol',
+    faction: 129,
+    image: 'asian/u191.png',
+    size: 0.98
+  },
+  {
+    id: 192,
+    name: 'Sol',
+    faction: 129,
+    image: 'asian/u192.png',
+    size: 0.98
+  },
+  {
+    id: 193,
+    name: 'Sol',
+    faction: 129,
+    image: 'asian/u193.png',
+    size: 0.98
+  },
+  {
+    id: 194,
+    name: 'Sol',
+    faction: 129,
+    image: 'asian/u194.png',
+    size: 1.02
+  },
+  {
+    id: 195,
+    name: 'Sol',
+    faction: 129,
+    image: 'asian/u195.png',
+    size: 1.02
+  },
+  {
+    id: 196,
+    name: 'Sol',
+    faction: 129,
+    image: 'asian/u196.png',
+    size: 1
+  },
+  {
+    id: 197,
+    name: 'Sol',
+    faction: 139,
+    image: 'asian/u197.png',
+    size: 1.01
+  },
+  {
+    id: 198,
+    name: 'Sol',
+    faction: 139,
+    image: 'asian/u198.png',
+    size: 1.01
+  },
+  {
+    id: 199,
+    name: 'Sol',
+    faction: 129,
+    image: 'asian/u199.png',
+    size: 1.02
+  },
+  {
+    id: 200,
+    name: 'Sol',
+    faction: 129,
+    image: 'asian/u200.png',
     size: 1.02
   }
 ];

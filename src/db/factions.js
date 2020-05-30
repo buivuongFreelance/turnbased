@@ -734,7 +734,9 @@ const Factions = [
   {
     id: 117,
     name: 'Dark Olympic',
-    world: 'endless'
+    world: 'endless',
+    done: true,
+    race: 'nephalim'
   },
   {
     id: 118,
@@ -1070,7 +1072,9 @@ const Factions = [
   {
     id: 175,
     name: 'Root Planet',
-    world: 'lyn'
+    world: 'lyn',
+    done: true,
+    race: 'forest_elf'
   },
   {
     id: 176,
@@ -1307,13 +1311,13 @@ const Factions = [
   },
   {
     id: 219,
-    name: 'Alucard Guild',
+    name: 'Khalib Caliphate',
     world: 'age_magic'
   },
   {
     id: 220,
-    name: 'Meghan Realm',
-    world: 'age_magic'
+    name: 'Cedrem Darkness',
+    world: 'endless'
   },
   {
     id: 221,
@@ -1326,6 +1330,57 @@ const Factions = [
     world: 'king_bounty',
     done: true,
     race: 'espana'
+  },
+  {
+    id: 223,
+    name: 'Sparta State',
+    world: 'history',
+    done: true,
+    race: 'greek'
+  },
+  {
+    id: 224,
+    name: 'Swamp Lands',
+    world: 'lyn'
+  },
+  {
+    id: 225,
+    name: 'Deepwood Lands',
+    world: 'lyn',
+    done: true,
+    race: 'forest_elf'
+  },
+  {
+    id: 226,
+    name: 'Khorne Chaos',
+    world: 'warhammer'
+  },
+  {
+    id: 227,
+    name: 'Albion Lands',
+    world: 'warhammer'
+  },
+  {
+    id: 228,
+    name: 'Harkon Islands',
+    world: 'warhammer',
+    done: true,
+    race: 'lich'
+  },
+  {
+    id: 228,
+    name: 'Nakai Empire',
+    world: 'raid_shadow'
+  },
+  {
+    id: 229,
+    name: 'Ryu Clan',
+    world: 'zsmite'
+  },
+  {
+    id: 230,
+    name: 'Podsal Kingdom',
+    world: 'bless'
   },
 ];
 

@@ -25,7 +25,7 @@ const Units = [
     name: 'Fire Minotaur',
     faction: 39,
     image: 'raid_shadow/u4.png',
-    size: 1.33
+    size: 1.23
   },
   {
     id: 5,
@@ -116,7 +116,7 @@ const Units = [
     name: 'Soldier',
     faction: 39,
     image: 'raid_shadow/u17.png',
-    size: 1.4
+    size: 1.3
   },
   {
     id: 18,
@@ -478,7 +478,7 @@ const Units = [
   {
     id: 69,
     name: 'Soldier',
-    faction: 39,
+    faction: 228,
     image: 'raid_shadow/u69.png',
     size: 1.35
   },
@@ -1398,6 +1398,76 @@ const Units = [
     faction: 151,
     image: 'raid_shadow/u200.png',
     size: 0.91
+  },
+  {
+    id: 201,
+    name: 'Fire Minotaur',
+    faction: 39,
+    image: 'raid_shadow/u201.png',
+    size: 1.23
+  },
+  {
+    id: 202,
+    name: 'Fire Minotaur',
+    faction: 39,
+    image: 'raid_shadow/u202.png',
+    size: 1.23
+  },
+  {
+    id: 203,
+    name: 'Fire Minotaur',
+    faction: 39,
+    image: 'raid_shadow/u203.png',
+    size: 1.23
+  },
+  {
+    id: 204,
+    name: 'Fire Minotaur',
+    faction: 228,
+    image: 'raid_shadow/u204.png',
+    size: 1.13
+  },
+  {
+    id: 205,
+    name: 'Fire Minotaur',
+    faction: 228,
+    image: 'raid_shadow/u205.png',
+    size: 1.13
+  },
+  {
+    id: 206,
+    name: 'Fire Minotaur',
+    faction: 151,
+    image: 'raid_shadow/u206.png',
+    size: 0.97
+  },
+  {
+    id: 207,
+    name: 'Fire Minotaur',
+    faction: 151,
+    image: 'raid_shadow/u207.png',
+    size: 0.97
+  },
+  {
+    id: 208,
+    name: 'Fire Minotaur',
+    faction: 151,
+    image: 'raid_shadow/u208.png',
+    size: 1.05
+  },
+  {
+    id: 209,
+    name: 'Fire Minotaur',
+    faction: 151,
+    image: 'raid_shadow/u209.png',
+    size: 1.45
+  },
+  {
+    id: 210,
+    name: 'Fire Minotaur',
+    faction: 151,
+    image: 'raid_shadow/u210.png',
+    size: 1.34
   },
 ];
 

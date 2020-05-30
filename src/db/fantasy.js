@@ -1332,6 +1332,90 @@ const Units = [
     image: 'fantasy/u180.png',
     size: 1
   },
+  {
+    id: 181,
+    name: 'Soldier',
+    faction: 195,
+    image: 'fantasy/u181.png',
+    size: 1.12
+  },
+  {
+    id: 182,
+    name: 'Soldier',
+    faction: 195,
+    image: 'fantasy/u182.png',
+    size: 1.02
+  },
+  {
+    id: 183,
+    name: 'Soldier',
+    faction: 195,
+    image: 'fantasy/u183.png',
+    size: 1.06
+  },
+  {
+    id: 184,
+    name: 'Soldier',
+    faction: 195,
+    image: 'fantasy/u184.png',
+    size: 1.1
+  },
+  {
+    id: 185,
+    name: 'Soldier',
+    faction: 195,
+    image: 'fantasy/u185.png',
+    size: 1.02
+  },
+  {
+    id: 186,
+    name: 'Soldier',
+    faction: 195,
+    image: 'fantasy/u186.png',
+    size: 1.1
+  },
+  {
+    id: 187,
+    name: 'Soldier',
+    faction: 195,
+    image: 'fantasy/u187.png',
+    size: 1
+  },
+  {
+    id: 188,
+    name: 'Soldier',
+    faction: 195,
+    image: 'fantasy/u188.png',
+    size: 1.2
+  },
+  {
+    id: 189,
+    name: 'Soldier',
+    faction: 205,
+    image: 'fantasy/u189.png',
+    size: 1.02
+  },
+  {
+    id: 190,
+    name: 'Soldier',
+    faction: 205,
+    image: 'fantasy/u190.png',
+    size: 0.95
+  },
+  {
+    id: 191,
+    name: 'Soldier',
+    faction: 154,
+    image: 'fantasy/u191.png',
+    size: 1.03
+  },
+  {
+    id: 192,
+    name: 'Soldier',
+    faction: 155,
+    image: 'fantasy/u192.png',
+    size: 1.14
+  },
 ];
 
 export default Units;

@@ -1326,6 +1326,76 @@ const Units = [
     faction: 159,
     image: 'king_bounty/u180.png',
     size: 1.04
+  },
+  {
+    id: 181,
+    name: 'Soldier',
+    faction: 159,
+    image: 'king_bounty/u181.png',
+    size: 1.05
+  },
+  {
+    id: 182,
+    name: 'Soldier',
+    faction: 158,
+    image: 'king_bounty/u182.png',
+    size: 1.02
+  },
+  {
+    id: 183,
+    name: 'Soldier',
+    faction: 160,
+    image: 'king_bounty/u183.png',
+    size: 1.01
+  },
+  {
+    id: 184,
+    name: 'Soldier',
+    faction: 160,
+    image: 'king_bounty/u184.png',
+    size: 1
+  },
+  {
+    id: 185,
+    name: 'Soldier',
+    faction: 160,
+    image: 'king_bounty/u185.png',
+    size: 1.01
+  },
+  {
+    id: 186,
+    name: 'Soldier',
+    faction: 157,
+    image: 'king_bounty/u186.png',
+    size: 1.07
+  },
+  {
+    id: 187,
+    name: 'Soldier',
+    faction: 174,
+    image: 'king_bounty/u187.png',
+    size: 1.1
+  },
+  {
+    id: 188,
+    name: 'Soldier',
+    faction: 165,
+    image: 'king_bounty/u188.png',
+    size: 1
+  },
+  {
+    id: 189,
+    name: 'Soldier',
+    faction: 165,
+    image: 'king_bounty/u189.png',
+    size: 1
+  },
+  {
+    id: 190,
+    name: 'Soldier',
+    faction: 165,
+    image: 'king_bounty/u190.png',
+    size: 0.98
   }
 ];
 

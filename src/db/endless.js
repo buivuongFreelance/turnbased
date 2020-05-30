@@ -284,7 +284,8 @@ const Units = [
     name: 'Soldier',
     faction: 117,
     image: 'endless/u41.png',
-    size: 1.08
+    size: 1.08,
+    level: 6
   },
   {
     id: 42,
@@ -665,6 +666,41 @@ const Units = [
     size: 1.02
   },
   {
+    id: 96,
+    name: 'Soldier',
+    faction: 204,
+    image: 'endless/u96.png',
+    size: 1.01
+  },
+  {
+    id: 97,
+    name: 'Soldier',
+    faction: 14,
+    image: 'endless/u97.png',
+    size: 1.4
+  },
+  {
+    id: 98,
+    name: 'Soldier',
+    faction: 14,
+    image: 'endless/u98.png',
+    size: 1
+  },
+  {
+    id: 99,
+    name: 'Soldier',
+    faction: 14,
+    image: 'endless/u99.png',
+    size: 1.08
+  },
+  {
+    id: 100,
+    name: 'Soldier',
+    faction: 14,
+    image: 'endless/u100.png',
+    size: 1.08
+  },
+  {
     id: 121,
     name: 'Titan Of Mezari',
     faction: 16,
@@ -884,14 +920,16 @@ const Units = [
     name: 'Soldier',
     faction: 117,
     image: 'endless/u149.png',
-    size: 1.13
+    size: 1.13,
+    level: 7
   },
   {
     id: 150,
     name: 'Soldier',
     faction: 117,
     image: 'endless/u150.png',
-    size: 1.15
+    size: 1.15,
+    level: 8
   },
   {
     id: 151,
@@ -933,7 +971,8 @@ const Units = [
     name: 'Soldier',
     faction: 117,
     image: 'endless/u156.png',
-    size: 1
+    size: 1,
+    level: 1
   },
   {
     id: 157,
@@ -1038,7 +1077,8 @@ const Units = [
     name: 'Soldier',
     faction: 117,
     image: 'endless/u171.png',
-    size: 1.11
+    size: 1.11,
+    level: 5
   },
   {
     id: 172,
@@ -1066,7 +1106,8 @@ const Units = [
     name: 'Soldier',
     faction: 117,
     image: 'endless/u175.png',
-    size: 1.08
+    size: 1.08,
+    level: 2
   },
   {
     id: 176,
@@ -1143,14 +1184,16 @@ const Units = [
     name: 'Soldier',
     faction: 117,
     image: 'endless/u186.png',
-    size: 1.1
+    size: 1.1,
+    level: 3
   },
   {
     id: 187,
     name: 'Soldier',
     faction: 117,
     image: 'endless/u187.png',
-    size: 1.12
+    size: 1.12,
+    level: 4
   },
   {
     id: 188,
@@ -1346,8 +1389,44 @@ const Units = [
     name: 'Soldier',
     faction: 117,
     image: 'endless/u215.png',
-    size: 1.14
-  }
+    size: 1.14,
+    level: 9
+  },
+  {
+    id: 216,
+    name: 'Soldier',
+    faction: 30,
+    image: 'endless/u216.png',
+    size: 1.07
+  },
+  {
+    id: 217,
+    name: 'Soldier',
+    faction: 22,
+    image: 'endless/u217.png',
+    size: 1.03
+  },
+  {
+    id: 218,
+    name: 'Soldier',
+    faction: 30,
+    image: 'endless/u218.png',
+    size: 1.1
+  },
+  {
+    id: 219,
+    name: 'Soldier',
+    faction: 220,
+    image: 'endless/u219.png',
+    size: 1
+  },
+  {
+    id: 220,
+    name: 'Soldier',
+    faction: 220,
+    image: 'endless/u220.png',
+    size: 0.93
+  },
 ];
 
 export default Units;

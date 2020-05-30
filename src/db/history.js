@@ -187,6 +187,99 @@ const Units = [
     faction: 218,
     image: 'history/u27.png',
     size: 1.01
+  },
+  {
+    id: 28,
+    name: 'Soldier',
+    faction: 223,
+    image: 'history/u28.png',
+    size: 1.01,
+    level: 5
+  },
+  {
+    id: 29,
+    name: 'Soldier',
+    faction: 223,
+    image: 'history/u29.png',
+    size: 1.01,
+    level: 3
+  },
+  {
+    id: 30,
+    name: 'Soldier',
+    faction: 223,
+    image: 'history/u30.png',
+    size: 1.17,
+    level: 4
+  },
+  {
+    id: 31,
+    name: 'Soldier',
+    faction: 223,
+    image: 'history/u31.png',
+    size: 1.09,
+    level: 1
+  },
+  {
+    id: 32,
+    name: 'Soldier',
+    faction: 223,
+    image: 'history/u32.png',
+    size: 1.12,
+    level: 2
+  },
+  {
+    id: 33,
+    name: 'Soldier',
+    faction: 223,
+    image: 'history/u33.png',
+    size: 1.19,
+    level: 6
+  },
+  {
+    id: 34,
+    name: 'Soldier',
+    faction: 223,
+    image: 'history/u34.png',
+    size: 1.19,
+    level: 7
+  },
+  {
+    id: 35,
+    name: 'Soldier',
+    faction: 223,
+    image: 'history/u35.png',
+    size: 1.22,
+    level: 8
+  },
+  {
+    id: 36,
+    name: 'Soldier',
+    faction: 223,
+    image: 'history/u36.png',
+    size: 1.11,
+    level: 9
+  },
+  {
+    id: 37,
+    name: 'Soldier',
+    faction: 216,
+    image: 'history/u37.png',
+    size: 1.08
+  },
+  {
+    id: 38,
+    name: 'Soldier',
+    faction: 216,
+    image: 'history/u38.png',
+    size: 1.04
+  },
+  {
+    id: 39,
+    name: 'Soldier',
+    faction: 216,
+    image: 'history/u39.png',
+    size: 1.03
   }
 ];
 
