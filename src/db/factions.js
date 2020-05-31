@@ -631,7 +631,9 @@ const Factions = [
   {
     id: 98,
     name: 'Bushido Dojo',
-    world: 'king_bounty'
+    world: 'king_bounty',
+    done: true,
+    race: 'nippon'
   },
   {
     id: 99,
@@ -1381,6 +1383,11 @@ const Factions = [
     id: 230,
     name: 'Podsal Kingdom',
     world: 'bless'
+  },
+  {
+    id: 231,
+    name: 'Dark Empire',
+    world: 'warhammer'
   },
 ];
 
