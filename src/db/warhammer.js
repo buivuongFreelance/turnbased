@@ -1326,6 +1326,76 @@ const Units = [
     faction: 231,
     image: 'warhammer/u180.png',
     size: 1.35
+  },
+  {
+    id: 181,
+    name: 'Soldier',
+    faction: 231,
+    image: 'warhammer/u181.png',
+    size: 1.33
+  },
+  {
+    id: 182,
+    name: 'Soldier',
+    faction: 231,
+    image: 'warhammer/u182.png',
+    size: 1.27
+  },
+  {
+    id: 183,
+    name: 'Soldier',
+    faction: 231,
+    image: 'warhammer/u183.png',
+    size: 1.25
+  },
+  {
+    id: 184,
+    name: 'Soldier',
+    faction: 231,
+    image: 'warhammer/u184.png',
+    size: 1.09
+  },
+  {
+    id: 185,
+    name: 'Soldier',
+    faction: 231,
+    image: 'warhammer/u185.png',
+    size: 1.16
+  },
+  {
+    id: 186,
+    name: 'Soldier',
+    faction: 227,
+    image: 'warhammer/u186.png',
+    size: 1.01
+  },
+  {
+    id: 187,
+    name: 'Soldier',
+    faction: 227,
+    image: 'warhammer/u187.png',
+    size: 1.4
+  },
+  { 
+    id: 188,
+    name: 'Soldier',
+    faction: 227,
+    image: 'warhammer/u188.png',
+    size: 0.99
+  },
+  { 
+    id: 189,
+    name: 'Soldier',
+    faction: 227,
+    image: 'warhammer/u189.png',
+    size: 1.11
+  },
+  { 
+    id: 190,
+    name: 'Soldier',
+    faction: 227,
+    image: 'warhammer/u190.png',
+    size: 1
   }
 ];
 

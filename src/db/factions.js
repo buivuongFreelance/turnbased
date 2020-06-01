@@ -422,8 +422,8 @@ const Factions = [
     id: 64,
     name: 'Vampire Coast',
     world: 'warhammer',
-    //done: true,
-    //race: 'vampire'
+    done: true,
+    race: 'vampire'
   },
   {
     id: 65,
