@@ -1147,21 +1147,99 @@ const Units = [
     name: 'Soldier',
     faction: 217,
     image: 'space/u159.png',
-    size: 2
+    size: 2,
+    level: 8
   },
   {
     id: 160,
     name: 'Soldier',
     faction: 217,
     image: 'space/u160.png',
-    size: 1.04
+    size: 1.04,
+    level: 5
   },
   {
     id: 161,
     name: 'Soldier',
     faction: 217,
     image: 'space/u161.png',
-    size: 1.04
+    size: 1.04,
+    level: 4
+  },
+  {
+    id: 162,
+    name: 'Soldier',
+    faction: 217,
+    image: 'space/u162.png',
+    size: 1.12,
+    level: 7
+  },
+  {
+    id: 163,
+    name: 'Soldier',
+    faction: 217,
+    image: 'space/u163.png',
+    size: 1.12,
+    level: 6
+  },
+  {
+    id: 164,
+    name: 'Soldier',
+    faction: 217,
+    image: 'space/u164.png',
+    size: 1,
+    level: 2
+  },
+  {
+    id: 165,
+    name: 'Soldier',
+    faction: 217,
+    image: 'space/u165.png',
+    size: 1.03,
+    level: 3
+  },
+  {
+    id: 166,
+    name: 'Soldier',
+    faction: 217,
+    image: 'space/u166.png',
+    size: 1.03,
+    level: 1
+  },
+  {
+    id: 167,
+    name: 'Soldier',
+    faction: 234,
+    image: 'space/u167.png',
+    size: 1.1
+  },
+  {
+    id: 168,
+    name: 'Soldier',
+    faction: 234,
+    image: 'space/u168.png',
+    size: 1.1
+  },
+  {
+    id: 169,
+    name: 'Soldier',
+    faction: 234,
+    image: 'space/u169.png',
+    size: 1.24
+  },
+  {
+    id: 170,
+    name: 'Soldier',
+    faction: 234,
+    image: 'space/u170.png',
+    size: 0.98
+  },
+  {
+    id: 171,
+    name: 'Soldier',
+    faction: 234,
+    image: 'space/u171.png',
+    size: 1.27
   },
 ];
 

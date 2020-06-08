@@ -1362,9 +1362,10 @@ const Units = [
   {
     id: 171,
     name: 'Soldier',
-    faction: 224,
+    faction: 233,
     image: 'lyn/u171.png',
-    size: 1.3
+    size: 1.3,
+    level: 8
   },
   {
     id: 172,
@@ -1383,9 +1384,10 @@ const Units = [
   {
     id: 174,
     name: 'Soldier',
-    faction: 224,
+    faction: 233,
     image: 'lyn/u174.png',
-    size: 1.05
+    size: 1.05,
+    level: 4
   },
   {
     id: 175,
@@ -1411,16 +1413,18 @@ const Units = [
   {
     id: 178,
     name: 'Soldier',
-    faction: 224,
+    faction: 233,
     image: 'lyn/u178.png',
-    size: 1.4
+    size: 1.4,
+    level: 10
   },
   {
     id: 179,
     name: 'Soldier',
-    faction: 224,
+    faction: 233,
     image: 'lyn/u179.png',
-    size: 1.3
+    size: 1.3,
+    level: 5
   },
   {
     id: 180,
@@ -1439,37 +1443,42 @@ const Units = [
   {
     id: 182,
     name: 'Soldier',
-    faction: 224,
+    faction: 233,
     image: 'lyn/u182.png',
-    size: 1.05
+    size: 1.05,
+    level: 7
   },
   {
     id: 183,
     name: 'Soldier',
-    faction: 224,
+    faction: 233,
     image: 'lyn/u183.png',
-    size: 1.03
+    size: 1.03,
+    level: 1
   },
   {
     id: 184,
     name: 'Soldier',
-    faction: 224,
+    faction: 233,
     image: 'lyn/u184.png',
-    size: 1.09
+    size: 1.09,
+    level: 3
   },
   {
     id: 185,
     name: 'Soldier',
-    faction: 224,
+    faction: 233,
     image: 'lyn/u185.png',
-    size: 0.95
+    size: 0.95,
+    level: 2
   },
   {
     id: 186,
     name: 'Soldier',
-    faction: 224,
+    faction: 233,
     image: 'lyn/u186.png',
-    size: 1.01
+    size: 1.01,
+    level: 6
   },
   {
     id: 187,
@@ -1498,6 +1507,77 @@ const Units = [
     faction: 224,
     image: 'lyn/u190.png',
     size: 1.2
+  },
+  {
+    id: 191,
+    name: 'Soldier',
+    faction: 233,
+    image: 'lyn/u191.png',
+    size: 1.33,
+    level: 9
+  },
+  {
+    id: 192,
+    name: 'Soldier',
+    faction: 232,
+    image: 'lyn/u192.png',
+    size: 1.1
+  },
+  {
+    id: 193,
+    name: 'Soldier',
+    faction: 232,
+    image: 'lyn/u193.png',
+    size: 1.1
+  },
+  {
+    id: 194,
+    name: 'Soldier',
+    faction: 232,
+    image: 'lyn/u194.png',
+    size: 1.34
+  },
+  {
+    id: 195,
+    name: 'Soldier',
+    faction: 232,
+    image: 'lyn/u195.png',
+    size: 1.13
+  },
+  {
+    id: 196,
+    name: 'Soldier',
+    faction: 232,
+    image: 'lyn/u196.png',
+    size: 1.1
+  },
+  {
+    id: 197,
+    name: 'Soldier',
+    faction: 232,
+    image: 'lyn/u197.png',
+    size: 1.21
+  },
+  {
+    id: 198,
+    name: 'Soldier',
+    faction: 232,
+    image: 'lyn/u198.png',
+    size: 1.05
+  },
+  {
+    id: 199,
+    name: 'Soldier',
+    faction: 232,
+    image: 'lyn/u199.png',
+    size: 0.78
+  },
+  {
+    id: 200,
+    name: 'Soldier',
+    faction: 232,
+    image: 'lyn/u200.png',
+    size: 1.17
   },
 ];
 

@@ -1304,7 +1304,9 @@ const Factions = [
   {
     id: 217,
     name: 'Rhun Caliphate',
-    world: 'space'
+    world: 'space',
+    done: true,
+    race: 'persia'
   },
   {
     id: 218,
@@ -1388,6 +1390,23 @@ const Factions = [
     id: 231,
     name: 'Dark Empire',
     world: 'warhammer'
+  },
+  {
+    id: 232,
+    name: 'Wasteland Faction',
+    world: 'lyn'
+  },
+  {
+    id: 233,
+    name: 'Plague Hell',
+    world: 'lyn',
+    done: true,
+    race: 'chaos'
+  },
+  {
+    id: 234,
+    name: 'Uabruc House',
+    world: 'space'
   },
 ];
 
