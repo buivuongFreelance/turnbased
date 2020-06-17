@@ -1416,6 +1416,34 @@ const Units = [
     image: 'fantasy/u192.png',
     size: 1.14
   },
+  {
+    id: 193,
+    name: 'Soldier',
+    faction: 154,
+    image: 'fantasy/u193.png',
+    size: 1.01
+  },
+  {
+    id: 194,
+    name: 'Soldier',
+    faction: 155,
+    image: 'fantasy/u194.png',
+    size: 1.01
+  },
+  {
+    id: 195,
+    name: 'Soldier',
+    faction: 154,
+    image: 'fantasy/u195.png',
+    size: 1
+  },
+  {
+    id: 196,
+    name: 'Soldier',
+    faction: 155,
+    image: 'fantasy/u196.png',
+    size: 1
+  },
 ];
 
 export default Units;

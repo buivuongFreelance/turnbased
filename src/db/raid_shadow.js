@@ -1539,6 +1539,76 @@ const Units = [
     image: 'raid_shadow/u220.png',
     size: 1
   },
+  {
+    id: 221,
+    name: 'Fire Minotaur',
+    faction: 39,
+    image: 'raid_shadow/u221.png',
+    size: 1.18
+  },
+  {
+    id: 222,
+    name: 'Fire Minotaur',
+    faction: 39,
+    image: 'raid_shadow/u222.png',
+    size: 1.18
+  },
+  {
+    id: 223,
+    name: 'Fire Minotaur',
+    faction: 1,
+    image: 'raid_shadow/u223.png',
+    size: 1.2
+  },
+  {
+    id: 224,
+    name: 'Fire Minotaur',
+    faction: 1,
+    image: 'raid_shadow/u224.png',
+    size: 1.2
+  },
+  {
+    id: 225,
+    name: 'Soldier',
+    faction: 39,
+    image: 'raid_shadow/u225.png',
+    size: 1.3
+  },
+  {
+    id: 226,
+    name: 'Soldier',
+    faction: 3,
+    image: 'raid_shadow/u226.png',
+    size: 1.04
+  },
+  {
+    id: 227,
+    name: 'Soldier',
+    faction: 113,
+    image: 'raid_shadow/u227.png',
+    size: 1.03
+  },
+  {
+    id: 228,
+    name: 'Soldier',
+    faction: 99,
+    image: 'raid_shadow/u228.png',
+    size: 1.02
+  },
+  {
+    id: 229,
+    name: 'Soldier',
+    faction: 36,
+    image: 'raid_shadow/u229.png',
+    size: 0.98
+  },
+  {
+    id: 230,
+    name: 'Soldier',
+    faction: 35,
+    image: 'raid_shadow/u230.png',
+    size: 0.98
+  },
 ];
 
 export default Units;
