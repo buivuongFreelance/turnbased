@@ -1262,21 +1262,24 @@ const Units = [
     name: 'Soldier',
     faction: 227,
     image: 'warhammer/u171.png',
-    size: 1.01
+    size: 1.01,
+    level: 5
   },
   {
     id: 172,
     name: 'Soldier',
     faction: 227,
     image: 'warhammer/u172.png',
-    size: 1
+    size: 1,
+    level: 3
   },
   {
     id: 173,
     name: 'Soldier',
     faction: 227,
     image: 'warhammer/u173.png',
-    size: 1
+    size: 1,
+    level: 1
   },
   {
     id: 174,
@@ -1367,35 +1370,110 @@ const Units = [
     name: 'Soldier',
     faction: 227,
     image: 'warhammer/u186.png',
-    size: 1.01
+    size: 1.01,
+    level: 4
   },
   {
     id: 187,
     name: 'Soldier',
     faction: 227,
     image: 'warhammer/u187.png',
-    size: 1.4
+    size: 1.4,
+    level: 8
   },
   { 
     id: 188,
     name: 'Soldier',
     faction: 227,
     image: 'warhammer/u188.png',
-    size: 0.99
+    size: 0.99,
+    level: 6
   },
   { 
     id: 189,
     name: 'Soldier',
     faction: 227,
     image: 'warhammer/u189.png',
-    size: 1.11
+    size: 1.11,
+    level: 7
   },
   { 
     id: 190,
     name: 'Soldier',
     faction: 227,
     image: 'warhammer/u190.png',
-    size: 1
+    size: 1,
+    level: 2
+  },
+  { 
+    id: 191,
+    name: 'Soldier',
+    faction: 231,
+    image: 'warhammer/u191.png',
+    size: 1.1
+  },
+  { 
+    id: 192,
+    name: 'Soldier',
+    faction: 231,
+    image: 'warhammer/u192.png',
+    size: 1.1
+  },
+  { 
+    id: 193,
+    name: 'Soldier',
+    faction: 231,
+    image: 'warhammer/u193.png',
+    size: 1.18
+  },
+  { 
+    id: 194,
+    name: 'Soldier',
+    faction: 231,
+    image: 'warhammer/u194.png',
+    size: 1.18
+  },
+  { 
+    id: 195,
+    name: 'Soldier',
+    faction: 231,
+    image: 'warhammer/u195.png',
+    size: 1.18
+  },
+  { 
+    id: 196,
+    name: 'Soldier',
+    faction: 231,
+    image: 'warhammer/u196.png',
+    size: 1.18
+  },
+  { 
+    id: 197,
+    name: 'Soldier',
+    faction: 226,
+    image: 'warhammer/u197.png',
+    size: 1.17
+  },
+  { 
+    id: 198,
+    name: 'Soldier',
+    faction: 226,
+    image: 'warhammer/u198.png',
+    size: 1.18
+  },
+  { 
+    id: 199,
+    name: 'Soldier',
+    faction: 226,
+    image: 'warhammer/u199.png',
+    size: 1.24
+  },
+  { 
+    id: 200,
+    name: 'Soldier',
+    faction: 226,
+    image: 'warhammer/u200.png',
+    size: 1.25
   }
 ];
 

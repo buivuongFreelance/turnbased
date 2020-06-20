@@ -573,7 +573,9 @@ const Factions = [
   {
     id: 88,
     name: 'Kyo Arena',
-    world: 'king_bounty'
+    world: 'king_bounty',
+    done: true,
+    race: 'nippon'
   },
   {
     id: 89,
@@ -1362,7 +1364,9 @@ const Factions = [
   {
     id: 227,
     name: 'Albion Lands',
-    world: 'warhammer'
+    world: 'warhammer',
+    done: true,
+    race: 'britain'
   },
   {
     id: 228,

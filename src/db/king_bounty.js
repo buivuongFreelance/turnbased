@@ -159,14 +159,16 @@ const Units = [
     name: 'Soldier',
     faction: 88,
     image: 'king_bounty/u21.png',
-    size: 1.16
+    size: 1.16,
+    level: 9
   },
   {
     id: 22,
     name: 'Soldier',
     faction: 88,
     image: 'king_bounty/u22.png',
-    size: 1.16
+    size: 1.16,
+    level: 8
   },
   {
     id: 23,
@@ -309,7 +311,8 @@ const Units = [
     name: 'Soldier',
     faction: 88,
     image: 'king_bounty/u41.png',
-    size: 0.98
+    size: 0.98,
+    level: 7
   },
   {
     id: 42,
@@ -345,7 +348,8 @@ const Units = [
     name: 'Soldier',
     faction: 88,
     image: 'king_bounty/u46.png',
-    size: 1
+    size: 1,
+    level: 4
   },
   {
     id: 47,
@@ -559,7 +563,8 @@ const Units = [
     name: 'Soldier',
     faction: 88,
     image: 'king_bounty/u74.png',
-    size: 1
+    size: 1,
+    level: 12
   },
   {
     id: 75,
@@ -621,14 +626,16 @@ const Units = [
     name: 'Soldier',
     faction: 88,
     image: 'king_bounty/u82.png',
-    size: 1.02
+    size: 1.02,
+    level: 11
   },
   {
     id: 83,
     name: 'Soldier',
     faction: 88,
     image: 'king_bounty/u83.png',
-    size: 1
+    size: 1,
+    level: 6
   },
   {
     id: 84,
@@ -651,7 +658,8 @@ const Units = [
     name: 'Soldier',
     faction: 88,
     image: 'king_bounty/u86.png',
-    size: 0.98
+    size: 0.98,
+    level: 3
   },
   {
     id: 87,
@@ -721,7 +729,8 @@ const Units = [
     name: 'Soldier',
     faction: 88,
     image: 'king_bounty/u95.png',
-    size: 1.03
+    size: 1.03,
+    level: 5
   },
   {
     id: 96,
@@ -775,7 +784,8 @@ const Units = [
     name: 'Soldier',
     faction: 88,
     image: 'king_bounty/u102.png',
-    size: 1.04
+    size: 1.04,
+    level: 13
   },
   {
     id: 103,
@@ -789,7 +799,8 @@ const Units = [
     name: 'Soldier',
     faction: 88,
     image: 'king_bounty/u104.png',
-    size: 1
+    size: 1,
+    level: 10
   },
   {
     id: 105,
@@ -804,7 +815,8 @@ const Units = [
     name: 'Soldier',
     faction: 88,
     image: 'king_bounty/u106.png',
-    size: 1.02
+    size: 1.02,
+    level: 2
   },
   {
     id: 107,
@@ -873,7 +885,8 @@ const Units = [
     name: 'Soldier',
     faction: 88,
     image: 'king_bounty/u115.png',
-    size: 1.03
+    size: 1.03,
+    level: 14
   },
   {
     id: 116,
@@ -887,7 +900,8 @@ const Units = [
     name: 'Soldier',
     faction: 88,
     image: 'king_bounty/u117.png',
-    size: 1
+    size: 1,
+    level: 1
   },
   {
     id: 118,
@@ -1481,6 +1495,76 @@ const Units = [
     faction: 158,
     image: 'king_bounty/u200.png',
     size: 1.02
+  },
+  {
+    id: 201,
+    name: 'Soldier',
+    faction: 159,
+    image: 'king_bounty/u201.png',
+    size: 1.1
+  },
+  {
+    id: 202,
+    name: 'Soldier',
+    faction: 174,
+    image: 'king_bounty/u202.png',
+    size: 1
+  },
+  {
+    id: 203,
+    name: 'Soldier',
+    faction: 158,
+    image: 'king_bounty/u203.png',
+    size: 1
+  },
+  {
+    id: 204,
+    name: 'Soldier',
+    faction: 160,
+    image: 'king_bounty/u204.png',
+    size: 0.99
+  },
+  {
+    id: 205,
+    name: 'Soldier',
+    faction: 160,
+    image: 'king_bounty/u205.png',
+    size: 0.98
+  },
+  {
+    id: 206,
+    name: 'Soldier',
+    faction: 158,
+    image: 'king_bounty/u206.png',
+    size: 1.01
+  },
+  {
+    id: 207,
+    name: 'Soldier',
+    faction: 160,
+    image: 'king_bounty/u207.png',
+    size: 0.98
+  },
+  {
+    id: 208,
+    name: 'Soldier',
+    faction: 156,
+    image: 'king_bounty/u208.png',
+    size: 1.15
+  },
+  {
+    id: 209,
+    name: 'Soldier',
+    faction: 158,
+    image: 'king_bounty/u209.png',
+    size: 1.02
+  },
+  {
+    id: 210,
+    name: 'Soldier',
+    faction: 165,
+    image: 'king_bounty/u210.png',
+    size: 0.98
   }
 ];
 
