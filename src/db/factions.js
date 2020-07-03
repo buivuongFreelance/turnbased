@@ -179,7 +179,9 @@ const Factions = [
   {
     id: 22,
     name: 'Amazon Empire',
-    world: 'endless'
+    world: 'endless',
+    done: true,
+    race: 'nephalim'
   },
   {
     id: 23,
@@ -628,7 +630,9 @@ const Factions = [
   {
     id: 97,
     name: 'Rugard World',
-    world: 'king_bounty'
+    world: 'king_bounty',
+    done: true,
+    race: 'german'
   },
   {
     id: 98,
@@ -959,8 +963,10 @@ const Factions = [
   },
   {
     id: 153,
-    name: 'Shabaan Kingdom',
-    world: 'israel'
+    name: 'Shabaan Caliphate',
+    world: 'israel',
+    done: true,
+    race: 'eurasia'
   },
   {
     id: 154,
@@ -1298,11 +1304,11 @@ const Factions = [
     done: true,
     race: 'chaos'
   },
-  {
+  /*{
     id: 216,
     name: 'Abbasid Caliphate',
     world: 'history'
-  },
+  },*/
   {
     id: 217,
     name: 'Rhun Caliphate',
@@ -1310,11 +1316,11 @@ const Factions = [
     done: true,
     race: 'persia'
   },
-  {
+  /*{
     id: 218,
     name: 'Khamul Empire',
     world: 'history'
-  },
+  },*/
   {
     id: 219,
     name: 'Khalib Caliphate',
@@ -1337,13 +1343,13 @@ const Factions = [
     done: true,
     race: 'espana'
   },
-  {
+  /*{
     id: 223,
     name: 'Sparta State',
     world: 'history',
     done: true,
     race: 'greek'
-  },
+  },*/
   {
     id: 224,
     name: 'Swamp Lands',
@@ -1411,6 +1417,53 @@ const Factions = [
     id: 234,
     name: 'Uabruc House',
     world: 'space'
+  },
+  {
+    id: 235,
+    name: 'Naxxremix Wildlands',
+    world: 'endless'
+  },
+  {
+    id: 236,
+    name: 'Darcey Royal',
+    world: 'endless'
+  },
+  {
+    id: 237,
+    name: 'Oakhand Empire',
+    world: 'endless'
+  },
+  {
+    id: 238,
+    name: 'Rupah House',
+    world: 'space'
+  },
+  {
+    id: 239,
+    name: 'Borraz Kingdom',
+    world: 'space',
+    done: true,
+    race: 'demon'
+  },
+  {
+    id: 240,
+    name: 'Glyesin Void',
+    world: 'space'
+  },
+  {
+    id: 241,
+    name: 'Baraka Tribes',
+    world: 'israel'
+  },
+  {
+    id: 242,
+    name: 'Hazm Caliphate',
+    world: 'israel'
+  },
+  {
+    id: 243,
+    name: 'Nurgle Chaos',
+    world: 'warhammer'
   },
 ];
 

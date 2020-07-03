@@ -1522,21 +1522,21 @@ const Units = [
   {
     id: 191,
     name: 'Soldier',
-    faction: 153,
+    faction: 242,
     image: 'israel/u191.png',
     size: 1
   },
   {
     id: 192,
     name: 'Soldier',
-    faction: 153,
+    faction: 242,
     image: 'israel/u192.png',
     size: 0.97
   },
   {
     id: 193,
     name: 'Soldier',
-    faction: 153,
+    faction: 242,
     image: 'israel/u193.png',
     size: 1.05
   },
@@ -1545,12 +1545,13 @@ const Units = [
     name: 'Soldier',
     faction: 153,
     image: 'israel/u194.png',
-    size: 1.01
+    size: 1.01,
+    level: 6
   },
   {
     id: 195,
     name: 'Soldier',
-    faction: 153,
+    faction: 242,
     image: 'israel/u195.png',
     size: 0.97
   },
@@ -1559,40 +1560,44 @@ const Units = [
     name: 'Soldier',
     faction: 153,
     image: 'israel/u196.png',
-    size: 1.06
+    size: 1.06,
+    level: 14
   },
   {
     id: 197,
     name: 'Soldier',
     faction: 153,
     image: 'israel/u197.png',
-    size: 0.98
+    size: 0.98,
+    level: 13
   },
   {
     id: 198,
     name: 'Soldier',
     faction: 153,
     image: 'israel/u198.png',
-    size: 1.01
+    size: 1.01,
+    level: 12
   },
   {
     id: 199,
     name: 'Soldier',
     faction: 153,
     image: 'israel/u199.png',
-    size: 1.01
+    size: 1.01,
+    level: 7
   },
   {
     id: 200,
     name: 'Soldier',
-    faction: 153,
+    faction: 242,
     image: 'israel/u200.png',
     size: 0.99
   },
   {
     id: 201,
     name: 'Soldier',
-    faction: 153,
+    faction: 242,
     image: 'israel/u201.png',
     size: 1
   },
@@ -1601,96 +1606,99 @@ const Units = [
     name: 'Soldier',
     faction: 153,
     image: 'israel/u202.png',
-    size: 1.01
+    size: 1.01,
+    level: 11
   },
   {
     id: 203,
     name: 'Soldier',
     faction: 153,
     image: 'israel/u203.png',
-    size: 1
+    size: 1,
+    level: 5
   },
   {
     id: 204,
     name: 'Soldier',
     faction: 153,
     image: 'israel/u204.png',
-    size: 1.02
+    size: 1.02,
+    level: 9
   },
   {
     id: 205,
     name: 'Soldier',
-    faction: 153,
+    faction: 242,
     image: 'israel/u205.png',
     size: 0.98
   },
   {
     id: 206,
     name: 'Soldier',
-    faction: 153,
+    faction: 242,
     image: 'israel/u206.png',
     size: 1.02
   },
   {
     id: 207,
     name: 'Soldier',
-    faction: 153,
+    faction: 242,
     image: 'israel/u207.png',
     size: 0.98
   },
   {
     id: 208,
     name: 'Soldier',
-    faction: 153,
+    faction: 242,
     image: 'israel/u208.png',
     size: 1.16
   },
   {
     id: 209,
     name: 'Soldier',
-    faction: 153,
+    faction: 242,
     image: 'israel/u209.png',
     size: 1.13
   },
   {
     id: 210,
     name: 'Soldier',
-    faction: 153,
+    faction: 242,
     image: 'israel/u210.png',
     size: 0.98
   },
   {
     id: 211,
     name: 'Soldier',
-    faction: 153,
+    faction: 242,
     image: 'israel/u211.png',
     size: 1.08
   },
   {
     id: 212,
     name: 'Soldier',
-    faction: 153,
+    faction: 242,
     image: 'israel/u212.png',
     size: 1.29
   },
   {
     id: 213,
     name: 'Soldier',
-    faction: 153,
+    faction: 242,
     image: 'israel/u213.png',
     size: 1.01
   },
   {
     id: 214,
     name: 'Soldier',
-    faction: 153,
+    faction: 242,
     image: 'israel/u214.png',
     size: 1.17
   },
   {
     id: 215,
     name: 'Soldier',
-    faction: 153,
+    faction: 242,
     image: 'israel/u215.png',
     size: 0.97
   },
@@ -1699,33 +1707,34 @@ const Units = [
     name: 'Soldier',
     faction: 153,
     image: 'israel/u216.png',
-    size: 1.01
+    size: 1.01,
+    level: 8
   },
   {
     id: 217,
     name: 'Soldier',
-    faction: 153,
+    faction: 242,
     image: 'israel/u217.png',
     size: 1.04
   },
   {
     id: 218,
     name: 'Soldier',
-    faction: 153,
+    faction: 242,
     image: 'israel/u218.png',
     size: 1.01
   },
   {
     id: 219,
     name: 'Soldier',
-    faction: 153,
+    faction: 242,
     image: 'israel/u219.png',
     size: 0.99
   },
   {
     id: 220,
     name: 'Soldier',
-    faction: 153,
+    faction: 242,
     image: 'israel/u220.png',
     size: 1.15
   },
@@ -1734,33 +1743,34 @@ const Units = [
     name: 'Soldier',
     faction: 153,
     image: 'israel/u221.png',
-    size: 1.2
+    size: 1.2,
+    level: 10
   },
   {
     id: 222,
     name: 'Soldier',
-    faction: 153,
+    faction: 242,
     image: 'israel/u222.png',
     size: 1.02
   },
   {
     id: 223,
     name: 'Soldier',
-    faction: 153,
+    faction: 242,
     image: 'israel/u223.png',
     size: 1.04
   },
   {
     id: 224,
     name: 'Soldier',
-    faction: 153,
+    faction: 242,
     image: 'israel/u224.png',
     size: 1.03
   },
   {
     id: 225,
     name: 'Soldier',
-    faction: 153,
+    faction: 242,
     image: 'israel/u225.png',
     size: 1.07
   },
@@ -1769,12 +1779,13 @@ const Units = [
     name: 'Soldier',
     faction: 153,
     image: 'israel/u226.png',
-    size: 0.98
+    size: 0.98,
+    level: 3
   },
   {
     id: 227,
     name: 'Soldier',
-    faction: 153,
+    faction: 242,
     image: 'israel/u227.png',
     size: 0.98
   },
@@ -1783,47 +1794,48 @@ const Units = [
     name: 'Soldier',
     faction: 153,
     image: 'israel/u228.png',
-    size: 1
+    size: 1,
+    level: 2
   },
   {
     id: 229,
     name: 'Soldier',
-    faction: 153,
+    faction: 242,
     image: 'israel/u229.png',
     size: 0.98
   },
   {
     id: 230,
     name: 'Soldier',
-    faction: 153,
+    faction: 242,
     image: 'israel/u230.png',
     size: 1.09
   },
   {
     id: 231,
     name: 'Soldier',
-    faction: 153,
+    faction: 242,
     image: 'israel/u231.png',
     size: 1.25
   },
   {
     id: 232,
     name: 'Soldier',
-    faction: 153,
+    faction: 242,
     image: 'israel/u232.png',
     size: 1.27
   },
   {
     id: 233,
     name: 'Soldier',
-    faction: 153,
+    faction: 242,
     image: 'israel/u233.png',
     size: 1
   },
   {
     id: 234,
     name: 'Soldier',
-    faction: 153,
+    faction: 242,
     image: 'israel/u234.png',
     size: 1
   },
@@ -1832,14 +1844,16 @@ const Units = [
     name: 'Soldier',
     faction: 153,
     image: 'israel/u235.png',
-    size: 1.01
+    size: 1.01,
+    level: 4
   },
   {
     id: 236,
     name: 'Soldier',
     faction: 153,
     image: 'israel/u236.png',
-    size: 0.98
+    size: 0.98,
+    level: 1
   },
   {
     id: 237,
@@ -2148,6 +2162,76 @@ const Units = [
     faction: 210,
     image: 'israel/u280.png',
     size: 1.17
+  },
+  {
+    id: 281,
+    name: 'Soldier',
+    faction: 241,
+    image: 'israel/u281.png',
+    size: 1.12
+  },
+  {
+    id: 282,
+    name: 'Soldier',
+    faction: 241,
+    image: 'israel/u282.png',
+    size: 1.15
+  },
+  {
+    id: 283,
+    name: 'Soldier',
+    faction: 241,
+    image: 'israel/u283.png',
+    size: 1.23
+  },
+  {
+    id: 284,
+    name: 'Soldier',
+    faction: 241,
+    image: 'israel/u284.png',
+    size: 1.1
+  },
+  {
+    id: 285,
+    name: 'Soldier',
+    faction: 241,
+    image: 'israel/u285.png',
+    size: 1.27
+  },
+  {
+    id: 286,
+    name: 'Soldier',
+    faction: 241,
+    image: 'israel/u286.png',
+    size: 1.1
+  },
+  {
+    id: 287,
+    name: 'Soldier',
+    faction: 241,
+    image: 'israel/u287.png',
+    size: 1.1
+  },
+  {
+    id: 288,
+    name: 'Soldier',
+    faction: 241,
+    image: 'israel/u288.png',
+    size: 1.11
+  },
+  {
+    id: 289,
+    name: 'Soldier',
+    faction: 241,
+    image: 'israel/u289.png',
+    size: 1.12
+  },
+  {
+    id: 290,
+    name: 'Soldier',
+    faction: 241,
+    image: 'israel/u290.png',
+    size: 1.1
   },
 ];
 

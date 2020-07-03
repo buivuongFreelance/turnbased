@@ -349,6 +349,76 @@ const Weapons = [
     image: '_weapons/u50.png',
     size: 1.15
   },
+  {
+    id: 51,
+    name: 'Soldier',
+    faction: 3003,
+    image: '_weapons/u51.png',
+    size: 0.5
+  },
+  {
+    id: 52,
+    name: 'Soldier',
+    faction: 3009,
+    image: '_weapons/u52.png',
+    size: 1.1
+  },
+  {
+    id: 53,
+    name: 'Soldier',
+    faction: 3000,
+    image: '_weapons/u53.png',
+    size: 1
+  },
+  {
+    id: 54,
+    name: 'Soldier',
+    faction: 3000,
+    image: '_weapons/u54.png',
+    size: 1
+  },
+  {
+    id: 55,
+    name: 'Soldier',
+    faction: 3000,
+    image: '_weapons/u55.png',
+    size: 1
+  },
+  {
+    id: 56,
+    name: 'Soldier',
+    faction: 3000,
+    image: '_weapons/u56.png',
+    size: 1
+  },
+  {
+    id: 57,
+    name: 'Soldier',
+    faction: 3000,
+    image: '_weapons/u57.png',
+    size: 1
+  },
+  {
+    id: 58,
+    name: 'Soldier',
+    faction: 3000,
+    image: '_weapons/u58.png',
+    size: 1
+  },
+  {
+    id: 59,
+    name: 'Soldier',
+    faction: 3000,
+    image: '_weapons/u59.png',
+    size: 1
+  },
+  {
+    id: 60,
+    name: 'Soldier',
+    faction: 3000,
+    image: '_weapons/u60.png',
+    size: 1
+  },
 ];
 
 export default Weapons;

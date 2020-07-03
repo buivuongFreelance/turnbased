@@ -1444,6 +1444,104 @@ const Units = [
     image: 'fantasy/u196.png',
     size: 1
   },
+  {
+    id: 197,
+    name: 'Soldier',
+    faction: 205,
+    image: 'fantasy/u197.png',
+    size: 1.02
+  },
+  {
+    id: 198,
+    name: 'Soldier',
+    faction: 205,
+    image: 'fantasy/u198.png',
+    size: 1.02
+  },
+  {
+    id: 199,
+    name: 'Soldier',
+    faction: 205,
+    image: 'fantasy/u199.png',
+    size: 1.02
+  },
+  {
+    id: 200,
+    name: 'Soldier',
+    faction: 205,
+    image: 'fantasy/u200.png',
+    size: 1.05
+  },
+  {
+    id: 201,
+    name: 'Soldier',
+    faction: 197,
+    image: 'fantasy/u201.png',
+    size: 1.15
+  },
+  {
+    id: 202,
+    name: 'Soldier',
+    faction: 197,
+    image: 'fantasy/u202.png',
+    size: 1.2
+  },
+  {
+    id: 203,
+    name: 'Soldier',
+    faction: 196,
+    image: 'fantasy/u203.png',
+    size: 1.05
+  },
+  {
+    id: 204,
+    name: 'Soldier',
+    faction: 196,
+    image: 'fantasy/u204.png',
+    size: 0.8
+  },
+  {
+    id: 205,
+    name: 'Soldier',
+    faction: 196,
+    image: 'fantasy/u205.png',
+    size: 1.04
+  },
+  {
+    id: 206,
+    name: 'Soldier',
+    faction: 196,
+    image: 'fantasy/u206.png',
+    size: 1.05
+  },
+  {
+    id: 207,
+    name: 'Soldier',
+    faction: 154,
+    image: 'fantasy/u207.png',
+    size: 1.01
+  },
+  {
+    id: 208,
+    name: 'Soldier',
+    faction: 155,
+    image: 'fantasy/u208.png',
+    size: 1.01
+  },
+  {
+    id: 209,
+    name: 'Soldier',
+    faction: 155,
+    image: 'fantasy/u209.png',
+    size: 1
+  },
+  {
+    id: 210,
+    name: 'Soldier',
+    faction: 154,
+    image: 'fantasy/u210.png',
+    size: 1
+  },
 ];
 
 export default Units;

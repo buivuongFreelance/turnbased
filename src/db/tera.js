@@ -1118,6 +1118,76 @@ const Units = [
     faction: 187,
     image: 'tera/u160.png',
     size: 1
+  },
+  {
+    id: 161,
+    name: 'Soldier',
+    faction: 187,
+    image: 'tera/u161.png',
+    size: 1
+  },
+  {
+    id: 162,
+    name: 'Soldier',
+    faction: 49,
+    image: 'tera/u162.png',
+    size: 1.08
+  },
+  {
+    id: 163,
+    name: 'Soldier',
+    faction: 200,
+    image: 'tera/u163.png',
+    size: 1.05
+  },
+  {
+    id: 164,
+    name: 'Soldier',
+    faction: 189,
+    image: 'tera/u164.png',
+    size: 1.09
+  },
+  {
+    id: 165,
+    name: 'Soldier',
+    faction: 188,
+    image: 'tera/u165.png',
+    size: 0.9
+  },
+  {
+    id: 166,
+    name: 'Soldier',
+    faction: 187,
+    image: 'tera/u166.png',
+    size: 1
+  },
+  {
+    id: 167,
+    name: 'Soldier',
+    faction: 190,
+    image: 'tera/u167.png',
+    size: 1.1
+  },
+  {
+    id: 168,
+    name: 'Soldier',
+    faction: 200,
+    image: 'tera/u168.png',
+    size: 1.04
+  },
+  {
+    id: 169,
+    name: 'Soldier',
+    faction: 189,
+    image: 'tera/u169.png',
+    size: 1.08
+  },
+  {
+    id: 170,
+    name: 'Soldier',
+    faction: 187,
+    image: 'tera/u170.png',
+    size: 1
   }
 ];
 

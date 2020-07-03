@@ -13,7 +13,6 @@ import warhammer from "./warhammer";
 import zsmite from "./zsmite";
 import lyn from "./lyn";
 import heroes from "./heroes";
-import history from "./history";
 import _weapon from "./_weapon";
 
 export default {
@@ -32,6 +31,5 @@ export default {
   zsmite,
   lyn,
   heroes,
-  history,
   _weapon
 };
